@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F900DFC61C586633002FB096 /* MouseMemoirs-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F900DFC51C586633002FB096 /* MouseMemoirs-Regular.ttf */; };
+		F9289C441C66E55C00B342B6 /* correctSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9289C421C66E55C00B342B6 /* correctSound.mp3 */; };
+		F9289C451C66E55C00B342B6 /* incorrectSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9289C431C66E55C00B342B6 /* incorrectSound.mp3 */; };
+		F949C77F1C4B2187002B9CA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949C77E1C4B2187002B9CA2 /* AppDelegate.swift */; };
+		F949C7811C4B2187002B9CA2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949C7801C4B2187002B9CA2 /* MainViewController.swift */; };
+		F949C7841C4B2187002B9CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F949C7821C4B2187002B9CA2 /* Main.storyboard */; };
+		F949C7871C4B2187002B9CA2 /* Waitline_Disneyland.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F949C7851C4B2187002B9CA2 /* Waitline_Disneyland.xcdatamodeld */; };
+		F949C7891C4B2187002B9CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F949C7881C4B2187002B9CA2 /* Assets.xcassets */; };
+		F949C78C1C4B2187002B9CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F949C78A1C4B2187002B9CA2 /* LaunchScreen.storyboard */; };
+		F949C7971C4B2187002B9CA2 /* Waitline_DisneylandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949C7961C4B2187002B9CA2 /* Waitline_DisneylandTests.swift */; };
+		F949C7A21C4B2187002B9CA2 /* Waitline_DisneylandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949C7A11C4B2187002B9CA2 /* Waitline_DisneylandUITests.swift */; };
+		F949C7C71C4B353E002B9CA2 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949C7C61C4B353E002B9CA2 /* QuestionsViewController.swift */; };
+		F949C7C91C4B41A2002B9CA2 /* QuestionInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949C7C81C4B41A2002B9CA2 /* QuestionInterfaceViewController.swift */; };
+		F94F9FCE1D3723F400B90883 /* Waitline Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F94F9FCD1D3723F400B90883 /* Waitline Background.jpg */; };
+		F9544A151D341AD10014AC78 /* Pods_Waitline_Disneyland.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9544A131D341AD00014AC78 /* Pods_Waitline_Disneyland.framework */; };
+		F9544A161D341AD10014AC78 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9544A141D341AD10014AC78 /* pop.framework */; };
+		F95FAF631D36AB830044F333 /* FantasylandTower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95FAF5B1D36AB830044F333 /* FantasylandTower.jpg */; };
+		F95FAF641D36AB830044F333 /* HauntedMansion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95FAF5C1D36AB830044F333 /* HauntedMansion.jpg */; };
+		F95FAF651D36AB830044F333 /* MainStreetPicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95FAF5D1D36AB830044F333 /* MainStreetPicture.jpg */; };
+		F95FAF661D36AB830044F333 /* SpaceMountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95FAF5E1D36AB830044F333 /* SpaceMountain.jpg */; };
+		F95FAF671D36AB830044F333 /* SplashMountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95FAF5F1D36AB830044F333 /* SplashMountain.jpg */; };
+		F95FAF681D36AB830044F333 /* Thunder Mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95FAF601D36AB830044F333 /* Thunder Mountain.jpg */; };
+		F95FAF691D36AB830044F333 /* TikiRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95FAF611D36AB830044F333 /* TikiRoom.jpg */; };
+		F95FAF6A1D36AB830044F333 /* ToonTownCityHall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95FAF621D36AB830044F333 /* ToonTownCityHall.jpg */; };
+		F96D776C1D18658E008063B8 /* LandSelectorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D776B1D18658E008063B8 /* LandSelectorCollectionViewCell.swift */; };
+		F996ED211C5C0570005D559D /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F996ED201C5C0570005D559D /* HomePageViewController.swift */; };
+		F9B7EF131D3D61AD00A82843 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B7EF081D3D61AD00A82843 /* Icon-60.png */; };
+		F9B7EF141D3D61AD00A82843 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B7EF091D3D61AD00A82843 /* Icon-60@2x.png */; };
+		F9B7EF151D3D61AD00A82843 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B7EF0A1D3D61AD00A82843 /* Icon-60@3x.png */; };
+		F9B7EF161D3D61AD00A82843 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B7EF0B1D3D61AD00A82843 /* Icon-Small.png */; };
+		F9B7EF171D3D61AD00A82843 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B7EF0C1D3D61AD00A82843 /* Icon-Small@2x.png */; };
+		F9B7EF181D3D61AD00A82843 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B7EF0D1D3D61AD00A82843 /* Icon-Small@3x.png */; };
+		F9B7EF191D3D61AD00A82843 /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B7EF0E1D3D61AD00A82843 /* Icon-Spotlight-40.png */; };
+		F9B7EF1A1D3D61AD00A82843 /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B7EF0F1D3D61AD00A82843 /* Icon-Spotlight-40@2x.png */; };
+		F9B7EF1B1D3D61AD00A82843 /* Icon-Spotlight-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B7EF101D3D61AD00A82843 /* Icon-Spotlight-40@3x.png */; };
+		F9B7EF1C1D3D61AD00A82843 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B7EF111D3D61AD00A82843 /* Icon.png */; };
+		F9B7EF1D1D3D61AD00A82843 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9B7EF121D3D61AD00A82843 /* Icon@2x.png */; };
+		F9BF43041D388C7000663905 /* UnansweredMickey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9BF43011D388C7000663905 /* UnansweredMickey.jpg */; };
+		F9BF43051D388C7000663905 /* CorrectMickeyHead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9BF43021D388C7000663905 /* CorrectMickeyHead.jpg */; };
+		F9BF43061D388C7000663905 /* IncorrectMickey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9BF43031D388C7000663905 /* IncorrectMickey.jpg */; };
+		F9D3CF171C5D70DE00A4B18F /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D3CF161C5D70DE00A4B18F /* HelpViewController.swift */; };
+		F9D3CF191C5D758000A4B18F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D3CF181C5D758000A4B18F /* AboutViewController.swift */; };
+		F9D9BC7B1C9B8EB100D1AEA5 /* CustomHPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D9BC7A1C9B8EB100D1AEA5 /* CustomHPButton.swift */; };
+		F9FE09581C67F7540018BC55 /* DisneyCastleUpdate.png in Resources */ = {isa = PBXBuildFile; fileRef = F9FE09571C67F7540018BC55 /* DisneyCastleUpdate.png */; };
+		F9FE095A1C67F7870018BC55 /* incorrectSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9FE09591C67F7870018BC55 /* incorrectSound1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F949C7931C4B2187002B9CA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F949C7731C4B2186002B9CA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F949C77A1C4B2186002B9CA2;
+			remoteInfo = "Waitline Disneyland";
+		};
+		F949C79E1C4B2187002B9CA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F949C7731C4B2186002B9CA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F949C77A1C4B2186002B9CA2;
+			remoteInfo = "Waitline Disneyland";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C68AC404723ECE62E7A8C85 /* Pods-Waitline Disneyland.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waitline Disneyland.release.xcconfig"; path = "Pods/Target Support Files/Pods-Waitline Disneyland/Pods-Waitline Disneyland.release.xcconfig"; sourceTree = "<group>"; };
+		EAB82A9054D000A1EB75A4AA /* Pods-Waitline Disneyland.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waitline Disneyland.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Waitline Disneyland/Pods-Waitline Disneyland.debug.xcconfig"; sourceTree = "<group>"; };
+		F900DFC51C586633002FB096 /* MouseMemoirs-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MouseMemoirs-Regular.ttf"; path = "../MouseMemoirs-Regular.ttf"; sourceTree = "<group>"; };
+		F9289C421C66E55C00B342B6 /* correctSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correctSound.mp3; sourceTree = "<group>"; };
+		F9289C431C66E55C00B342B6 /* incorrectSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrectSound.mp3; sourceTree = "<group>"; };
+		F949C77B1C4B2186002B9CA2 /* Waitline Disneyland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Waitline Disneyland.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F949C77E1C4B2187002B9CA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F949C7801C4B2187002B9CA2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F949C7831C4B2187002B9CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F949C7861C4B2187002B9CA2 /* Waitline_Disneyland.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Waitline_Disneyland.xcdatamodel; sourceTree = "<group>"; };
+		F949C7881C4B2187002B9CA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F949C78B1C4B2187002B9CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F949C78D1C4B2187002B9CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F949C7921C4B2187002B9CA2 /* Waitline DisneylandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waitline DisneylandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F949C7961C4B2187002B9CA2 /* Waitline_DisneylandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waitline_DisneylandTests.swift; sourceTree = "<group>"; };
+		F949C7981C4B2187002B9CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F949C79D1C4B2187002B9CA2 /* Waitline DisneylandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waitline DisneylandUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F949C7A11C4B2187002B9CA2 /* Waitline_DisneylandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waitline_DisneylandUITests.swift; sourceTree = "<group>"; };
+		F949C7A31C4B2187002B9CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F949C7C61C4B353E002B9CA2 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		F949C7C81C4B41A2002B9CA2 /* QuestionInterfaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionInterfaceViewController.swift; sourceTree = "<group>"; };
+		F94F9FCD1D3723F400B90883 /* Waitline Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Waitline Background.jpg"; sourceTree = "<group>"; };
+		F9544A131D341AD00014AC78 /* Pods_Waitline_Disneyland.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Waitline_Disneyland.framework; path = "../../../Library/Developer/Xcode/DerivedData/Waitline_Disneyland-gxantwtcarmosyhhxdqbuzommhmr/Build/Products/Debug-iphonesimulator/Pods_Waitline_Disneyland.framework"; sourceTree = "<group>"; };
+		F9544A141D341AD10014AC78 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = "../../../Library/Developer/Xcode/DerivedData/Waitline_Disneyland-gxantwtcarmosyhhxdqbuzommhmr/Build/Products/Debug-iphonesimulator/pop.framework"; sourceTree = "<group>"; };
+		F95FAF5B1D36AB830044F333 /* FantasylandTower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FantasylandTower.jpg; sourceTree = "<group>"; };
+		F95FAF5C1D36AB830044F333 /* HauntedMansion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HauntedMansion.jpg; sourceTree = "<group>"; };
+		F95FAF5D1D36AB830044F333 /* MainStreetPicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MainStreetPicture.jpg; sourceTree = "<group>"; };
+		F95FAF5E1D36AB830044F333 /* SpaceMountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpaceMountain.jpg; sourceTree = "<group>"; };
+		F95FAF5F1D36AB830044F333 /* SplashMountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SplashMountain.jpg; sourceTree = "<group>"; };
+		F95FAF601D36AB830044F333 /* Thunder Mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Thunder Mountain.jpg"; sourceTree = "<group>"; };
+		F95FAF611D36AB830044F333 /* TikiRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TikiRoom.jpg; sourceTree = "<group>"; };
+		F95FAF621D36AB830044F333 /* ToonTownCityHall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ToonTownCityHall.jpg; sourceTree = "<group>"; };
+		F96B8C831C9CD9EA0013B9CC /* Waitline Disneyland-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Waitline Disneyland-Bridging-Header.h"; sourceTree = "<group>"; };
+		F96D776B1D18658E008063B8 /* LandSelectorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LandSelectorCollectionViewCell.swift; path = ../LandSelectorCollectionViewCell.swift; sourceTree = "<group>"; };
+		F996ED201C5C0570005D559D /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		F9B7EF081D3D61AD00A82843 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		F9B7EF091D3D61AD00A82843 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		F9B7EF0A1D3D61AD00A82843 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		F9B7EF0B1D3D61AD00A82843 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		F9B7EF0C1D3D61AD00A82843 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		F9B7EF0D1D3D61AD00A82843 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		F9B7EF0E1D3D61AD00A82843 /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40.png"; sourceTree = "<group>"; };
+		F9B7EF0F1D3D61AD00A82843 /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		F9B7EF101D3D61AD00A82843 /* Icon-Spotlight-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@3x.png"; sourceTree = "<group>"; };
+		F9B7EF111D3D61AD00A82843 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F9B7EF121D3D61AD00A82843 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F9BF43011D388C7000663905 /* UnansweredMickey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UnansweredMickey.jpg; sourceTree = "<group>"; };
+		F9BF43021D388C7000663905 /* CorrectMickeyHead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CorrectMickeyHead.jpg; sourceTree = "<group>"; };
+		F9BF43031D388C7000663905 /* IncorrectMickey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IncorrectMickey.jpg; sourceTree = "<group>"; };
+		F9D3CF161C5D70DE00A4B18F /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		F9D3CF181C5D758000A4B18F /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F9D9BC7A1C9B8EB100D1AEA5 /* CustomHPButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHPButton.swift; sourceTree = "<group>"; };
+		F9FE09571C67F7540018BC55 /* DisneyCastleUpdate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DisneyCastleUpdate.png; sourceTree = "<group>"; };
+		F9FE09591C67F7870018BC55 /* incorrectSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrectSound1.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F949C7781C4B2186002B9CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9544A151D341AD10014AC78 /* Pods_Waitline_Disneyland.framework in Frameworks */,
+				F9544A161D341AD10014AC78 /* pop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F949C78F1C4B2187002B9CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F949C79A1C4B2187002B9CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		606D61FD6145EF2BCAC46369 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAB82A9054D000A1EB75A4AA /* Pods-Waitline Disneyland.debug.xcconfig */,
+				1C68AC404723ECE62E7A8C85 /* Pods-Waitline Disneyland.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F949C7721C4B2186002B9CA2 = {
+			isa = PBXGroup;
+			children = (
+				F9D9BC791C9B83E800D1AEA5 /* Frameworks */,
+				F949C77D1C4B2186002B9CA2 /* Waitline Disneyland */,
+				F949C7951C4B2187002B9CA2 /* Waitline DisneylandTests */,
+				F949C7A01C4B2187002B9CA2 /* Waitline DisneylandUITests */,
+				F949C77C1C4B2186002B9CA2 /* Products */,
+				606D61FD6145EF2BCAC46369 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F949C77C1C4B2186002B9CA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F949C77B1C4B2186002B9CA2 /* Waitline Disneyland.app */,
+				F949C7921C4B2187002B9CA2 /* Waitline DisneylandTests.xctest */,
+				F949C79D1C4B2187002B9CA2 /* Waitline DisneylandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F949C77D1C4B2186002B9CA2 /* Waitline Disneyland */ = {
+			isa = PBXGroup;
+			children = (
+				F9C374E81D26F4C400D575EB /* Land Identifier Pictures */,
+				F949C7B71C4B23D4002B9CA2 /* CoreDataModels */,
+				F949C77E1C4B2187002B9CA2 /* AppDelegate.swift */,
+				F96D776B1D18658E008063B8 /* LandSelectorCollectionViewCell.swift */,
+				F9D9BC7A1C9B8EB100D1AEA5 /* CustomHPButton.swift */,
+				F9D3CF161C5D70DE00A4B18F /* HelpViewController.swift */,
+				F9D3CF181C5D758000A4B18F /* AboutViewController.swift */,
+				F996ED201C5C0570005D559D /* HomePageViewController.swift */,
+				F949C7801C4B2187002B9CA2 /* MainViewController.swift */,
+				F949C7C61C4B353E002B9CA2 /* QuestionsViewController.swift */,
+				F949C7C81C4B41A2002B9CA2 /* QuestionInterfaceViewController.swift */,
+				F949C7821C4B2187002B9CA2 /* Main.storyboard */,
+				F9D3CF1A1C5D764C00A4B18F /* Extra Data */,
+				F949C78A1C4B2187002B9CA2 /* LaunchScreen.storyboard */,
+				F949C78D1C4B2187002B9CA2 /* Info.plist */,
+				F949C7851C4B2187002B9CA2 /* Waitline_Disneyland.xcdatamodeld */,
+				F96B8C831C9CD9EA0013B9CC /* Waitline Disneyland-Bridging-Header.h */,
+			);
+			path = "Waitline Disneyland";
+			sourceTree = "<group>";
+		};
+		F949C7951C4B2187002B9CA2 /* Waitline DisneylandTests */ = {
+			isa = PBXGroup;
+			children = (
+				F949C7961C4B2187002B9CA2 /* Waitline_DisneylandTests.swift */,
+				F949C7981C4B2187002B9CA2 /* Info.plist */,
+			);
+			path = "Waitline DisneylandTests";
+			sourceTree = "<group>";
+		};
+		F949C7A01C4B2187002B9CA2 /* Waitline DisneylandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F949C7A11C4B2187002B9CA2 /* Waitline_DisneylandUITests.swift */,
+				F949C7A31C4B2187002B9CA2 /* Info.plist */,
+			);
+			path = "Waitline DisneylandUITests";
+			sourceTree = "<group>";
+		};
+		F949C7B71C4B23D4002B9CA2 /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				F98A3D641C9CF6E200280CC4 /* Icons */,
+			);
+			name = CoreDataModels;
+			sourceTree = "<group>";
+		};
+		F98A3D641C9CF6E200280CC4 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F9B7EF081D3D61AD00A82843 /* Icon-60.png */,
+				F9B7EF091D3D61AD00A82843 /* Icon-60@2x.png */,
+				F9B7EF0A1D3D61AD00A82843 /* Icon-60@3x.png */,
+				F9B7EF0B1D3D61AD00A82843 /* Icon-Small.png */,
+				F9B7EF0C1D3D61AD00A82843 /* Icon-Small@2x.png */,
+				F9B7EF0D1D3D61AD00A82843 /* Icon-Small@3x.png */,
+				F9B7EF0E1D3D61AD00A82843 /* Icon-Spotlight-40.png */,
+				F9B7EF0F1D3D61AD00A82843 /* Icon-Spotlight-40@2x.png */,
+				F9B7EF101D3D61AD00A82843 /* Icon-Spotlight-40@3x.png */,
+				F9B7EF111D3D61AD00A82843 /* Icon.png */,
+				F9B7EF121D3D61AD00A82843 /* Icon@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		F9C374E81D26F4C400D575EB /* Land Identifier Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				F94F9FCD1D3723F400B90883 /* Waitline Background.jpg */,
+				F95FAF5B1D36AB830044F333 /* FantasylandTower.jpg */,
+				F95FAF5C1D36AB830044F333 /* HauntedMansion.jpg */,
+				F95FAF5D1D36AB830044F333 /* MainStreetPicture.jpg */,
+				F95FAF5E1D36AB830044F333 /* SpaceMountain.jpg */,
+				F95FAF5F1D36AB830044F333 /* SplashMountain.jpg */,
+				F95FAF601D36AB830044F333 /* Thunder Mountain.jpg */,
+				F95FAF611D36AB830044F333 /* TikiRoom.jpg */,
+				F95FAF621D36AB830044F333 /* ToonTownCityHall.jpg */,
+			);
+			name = "Land Identifier Pictures";
+			sourceTree = "<group>";
+		};
+		F9D3CF1A1C5D764C00A4B18F /* Extra Data */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE09591C67F7870018BC55 /* incorrectSound1.mp3 */,
+				F9FE09571C67F7540018BC55 /* DisneyCastleUpdate.png */,
+				F900DFC51C586633002FB096 /* MouseMemoirs-Regular.ttf */,
+				F9289C421C66E55C00B342B6 /* correctSound.mp3 */,
+				F9289C431C66E55C00B342B6 /* incorrectSound.mp3 */,
+				F9BF43011D388C7000663905 /* UnansweredMickey.jpg */,
+				F9BF43021D388C7000663905 /* CorrectMickeyHead.jpg */,
+				F9BF43031D388C7000663905 /* IncorrectMickey.jpg */,
+				F949C7881C4B2187002B9CA2 /* Assets.xcassets */,
+			);
+			name = "Extra Data";
+			sourceTree = "<group>";
+		};
+		F9D9BC791C9B83E800D1AEA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9544A131D341AD00014AC78 /* Pods_Waitline_Disneyland.framework */,
+				F9544A141D341AD10014AC78 /* pop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F949C77A1C4B2186002B9CA2 /* Waitline Disneyland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F949C7A61C4B2187002B9CA2 /* Build configuration list for PBXNativeTarget "Waitline Disneyland" */;
+			buildPhases = (
+				8A47810FEDF5DC7E4E6DDA3B /* Check Pods Manifest.lock */,
+				F949C7771C4B2186002B9CA2 /* Sources */,
+				F949C7781C4B2186002B9CA2 /* Frameworks */,
+				F949C7791C4B2186002B9CA2 /* Resources */,
+				F958FF7E1C9657FE00FD2CA6 /* ShellScript */,
+				77C29E29F2BF5F0C112DE9EF /* Embed Pods Frameworks */,
+				9F5EB16DD3E8DC1813649F5D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Waitline Disneyland";
+			productName = "Waitline Disneyland";
+			productReference = F949C77B1C4B2186002B9CA2 /* Waitline Disneyland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F949C7911C4B2187002B9CA2 /* Waitline DisneylandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F949C7A91C4B2187002B9CA2 /* Build configuration list for PBXNativeTarget "Waitline DisneylandTests" */;
+			buildPhases = (
+				F949C78E1C4B2187002B9CA2 /* Sources */,
+				F949C78F1C4B2187002B9CA2 /* Frameworks */,
+				F949C7901C4B2187002B9CA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F949C7941C4B2187002B9CA2 /* PBXTargetDependency */,
+			);
+			name = "Waitline DisneylandTests";
+			productName = "Waitline DisneylandTests";
+			productReference = F949C7921C4B2187002B9CA2 /* Waitline DisneylandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F949C79C1C4B2187002B9CA2 /* Waitline DisneylandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F949C7AC1C4B2187002B9CA2 /* Build configuration list for PBXNativeTarget "Waitline DisneylandUITests" */;
+			buildPhases = (
+				F949C7991C4B2187002B9CA2 /* Sources */,
+				F949C79A1C4B2187002B9CA2 /* Frameworks */,
+				F949C79B1C4B2187002B9CA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F949C79F1C4B2187002B9CA2 /* PBXTargetDependency */,
+			);
+			name = "Waitline DisneylandUITests";
+			productName = "Waitline DisneylandUITests";
+			productReference = F949C79D1C4B2187002B9CA2 /* Waitline DisneylandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F949C7731C4B2186002B9CA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Braun Butterfield";
+				TargetAttributes = {
+					F949C77A1C4B2186002B9CA2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SPE454E6JF;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					F949C7911C4B2187002B9CA2 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = F949C77A1C4B2186002B9CA2;
+					};
+					F949C79C1C4B2187002B9CA2 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = F949C77A1C4B2186002B9CA2;
+					};
+				};
+			};
+			buildConfigurationList = F949C7761C4B2186002B9CA2 /* Build configuration list for PBXProject "Waitline Disneyland" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F949C7721C4B2186002B9CA2;
+			productRefGroup = F949C77C1C4B2186002B9CA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F949C77A1C4B2186002B9CA2 /* Waitline Disneyland */,
+				F949C7911C4B2187002B9CA2 /* Waitline DisneylandTests */,
+				F949C79C1C4B2187002B9CA2 /* Waitline DisneylandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F949C7791C4B2186002B9CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F949C78C1C4B2187002B9CA2 /* LaunchScreen.storyboard in Resources */,
+				F9BF43041D388C7000663905 /* UnansweredMickey.jpg in Resources */,
+				F9BF43051D388C7000663905 /* CorrectMickeyHead.jpg in Resources */,
+				F900DFC61C586633002FB096 /* MouseMemoirs-Regular.ttf in Resources */,
+				F94F9FCE1D3723F400B90883 /* Waitline Background.jpg in Resources */,
+				F9B7EF131D3D61AD00A82843 /* Icon-60.png in Resources */,
+				F9B7EF1D1D3D61AD00A82843 /* Icon@2x.png in Resources */,
+				F9B7EF151D3D61AD00A82843 /* Icon-60@3x.png in Resources */,
+				F95FAF681D36AB830044F333 /* Thunder Mountain.jpg in Resources */,
+				F9B7EF161D3D61AD00A82843 /* Icon-Small.png in Resources */,
+				F9B7EF191D3D61AD00A82843 /* Icon-Spotlight-40.png in Resources */,
+				F95FAF651D36AB830044F333 /* MainStreetPicture.jpg in Resources */,
+				F95FAF671D36AB830044F333 /* SplashMountain.jpg in Resources */,
+				F9B7EF1C1D3D61AD00A82843 /* Icon.png in Resources */,
+				F9BF43061D388C7000663905 /* IncorrectMickey.jpg in Resources */,
+				F95FAF641D36AB830044F333 /* HauntedMansion.jpg in Resources */,
+				F9B7EF1A1D3D61AD00A82843 /* Icon-Spotlight-40@2x.png in Resources */,
+				F95FAF691D36AB830044F333 /* TikiRoom.jpg in Resources */,
+				F9B7EF181D3D61AD00A82843 /* Icon-Small@3x.png in Resources */,
+				F9B7EF1B1D3D61AD00A82843 /* Icon-Spotlight-40@3x.png in Resources */,
+				F95FAF631D36AB830044F333 /* FantasylandTower.jpg in Resources */,
+				F9289C441C66E55C00B342B6 /* correctSound.mp3 in Resources */,
+				F95FAF661D36AB830044F333 /* SpaceMountain.jpg in Resources */,
+				F9B7EF141D3D61AD00A82843 /* Icon-60@2x.png in Resources */,
+				F949C7891C4B2187002B9CA2 /* Assets.xcassets in Resources */,
+				F95FAF6A1D36AB830044F333 /* ToonTownCityHall.jpg in Resources */,
+				F9FE09581C67F7540018BC55 /* DisneyCastleUpdate.png in Resources */,
+				F9FE095A1C67F7870018BC55 /* incorrectSound1.mp3 in Resources */,
+				F9289C451C66E55C00B342B6 /* incorrectSound.mp3 in Resources */,
+				F9B7EF171D3D61AD00A82843 /* Icon-Small@2x.png in Resources */,
+				F949C7841C4B2187002B9CA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F949C7901C4B2187002B9CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F949C79B1C4B2187002B9CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77C29E29F2BF5F0C112DE9EF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Waitline Disneyland/Pods-Waitline Disneyland-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A47810FEDF5DC7E4E6DDA3B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F5EB16DD3E8DC1813649F5D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Waitline Disneyland/Pods-Waitline Disneyland-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F958FF7E1C9657FE00FD2CA6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F949C7771C4B2186002B9CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D3CF171C5D70DE00A4B18F /* HelpViewController.swift in Sources */,
+				F949C7C91C4B41A2002B9CA2 /* QuestionInterfaceViewController.swift in Sources */,
+				F949C7C71C4B353E002B9CA2 /* QuestionsViewController.swift in Sources */,
+				F949C7811C4B2187002B9CA2 /* MainViewController.swift in Sources */,
+				F9D3CF191C5D758000A4B18F /* AboutViewController.swift in Sources */,
+				F949C77F1C4B2187002B9CA2 /* AppDelegate.swift in Sources */,
+				F996ED211C5C0570005D559D /* HomePageViewController.swift in Sources */,
+				F96D776C1D18658E008063B8 /* LandSelectorCollectionViewCell.swift in Sources */,
+				F9D9BC7B1C9B8EB100D1AEA5 /* CustomHPButton.swift in Sources */,
+				F949C7871C4B2187002B9CA2 /* Waitline_Disneyland.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F949C78E1C4B2187002B9CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F949C7971C4B2187002B9CA2 /* Waitline_DisneylandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F949C7991C4B2187002B9CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F949C7A21C4B2187002B9CA2 /* Waitline_DisneylandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F949C7941C4B2187002B9CA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F949C77A1C4B2186002B9CA2 /* Waitline Disneyland */;
+			targetProxy = F949C7931C4B2187002B9CA2 /* PBXContainerItemProxy */;
+		};
+		F949C79F1C4B2187002B9CA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F949C77A1C4B2186002B9CA2 /* Waitline Disneyland */;
+			targetProxy = F949C79E1C4B2187002B9CA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F949C7821C4B2187002B9CA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F949C7831C4B2187002B9CA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F949C78A1C4B2187002B9CA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F949C78B1C4B2187002B9CA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F949C7A41C4B2187002B9CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F949C7A51C4B2187002B9CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F949C7A71C4B2187002B9CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB82A9054D000A1EB75A4AA /* Pods-Waitline Disneyland.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "Waitline Disneyland/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waitline.disneyldn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Waitline Disneyland/Waitline Disneyland-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F949C7A81C4B2187002B9CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C68AC404723ECE62E7A8C85 /* Pods-Waitline Disneyland.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "Waitline Disneyland/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waitline.disneyldn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Waitline Disneyland/Waitline Disneyland-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F949C7AA1C4B2187002B9CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Waitline DisneylandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BraunButterfield.Waitline-DisneylandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waitline Disneyland.app/Waitline Disneyland";
+			};
+			name = Debug;
+		};
+		F949C7AB1C4B2187002B9CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Waitline DisneylandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BraunButterfield.Waitline-DisneylandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waitline Disneyland.app/Waitline Disneyland";
+			};
+			name = Release;
+		};
+		F949C7AD1C4B2187002B9CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Waitline DisneylandUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BraunButterfield.Waitline-DisneylandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Waitline Disneyland";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F949C7AE1C4B2187002B9CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Waitline DisneylandUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BraunButterfield.Waitline-DisneylandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Waitline Disneyland";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F949C7761C4B2186002B9CA2 /* Build configuration list for PBXProject "Waitline Disneyland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F949C7A41C4B2187002B9CA2 /* Debug */,
+				F949C7A51C4B2187002B9CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F949C7A61C4B2187002B9CA2 /* Build configuration list for PBXNativeTarget "Waitline Disneyland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F949C7A71C4B2187002B9CA2 /* Debug */,
+				F949C7A81C4B2187002B9CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F949C7A91C4B2187002B9CA2 /* Build configuration list for PBXNativeTarget "Waitline DisneylandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F949C7AA1C4B2187002B9CA2 /* Debug */,
+				F949C7AB1C4B2187002B9CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F949C7AC1C4B2187002B9CA2 /* Build configuration list for PBXNativeTarget "Waitline DisneylandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F949C7AD1C4B2187002B9CA2 /* Debug */,
+				F949C7AE1C4B2187002B9CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F949C7851C4B2187002B9CA2 /* Waitline_Disneyland.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F949C7861C4B2187002B9CA2 /* Waitline_Disneyland.xcdatamodel */,
+			);
+			currentVersion = F949C7861C4B2187002B9CA2 /* Waitline_Disneyland.xcdatamodel */;
+			path = Waitline_Disneyland.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F949C7731C4B2186002B9CA2 /* Project object */;
+}

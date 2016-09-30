@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GiO-8S-ufj">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MouseMemoirs-Regular.ttf">
+            <string>MouseMemoirs-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Home Page View Controller-->
+        <scene sceneID="ZnT-wa-PPH">
+            <objects>
+                <viewController id="EZ2-Yy-jOa" customClass="HomePageViewController" customModule="Waitline_Disneyland" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aqa-px-ctO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cd3-zE-5Fm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LWl-Nz-Y6e">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Waitline Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nSt-0b-NpF"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6o-6c-h9u" customClass="CustomHPButton" customModule="Waitline_Disneyland" customModuleProvider="target">
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="54"/>
+                                <state key="normal" title="Play!">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playPressed:" destination="EZ2-Yy-jOa" eventType="touchUpInside" id="7In-kB-dNe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3s-32-6b3" customClass="CustomHPButton" customModule="Waitline_Disneyland" customModuleProvider="target">
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="22"/>
+                                <state key="normal" title="Reset Answers">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButton:" destination="EZ2-Yy-jOa" eventType="touchUpInside" id="Zzx-3w-rzR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hjx-Iv-6kd" userLabel="Center Placeholder Label">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waitline: Disneyland Edition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="nPs-eZ-6mc">
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="70"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvh-Md-CbF" customClass="CustomHPButton" customModule="Waitline_Disneyland" customModuleProvider="target">
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="22"/>
+                                <state key="normal" title="About">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="aboutPressed:" destination="EZ2-Yy-jOa" eventType="touchUpInside" id="y45-uY-l2B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w31-hg-DyM" customClass="CustomHPButton" customModule="Waitline_Disneyland" customModuleProvider="target">
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="22"/>
+                                <state key="normal" title="Help">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="helpPressed:" destination="EZ2-Yy-jOa" eventType="touchUpInside" id="D12-A1-dXj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Hjx-Iv-6kd" firstAttribute="centerX" secondItem="LWl-Nz-Y6e" secondAttribute="centerX" id="4AU-MX-V4i"/>
+                            <constraint firstItem="v6o-6c-h9u" firstAttribute="top" secondItem="Hjx-Iv-6kd" secondAttribute="bottom" constant="11" id="4tw-BB-wNp"/>
+                            <constraint firstItem="dvh-Md-CbF" firstAttribute="leading" secondItem="w31-hg-DyM" secondAttribute="trailing" constant="8" id="DSd-5y-H1v"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="V3s-32-6b3" secondAttribute="leading" id="Dx4-QQ-5Gr"/>
+                            <constraint firstItem="Hjx-Iv-6kd" firstAttribute="centerY" secondItem="LWl-Nz-Y6e" secondAttribute="centerY" id="Nqo-q7-vvt"/>
+                            <constraint firstItem="nPs-eZ-6mc" firstAttribute="leading" secondItem="LWl-Nz-Y6e" secondAttribute="leadingMargin" id="NsJ-Cj-XnF"/>
+                            <constraint firstItem="Cd3-zE-5Fm" firstAttribute="top" secondItem="nSt-0b-NpF" secondAttribute="bottom" id="QaO-RN-sTR"/>
+                            <constraint firstItem="nSt-0b-NpF" firstAttribute="leading" secondItem="LWl-Nz-Y6e" secondAttribute="leadingMargin" constant="-20" id="QtZ-8G-3P6"/>
+                            <constraint firstItem="v6o-6c-h9u" firstAttribute="trailing" secondItem="LWl-Nz-Y6e" secondAttribute="trailingMargin" id="R0t-cI-dTr"/>
+                            <constraint firstItem="w31-hg-DyM" firstAttribute="top" secondItem="v6o-6c-h9u" secondAttribute="bottom" constant="15" id="SkK-hx-Cui"/>
+                            <constraint firstItem="v6o-6c-h9u" firstAttribute="leading" secondItem="LWl-Nz-Y6e" secondAttribute="leadingMargin" id="TXA-wK-nGF"/>
+                            <constraint firstItem="nPs-eZ-6mc" firstAttribute="trailing" secondItem="LWl-Nz-Y6e" secondAttribute="trailingMargin" id="Vdh-Qi-Hka"/>
+                            <constraint firstItem="nSt-0b-NpF" firstAttribute="top" secondItem="aqa-px-ctO" secondAttribute="bottom" id="WWD-g5-5kP"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="w31-hg-DyM" secondAttribute="leading" id="jfr-ax-kj2"/>
+                            <constraint firstItem="Cd3-zE-5Fm" firstAttribute="top" secondItem="V3s-32-6b3" secondAttribute="bottom" constant="8" id="l4s-Os-wHg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dvh-Md-CbF" secondAttribute="trailing" id="l5j-ky-IHb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nSt-0b-NpF" secondAttribute="trailing" constant="-20" id="mHZ-1G-C2i"/>
+                            <constraint firstItem="nPs-eZ-6mc" firstAttribute="top" secondItem="aqa-px-ctO" secondAttribute="bottom" constant="8" id="rXg-L8-Q3h"/>
+                            <constraint firstItem="dvh-Md-CbF" firstAttribute="width" secondItem="w31-hg-DyM" secondAttribute="width" id="uJg-gG-hPF"/>
+                            <constraint firstItem="dvh-Md-CbF" firstAttribute="top" secondItem="v6o-6c-h9u" secondAttribute="bottom" constant="15" id="xZd-pj-F7P"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="QGv-Qa-Wxl"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="PlayToLandSelector" id="V7F-j3-HO9"/>
+                        <segue destination="lMl-2i-Gys" kind="show" identifier="HelpButtonPressed" id="OW1-1z-00b"/>
+                        <segue destination="4bZ-Hj-WRe" kind="show" identifier="AboutViewControllerSegue" id="9Ho-2b-7lD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ypd-6J-lHq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-810" y="349"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DHZ-lI-uex">
+            <objects>
+                <navigationController id="GiO-8S-ufj" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4bs-r4-V2w">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EZ2-Yy-jOa" kind="relationship" relationship="rootViewController" id="GgM-7U-Qmu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12f-Xs-VdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1750" y="350"/>
+        </scene>
+        <!--Help View Controller-->
+        <scene sceneID="6Ul-Pt-w4Q">
+            <objects>
+                <viewController id="lMl-2i-Gys" customClass="HelpViewController" customModule="Waitline_Disneyland" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="G7Z-eZ-P0S"/>
+                        <viewControllerLayoutGuide type="bottom" id="WMb-5D-UY1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fVm-BE-Bep">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Can't Get the Answer Right?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYy-oq-F9g">
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMp-lX-1zh">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">• Waitline is not case sensitive but answers must be spelled correctly to be correct.  •  All numerical answers for Waitline must be typed as a digit and not spelled out.  • Is the answer supposed to be the name of something? If so, try adding "the" to the beginning of your answer.  • Does the answer say "plural" at the end? If it does, make sure that you make your answer plural.  • Check if the answer has a clue of how many words the answer is at the end of the question. Make sure your answer contains that many words.  • Does your answer contain a posessive pronoun? If so, make sure that you add the "s" to your answer.  • If there is a extra space at the end of your answer it will be marked wrong.  • Is the answer still wrong? Could it be on our end? If so, please email at waitline.developer@yahoo.com or DM us on Twitter @RealWaitline!  • Disneyland is always changing and maintenance is constantly being preformed on the attractions and their features. For this reason some or all of the features in some of the questions may not be present during your trip.</string>
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LYy-oq-F9g" firstAttribute="top" secondItem="G7Z-eZ-P0S" secondAttribute="bottom" constant="32" id="8p3-cR-5fW"/>
+                            <constraint firstItem="eMp-lX-1zh" firstAttribute="leading" secondItem="fVm-BE-Bep" secondAttribute="leadingMargin" constant="15" id="B0O-Ao-r3R"/>
+                            <constraint firstItem="eMp-lX-1zh" firstAttribute="top" secondItem="LYy-oq-F9g" secondAttribute="bottom" constant="47" id="BCZ-aR-74E"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eMp-lX-1zh" secondAttribute="trailing" constant="15" id="FXD-o0-39a"/>
+                            <constraint firstItem="WMb-5D-UY1" firstAttribute="top" secondItem="eMp-lX-1zh" secondAttribute="bottom" id="aWa-Rf-Leh"/>
+                            <constraint firstItem="LYy-oq-F9g" firstAttribute="centerX" secondItem="fVm-BE-Bep" secondAttribute="centerX" id="evO-IW-1DJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="helpTextView" destination="eMp-lX-1zh" id="5eo-F3-Ub4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ipz-aV-lmN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-256" y="1213"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="9v7-D7-gNV">
+            <objects>
+                <viewController id="4bZ-Hj-WRe" customClass="AboutViewController" customModule="Waitline_Disneyland" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dHm-P3-lYW"/>
+                        <viewControllerLayoutGuide type="bottom" id="4AV-Mk-RJc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p9T-JV-X2d">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Waitline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfk-n7-Rg3">
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXI-QR-6yD">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">• For more trivia and challenges check out https://www.facebook.com/RealWaitline and follow @RealWaitline on Twitter!  • Waitline: Disneyland Edition is a trivia type app designed specifically for Disneyland Resort California. Waitline has "eye-spy" and trivia type questions. You are able to see and answer the questions while you wait in line and experience the attractions at Disneyland Resort. We hope you enjoy your Waitline Experience!  • Waitline is developed by Braun Butterfield. Any suggestions or corrections that need made may be submitted to waitline.developer@yahoo.com .
+ • Waitline is a third party app with no ties or affiliations to the Walt Disney Company or any off its affiliates.
+ • Created by Braun Butterfield. Copyright © 2016 Braun Butterfield. All rights reserved. </string>
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pfk-n7-Rg3" firstAttribute="leading" secondItem="p9T-JV-X2d" secondAttribute="leading" constant="10" id="7SR-34-ixu"/>
+                            <constraint firstAttribute="trailing" secondItem="GXI-QR-6yD" secondAttribute="trailing" constant="15" id="IY1-du-Txw"/>
+                            <constraint firstItem="GXI-QR-6yD" firstAttribute="leading" secondItem="p9T-JV-X2d" secondAttribute="leading" constant="15" id="OUj-a6-aug"/>
+                            <constraint firstItem="GXI-QR-6yD" firstAttribute="top" secondItem="pfk-n7-Rg3" secondAttribute="bottom" constant="20" id="PoD-xg-iG6"/>
+                            <constraint firstAttribute="trailing" secondItem="pfk-n7-Rg3" secondAttribute="trailing" constant="10" id="Sih-sT-3Op"/>
+                            <constraint firstItem="4AV-Mk-RJc" firstAttribute="top" secondItem="GXI-QR-6yD" secondAttribute="bottom" constant="8" id="apD-Gq-sKA"/>
+                            <constraint firstItem="pfk-n7-Rg3" firstAttribute="top" secondItem="dHm-P3-lYW" secondAttribute="bottom" constant="43" id="bra-6s-Xcl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aboutTextView" destination="GXI-QR-6yD" id="1EG-aB-76Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="08y-zR-QhF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1352" y="1214"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Waitline_Disneyland" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="9mY-MV-jTF">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="25" minimumInteritemSpacing="10" id="aJG-w7-wys">
+                                    <size key="itemSize" width="504" height="421"/>
+                                    <size key="headerReferenceSize" width="25" height="0.0"/>
+                                    <size key="footerReferenceSize" width="25" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="landPhotoCollectionCell" id="0ut-60-dnT" customClass="LandSelectorCollectionViewCell" customModule="Waitline_Disneyland" customModuleProvider="target">
+                                        <rect key="frame" x="25" y="57.5" width="504" height="421"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="504" height="421"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Land Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GC0-YQ-aY5">
+                                                    <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="29"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QVV-ds-VCn"/>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="leadingMargin" secondItem="QVV-ds-VCn" secondAttribute="leading" id="7yV-ge-cOt"/>
+                                            <constraint firstAttribute="topMargin" secondItem="QVV-ds-VCn" secondAttribute="top" id="BPI-pZ-3MT"/>
+                                            <constraint firstItem="GC0-YQ-aY5" firstAttribute="centerX" secondItem="0ut-60-dnT" secondAttribute="centerX" id="FEO-zz-llF"/>
+                                            <constraint firstItem="GC0-YQ-aY5" firstAttribute="leading" secondItem="0ut-60-dnT" secondAttribute="leading" constant="10" id="Oj9-Vo-FKw"/>
+                                            <constraint firstAttribute="trailing" secondItem="GC0-YQ-aY5" secondAttribute="trailing" constant="10" id="Qjv-iD-1KX"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="QVV-ds-VCn" secondAttribute="trailing" id="ele-XO-ISc"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="GC0-YQ-aY5" secondAttribute="bottom" constant="-8" id="tJ0-EO-PKM"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="QVV-ds-VCn" secondAttribute="bottom" constant="29" id="w6W-Ha-eY4"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="landIdentifacationLabel" destination="GC0-YQ-aY5" id="Pvc-BP-DQZ"/>
+                                            <outlet property="landPictureImageView" destination="QVV-ds-VCn" id="0cl-sg-kYR"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="hAq-9x-7dx">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="536"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </collectionReusableView>
+                                <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="footerIdentifier" id="7Yg-fS-vfy">
+                                    <rect key="frame" x="529" y="0.0" width="25" height="536"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionReusableView>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9mY-MV-jTF" secondAttribute="trailing" id="2Ef-lW-3rO"/>
+                            <constraint firstItem="9mY-MV-jTF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-64" id="Hrt-qL-cHK"/>
+                            <constraint firstItem="9mY-MV-jTF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OxC-fH-K4F"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9mY-MV-jTF" secondAttribute="bottom" id="fBU-pu-hgH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6zk-Zk-iqE"/>
+                    <connections>
+                        <outlet property="collectionViewOfLands" destination="9mY-MV-jTF" id="Pt7-z6-5lx"/>
+                        <segue destination="2hx-sh-gOL" kind="show" identifier="LandsToQuestionsSegue" id="z3l-Mb-PhP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="350"/>
+        </scene>
+        <!--Questions View Controller-->
+        <scene sceneID="1ZT-Qo-wx4">
+            <objects>
+                <viewController id="2hx-sh-gOL" customClass="QuestionsViewController" customModule="Waitline_Disneyland" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="blb-tJ-Yf1"/>
+                        <viewControllerLayoutGuide type="bottom" id="ETk-Vb-9a3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B8V-6l-Sp9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="40" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="05Z-yE-yWL">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="05Z-yE-yWL" firstAttribute="leading" secondItem="B8V-6l-Sp9" secondAttribute="leadingMargin" constant="-20" id="5G8-v3-gSJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="05Z-yE-yWL" secondAttribute="trailing" constant="-20" id="L88-4G-Mxi"/>
+                            <constraint firstItem="05Z-yE-yWL" firstAttribute="top" secondItem="blb-tJ-Yf1" secondAttribute="bottom" constant="-64" id="edU-a9-3QF"/>
+                            <constraint firstItem="ETk-Vb-9a3" firstAttribute="top" secondItem="05Z-yE-yWL" secondAttribute="bottom" id="oDj-et-oIo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="questionsTableView" destination="05Z-yE-yWL" id="7ov-Bq-exH"/>
+                        <segue destination="hVd-jp-3A4" kind="show" identifier="QuestionsToQuestionInterface" id="UuJ-OZ-yDY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tSu-cz-jxk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1387" y="347"/>
+        </scene>
+        <!--Question Interface View Controller-->
+        <scene sceneID="22X-9A-iHa">
+            <objects>
+                <viewController id="hVd-jp-3A4" customClass="QuestionInterfaceViewController" customModule="Waitline_Disneyland" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LKG-rY-wI9"/>
+                        <viewControllerLayoutGuide type="bottom" id="gAw-35-6py"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o8W-4W-Zbp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Waitline Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Kp7-6b-oLL"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMV-dn-bfT" customClass="CustomHPButton" customModule="Waitline_Disneyland" customModuleProvider="target">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="TEU-G9-je0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="14"/>
+                                <state key="normal" title="Help!">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="needHelpPressed:" destination="hVd-jp-3A4" eventType="touchUpInside" id="Odj-Zy-Ra2"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Guess!" textAlignment="center" minimumFontSize="11" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="giq-ia-6ki">
+                                <color key="backgroundColor" red="0.7699709781747196" green="0.80392462404129417" blue="0.81496606691919193" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="hVd-jp-3A4" id="02c-80-Agx"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHT-Ms-RoC" customClass="CustomHPButton" customModule="Waitline_Disneyland" customModuleProvider="target">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="22"/>
+                                <state key="normal" title="Go!">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goPressed:" destination="hVd-jp-3A4" eventType="touchUpInside" id="tZv-LF-j1h"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEXT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="X7M-R3-DIk">
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="X7M-R3-DIk" secondAttribute="height" multiplier="56:15" id="Ap0-38-BD4"/>
+                                    <constraint firstAttribute="height" constant="150" id="FCO-dM-aGF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Kp7-6b-oLL" secondAttribute="trailing" id="8lQ-cs-m77"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="zMV-dn-bfT" secondAttribute="leading" id="An6-MR-TBT"/>
+                            <constraint firstItem="giq-ia-6ki" firstAttribute="leading" secondItem="o8W-4W-Zbp" secondAttribute="leadingMargin" constant="30" id="Hu5-58-zsa"/>
+                            <constraint firstItem="gAw-35-6py" firstAttribute="top" secondItem="Kp7-6b-oLL" secondAttribute="bottom" id="J8H-J3-TWJ"/>
+                            <constraint firstItem="X7M-R3-DIk" firstAttribute="leading" secondItem="o8W-4W-Zbp" secondAttribute="leadingMargin" id="JmZ-5m-SrY"/>
+                            <constraint firstItem="giq-ia-6ki" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="15" id="KKD-Fk-jKu"/>
+                            <constraint firstItem="Kp7-6b-oLL" firstAttribute="leading" secondItem="o8W-4W-Zbp" secondAttribute="leading" id="KRc-eS-6sb"/>
+                            <constraint firstItem="X7M-R3-DIk" firstAttribute="top" secondItem="LKG-rY-wI9" secondAttribute="bottom" constant="8" id="OOo-dB-XYA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="X7M-R3-DIk" secondAttribute="trailing" id="T79-b6-06a"/>
+                            <constraint firstItem="Kp7-6b-oLL" firstAttribute="top" secondItem="o8W-4W-Zbp" secondAttribute="top" id="V5h-Tm-p1c"/>
+                            <constraint firstItem="zMV-dn-bfT" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="17" id="Zfg-ff-sGq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="giq-ia-6ki" secondAttribute="trailing" constant="30" id="aWu-EE-Ih3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fHT-Ms-RoC" secondAttribute="trailing" id="aop-uh-OCl"/>
+                            <constraint firstItem="giq-ia-6ki" firstAttribute="leading" secondItem="zMV-dn-bfT" secondAttribute="trailing" constant="8" id="bQa-oF-w15"/>
+                            <constraint firstItem="giq-ia-6ki" firstAttribute="centerX" secondItem="o8W-4W-Zbp" secondAttribute="centerX" id="dGs-uB-qfa"/>
+                            <constraint firstItem="zMV-dn-bfT" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="20" id="ggL-I2-nbz"/>
+                            <constraint firstItem="zMV-dn-bfT" firstAttribute="leading" secondItem="giq-ia-6ki" secondAttribute="trailing" constant="6" id="oic-uu-XYd"/>
+                            <constraint firstItem="fHT-Ms-RoC" firstAttribute="leading" secondItem="giq-ia-6ki" secondAttribute="trailing" constant="8" id="wUJ-ef-aAU"/>
+                            <constraint firstItem="fHT-Ms-RoC" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="15" id="xem-FD-dLj"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Hu5-58-zsa"/>
+                                <exclude reference="aWu-EE-Ih3"/>
+                                <exclude reference="ggL-I2-nbz"/>
+                                <exclude reference="oic-uu-XYd"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="inputTextField" destination="giq-ia-6ki" id="AoK-22-Zbn"/>
+                        <outlet property="questionViewLabel" destination="X7M-R3-DIk" id="a0H-Qh-BkY"/>
+                        <segue destination="lMl-2i-Gys" kind="show" identifier="QuestionInterfaceToHelp" id="YY0-vT-ICC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YJT-sM-QWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2622" y="346"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Waitline Background.jpg" width="750" height="1334"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="YY0-vT-ICC"/>
+    </inferredMetricsTieBreakers>
+</document>
