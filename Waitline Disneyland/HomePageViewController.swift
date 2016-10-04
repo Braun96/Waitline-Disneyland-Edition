@@ -107,12 +107,26 @@ class HomePageViewController: UIViewController {
         
         switch version {
             
-        case "3.1" :
-            if versionDefaults.bool(forKey: "version 3.1") {
-                //has updated
+        case "3.2" :
+            if versionDefaults.bool(forKey: "version 3.2") {
+                
                 print("Correct Version Number \(version)")
+                
             } else {
-                versionDefaults.set(true, forKey: "version3.1")
+                versionDefaults.set(true, forKey: "version 3.2")
+                versionDefaults.synchronize()
+                CoreDataReset()
+                print("updated by case \(version)")
+            
+            }
+            
+            case "3.1" :
+            if versionDefaults.bool(forKey: "version 3.1") {
+            
+                print("Correct Version Number \(version)")
+                
+            } else {
+                versionDefaults.set(true, forKey: "version 3.1")
                 versionDefaults.synchronize()
                 CoreDataReset()
                 print("updated by case \(version)")
@@ -194,6 +208,7 @@ class HomePageViewController: UIViewController {
                 print("updated by case \(version)")
             }
         default :
+            print("We hit the default case for some reason")
             if versionDefaults.bool(forKey: "versiondefault")   {
                 print("Correct Version Number \(version)")
             } else {
@@ -204,6 +219,7 @@ class HomePageViewController: UIViewController {
             }
         }
     }
+
     
     
     
