@@ -201,6 +201,7 @@ class HomePageViewController: UIViewController {
             versionDefaults.synchronize()
             CoreDataReset()
             print("updated by default \(version)")
+            }
         }
     }
     
@@ -226,3 +227,5 @@ class HomePageViewController: UIViewController {
 
     }
 }
+
+
