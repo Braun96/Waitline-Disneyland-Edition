@@ -4669,12 +4669,6 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         symphonyFountain.land = toonTown
         
         
-        
-        
-        
-     
-        
-        
         do {
             try context.save()
         } catch {

@@ -15,6 +15,7 @@ class HelpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController!.navigationBar.isHidden = false
+        
     }
     
     override func viewDidLayoutSubviews() {

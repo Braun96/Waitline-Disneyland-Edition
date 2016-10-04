@@ -106,7 +106,7 @@
 		F95FAF621D36AB830044F333 /* ToonTownCityHall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ToonTownCityHall.jpg; sourceTree = "<group>"; };
 		F96B8C831C9CD9EA0013B9CC /* Waitline Disneyland-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Waitline Disneyland-Bridging-Header.h"; sourceTree = "<group>"; };
 		F96D776B1D18658E008063B8 /* LandSelectorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LandSelectorCollectionViewCell.swift; path = ../LandSelectorCollectionViewCell.swift; sourceTree = "<group>"; };
-		F996ED201C5C0570005D559D /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		F996ED201C5C0570005D559D /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		F9B7EF081D3D61AD00A82843 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
 		F9B7EF091D3D61AD00A82843 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 		F9B7EF0A1D3D61AD00A82843 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
@@ -690,7 +690,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = SPE454E6JF;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -722,7 +722,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = SPE454E6JF;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

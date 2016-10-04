@@ -43,7 +43,9 @@ class QuestionsViewController: UIViewController, UITableViewDataSource, UITableV
         backButton.setTitleTextAttributes([NSFontAttributeName: UIFont(name: "Mouse Memoirs", size: 24)!], for: UIControlState())
         navigationItem.backBarButtonItem = backButton
 
-        questions.sort(by: {$0.questionInt?.int32Value < $1.questionInt?.int32Value})     
+        questions.sort(by: {$0.questionInt?.int32Value < $1.questionInt?.int32Value})
+        
+
    }
     
     

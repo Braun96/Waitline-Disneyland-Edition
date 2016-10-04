@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,7 +21,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Cd3-zE-5Fm"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LWl-Nz-Y6e">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Waitline Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nSt-0b-NpF"/>
@@ -34,15 +33,6 @@
                                 </state>
                                 <connections>
                                     <action selector="playPressed:" destination="EZ2-Yy-jOa" eventType="touchUpInside" id="7In-kB-dNe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3s-32-6b3" customClass="CustomHPButton" customModule="Waitline_Disneyland" customModuleProvider="target">
-                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="22"/>
-                                <state key="normal" title="Reset Answers">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="resetButton:" destination="EZ2-Yy-jOa" eventType="touchUpInside" id="Zzx-3w-rzR"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hjx-Iv-6kd" userLabel="Center Placeholder Label">
@@ -72,10 +62,20 @@
                                     <action selector="helpPressed:" destination="EZ2-Yy-jOa" eventType="touchUpInside" id="D12-A1-dXj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3s-32-6b3" customClass="CustomHPButton" customModule="Waitline_Disneyland" customModuleProvider="target">
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="22"/>
+                                <state key="normal" title="Reset Answers">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButton:" destination="EZ2-Yy-jOa" eventType="touchUpInside" id="Zzx-3w-rzR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="Hjx-Iv-6kd" firstAttribute="centerX" secondItem="LWl-Nz-Y6e" secondAttribute="centerX" id="4AU-MX-V4i"/>
                             <constraint firstItem="v6o-6c-h9u" firstAttribute="top" secondItem="Hjx-Iv-6kd" secondAttribute="bottom" constant="11" id="4tw-BB-wNp"/>
+                            <constraint firstItem="Cd3-zE-5Fm" firstAttribute="top" secondItem="V3s-32-6b3" secondAttribute="bottom" constant="8" id="6so-Wb-kII"/>
                             <constraint firstItem="dvh-Md-CbF" firstAttribute="leading" secondItem="w31-hg-DyM" secondAttribute="trailing" constant="8" id="DSd-5y-H1v"/>
                             <constraint firstAttribute="leadingMargin" secondItem="V3s-32-6b3" secondAttribute="leading" id="Dx4-QQ-5Gr"/>
                             <constraint firstItem="Hjx-Iv-6kd" firstAttribute="centerY" secondItem="LWl-Nz-Y6e" secondAttribute="centerY" id="Nqo-q7-vvt"/>
@@ -88,7 +88,6 @@
                             <constraint firstItem="nPs-eZ-6mc" firstAttribute="trailing" secondItem="LWl-Nz-Y6e" secondAttribute="trailingMargin" id="Vdh-Qi-Hka"/>
                             <constraint firstItem="nSt-0b-NpF" firstAttribute="top" secondItem="aqa-px-ctO" secondAttribute="bottom" id="WWD-g5-5kP"/>
                             <constraint firstAttribute="leadingMargin" secondItem="w31-hg-DyM" secondAttribute="leading" id="jfr-ax-kj2"/>
-                            <constraint firstItem="Cd3-zE-5Fm" firstAttribute="top" secondItem="V3s-32-6b3" secondAttribute="bottom" constant="8" id="l4s-Os-wHg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dvh-Md-CbF" secondAttribute="trailing" id="l5j-ky-IHb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nSt-0b-NpF" secondAttribute="trailing" constant="-20" id="mHZ-1G-C2i"/>
                             <constraint firstItem="nPs-eZ-6mc" firstAttribute="top" secondItem="aqa-px-ctO" secondAttribute="bottom" constant="8" id="rXg-L8-Q3h"/>
@@ -97,8 +96,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QGv-Qa-Wxl"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="600"/>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="PlayToLandSelector" id="V7F-j3-HO9"/>
                         <segue destination="lMl-2i-Gys" kind="show" identifier="HelpButtonPressed" id="OW1-1z-00b"/>
@@ -113,7 +110,9 @@
         <scene sceneID="DHZ-lI-uex">
             <objects>
                 <navigationController id="GiO-8S-ufj" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4bs-r4-V2w">
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="4bs-r4-V2w">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
@@ -136,7 +135,7 @@
                         <viewControllerLayoutGuide type="bottom" id="WMb-5D-UY1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fVm-BE-Bep">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Can't Get the Answer Right?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYy-oq-F9g">
@@ -158,7 +157,7 @@
                             <constraint firstItem="eMp-lX-1zh" firstAttribute="leading" secondItem="fVm-BE-Bep" secondAttribute="leadingMargin" constant="15" id="B0O-Ao-r3R"/>
                             <constraint firstItem="eMp-lX-1zh" firstAttribute="top" secondItem="LYy-oq-F9g" secondAttribute="bottom" constant="47" id="BCZ-aR-74E"/>
                             <constraint firstAttribute="trailingMargin" secondItem="eMp-lX-1zh" secondAttribute="trailing" constant="15" id="FXD-o0-39a"/>
-                            <constraint firstItem="WMb-5D-UY1" firstAttribute="top" secondItem="eMp-lX-1zh" secondAttribute="bottom" id="aWa-Rf-Leh"/>
+                            <constraint firstItem="WMb-5D-UY1" firstAttribute="top" secondItem="eMp-lX-1zh" secondAttribute="bottom" constant="8" id="aWa-Rf-Leh"/>
                             <constraint firstItem="LYy-oq-F9g" firstAttribute="centerX" secondItem="fVm-BE-Bep" secondAttribute="centerX" id="evO-IW-1DJ"/>
                         </constraints>
                     </view>
@@ -168,7 +167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ipz-aV-lmN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-256" y="1213"/>
+            <point key="canvasLocation" x="-256.80000000000001" y="1212.1439280359821"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="9v7-D7-gNV">
@@ -179,7 +178,7 @@
                         <viewControllerLayoutGuide type="bottom" id="4AV-Mk-RJc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="p9T-JV-X2d">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Waitline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfk-n7-Rg3">
@@ -225,7 +224,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="9mY-MV-jTF">
@@ -238,7 +237,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="landPhotoCollectionCell" id="0ut-60-dnT" customClass="LandSelectorCollectionViewCell" customModule="Waitline_Disneyland" customModuleProvider="target">
-                                        <rect key="frame" x="25" y="57.5" width="504" height="421"/>
+                                        <rect key="frame" x="25" y="91" width="504" height="421"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="504" height="421"/>
@@ -270,12 +269,12 @@
                                     </collectionViewCell>
                                 </cells>
                                 <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="hAq-9x-7dx">
-                                    <rect key="frame" x="0.0" y="0.0" width="25" height="536"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="603"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </collectionReusableView>
                                 <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="footerIdentifier" id="7Yg-fS-vfy">
-                                    <rect key="frame" x="529" y="0.0" width="25" height="536"/>
+                                    <rect key="frame" x="529" y="0.0" width="25" height="603"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </collectionReusableView>
                             </collectionView>
@@ -307,7 +306,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ETk-Vb-9a3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="B8V-6l-Sp9">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="40" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="05Z-yE-yWL">
@@ -316,10 +315,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="05Z-yE-yWL" firstAttribute="leading" secondItem="B8V-6l-Sp9" secondAttribute="leadingMargin" constant="-20" id="5G8-v3-gSJ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="05Z-yE-yWL" secondAttribute="trailing" constant="-20" id="L88-4G-Mxi"/>
-                            <constraint firstItem="05Z-yE-yWL" firstAttribute="top" secondItem="blb-tJ-Yf1" secondAttribute="bottom" constant="-64" id="edU-a9-3QF"/>
-                            <constraint firstItem="ETk-Vb-9a3" firstAttribute="top" secondItem="05Z-yE-yWL" secondAttribute="bottom" id="oDj-et-oIo"/>
+                            <constraint firstItem="05Z-yE-yWL" firstAttribute="top" secondItem="B8V-6l-Sp9" secondAttribute="top" id="6Qg-S2-WXK"/>
+                            <constraint firstAttribute="trailing" secondItem="05Z-yE-yWL" secondAttribute="trailing" id="B0U-S2-ih8"/>
+                            <constraint firstItem="05Z-yE-yWL" firstAttribute="leading" secondItem="B8V-6l-Sp9" secondAttribute="leading" id="LkS-2A-Y1m"/>
+                            <constraint firstItem="ETk-Vb-9a3" firstAttribute="top" secondItem="05Z-yE-yWL" secondAttribute="bottom" id="nM3-bj-IIL"/>
                         </constraints>
                     </view>
                     <connections>
@@ -329,7 +328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tSu-cz-jxk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1387" y="347"/>
+            <point key="canvasLocation" x="1385.5999999999999" y="346.32683658170919"/>
         </scene>
         <!--Question Interface View Controller-->
         <scene sceneID="22X-9A-iHa">
@@ -340,7 +339,7 @@
                         <viewControllerLayoutGuide type="bottom" id="gAw-35-6py"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="o8W-4W-Zbp">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Waitline Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Kp7-6b-oLL"/>
@@ -378,7 +377,6 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEXT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="X7M-R3-DIk">
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="X7M-R3-DIk" secondAttribute="height" multiplier="56:15" id="Ap0-38-BD4"/>
                                     <constraint firstAttribute="height" constant="150" id="FCO-dM-aGF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="24"/>
@@ -432,6 +430,6 @@
         <image name="Waitline Background.jpg" width="750" height="1334"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YY0-vT-ICC"/>
+        <segue reference="OW1-1z-00b"/>
     </inferredMetricsTieBreakers>
 </document>

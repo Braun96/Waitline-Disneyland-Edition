@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class AboutViewController: UIViewController {
     
     @IBOutlet weak var aboutTextView: UITextView!
@@ -20,6 +21,7 @@ class AboutViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+       
         
         aboutTextView.setContentOffset(CGPoint.zero, animated: false)
     }

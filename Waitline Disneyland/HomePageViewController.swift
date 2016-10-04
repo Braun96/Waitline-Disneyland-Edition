@@ -106,51 +106,101 @@ class HomePageViewController: UIViewController {
         let versionDefaults = UserDefaults.standard
         
         switch version {
-        case "2.9" :
-            if versionDefaults.bool(forKey: "2.9") {
+            
+        case "3.1" :
+            if versionDefaults.bool(forKey: "version 3.1") {
                 //has updated
-                print("Correct Version Number")
+                print("Correct Version Number \(version)")
             } else {
-                versionDefaults.set(true, forKey: "version2.9")
+                versionDefaults.set(true, forKey: "version3.1")
                 versionDefaults.synchronize()
                 CoreDataReset()
-                print("upadated")
+                print("updated by case \(version)")
             }
+            
+        case "3" :
+            if versionDefaults.bool(forKey: "version3") {
+                //has updated
+                print("Correct Version Number \(version)")
+            } else {
+                versionDefaults.set(true, forKey: "version3")
+                versionDefaults.synchronize()
+                CoreDataReset()
+                print("updated by case \(version)")
+            }
+            
         case "3.0" :
             if versionDefaults.bool(forKey: "version3.0") {
                 //has updated
-                print("Correct Version Number")
+                print("Correct Version Number \(version)")
             } else {
                 versionDefaults.set(true, forKey: "version3.0")
                 versionDefaults.synchronize()
                 CoreDataReset()
-                print("updated")
+                print("updated by case \(version)")
             }
-        case "2.7" :
-            if versionDefaults.bool(forKey: "version2.7") {
+        
+        case "2.9" :
+            if versionDefaults.bool(forKey: "2.9") {
                 //has updated
-                print("Correct Version Number")
+                print("Correct Version Number \(version)")
             } else {
-                versionDefaults.set(true, forKey: "version2.7")
+                versionDefaults.set(true, forKey: "version2.9")
                 versionDefaults.synchronize()
                 CoreDataReset()
-                print("updated")
+                print("updated by case \(version)")
             }
+            
         case "2.8" :
             if versionDefaults.bool(forKey: "version2.8") {
                 //has updated
-                print("Correct Version Number")
+                print("Correct Version Number \(version)")
             } else {
                 versionDefaults.set(true, forKey: "version2.8")
                 versionDefaults.synchronize()
                 CoreDataReset()
-                print("updated")
+                print("updated by case \(version)")
+            }
+            
+        case "2.7" :
+            if versionDefaults.bool(forKey: "version2.7") {
+                //has updated
+                print("Correct Version Number \(version)")
+            } else {
+                versionDefaults.set(true, forKey: "version2.7")
+                versionDefaults.synchronize()
+                CoreDataReset()
+                print("updated by case \(version)")
+            }
+        
+        case "2.6" :
+            if versionDefaults.bool(forKey: "version2.6") {
+                //has updated
+                print("Correct Version Number \(version)")
+            } else {
+                versionDefaults.set(true, forKey: "version2.6")
+                versionDefaults.synchronize()
+                CoreDataReset()
+                print("updated by case \(version)")
+            }
+        case "2.5" :
+            if versionDefaults.bool(forKey: "version2.5") {
+                //has updated
+                print("Correct Version Number \(version)")
+            } else {
+                versionDefaults.set(true, forKey: "version2.5")
+                versionDefaults.synchronize()
+                CoreDataReset()
+                print("updated by case \(version)")
             }
         default :
-            versionDefaults.set(true, forKey: "version2.8")
+            if versionDefaults.bool(forKey: "versiondefault")   {
+                print("Correct Version Number \(version)")
+            } else {
+            versionDefaults.set(true, forKey: "versiondefault")
             versionDefaults.synchronize()
             CoreDataReset()
-            print("updated")
+            print("updated by default \(version)")
         }
     }
     
@@ -163,6 +213,9 @@ class HomePageViewController: UIViewController {
         let backButton = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: nil)
         backButton.setTitleTextAttributes([NSFontAttributeName: UIFont(name: "Mouse Memoirs", size: 24)!], for: UIControlState())
         navigationItem.backBarButtonItem = backButton
+        
+        
+        
         self.navigationController!.navigationBar.isHidden = true
 
         
