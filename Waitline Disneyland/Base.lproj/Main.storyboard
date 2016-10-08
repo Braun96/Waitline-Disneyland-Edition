@@ -62,6 +62,12 @@
                                     <action selector="helpPressed:" destination="EZ2-Yy-jOa" eventType="touchUpInside" id="D12-A1-dXj"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6GG-2k-6Rv" customClass="GADBannerView">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="Q8s-d5-BUc"/>
+                                    <constraint firstAttribute="height" constant="50" id="dYz-lm-uHl"/>
+                                </constraints>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3s-32-6b3" customClass="CustomHPButton" customModule="Waitline_Disneyland" customModuleProvider="target">
                                 <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="22"/>
                                 <state key="normal" title="Reset Answers">
@@ -75,9 +81,9 @@
                         <constraints>
                             <constraint firstItem="Hjx-Iv-6kd" firstAttribute="centerX" secondItem="LWl-Nz-Y6e" secondAttribute="centerX" id="4AU-MX-V4i"/>
                             <constraint firstItem="v6o-6c-h9u" firstAttribute="top" secondItem="Hjx-Iv-6kd" secondAttribute="bottom" constant="11" id="4tw-BB-wNp"/>
-                            <constraint firstItem="Cd3-zE-5Fm" firstAttribute="top" secondItem="V3s-32-6b3" secondAttribute="bottom" constant="8" id="6so-Wb-kII"/>
                             <constraint firstItem="dvh-Md-CbF" firstAttribute="leading" secondItem="w31-hg-DyM" secondAttribute="trailing" constant="8" id="DSd-5y-H1v"/>
                             <constraint firstAttribute="leadingMargin" secondItem="V3s-32-6b3" secondAttribute="leading" id="Dx4-QQ-5Gr"/>
+                            <constraint firstItem="Cd3-zE-5Fm" firstAttribute="top" secondItem="6GG-2k-6Rv" secondAttribute="bottom" id="GDA-ht-evQ"/>
                             <constraint firstItem="Hjx-Iv-6kd" firstAttribute="centerY" secondItem="LWl-Nz-Y6e" secondAttribute="centerY" id="Nqo-q7-vvt"/>
                             <constraint firstItem="nPs-eZ-6mc" firstAttribute="leading" secondItem="LWl-Nz-Y6e" secondAttribute="leadingMargin" id="NsJ-Cj-XnF"/>
                             <constraint firstItem="Cd3-zE-5Fm" firstAttribute="top" secondItem="nSt-0b-NpF" secondAttribute="bottom" id="QaO-RN-sTR"/>
@@ -86,7 +92,9 @@
                             <constraint firstItem="w31-hg-DyM" firstAttribute="top" secondItem="v6o-6c-h9u" secondAttribute="bottom" constant="15" id="SkK-hx-Cui"/>
                             <constraint firstItem="v6o-6c-h9u" firstAttribute="leading" secondItem="LWl-Nz-Y6e" secondAttribute="leadingMargin" id="TXA-wK-nGF"/>
                             <constraint firstItem="nPs-eZ-6mc" firstAttribute="trailing" secondItem="LWl-Nz-Y6e" secondAttribute="trailingMargin" id="Vdh-Qi-Hka"/>
+                            <constraint firstItem="6GG-2k-6Rv" firstAttribute="top" secondItem="V3s-32-6b3" secondAttribute="bottom" constant="8" id="W60-Nq-48S"/>
                             <constraint firstItem="nSt-0b-NpF" firstAttribute="top" secondItem="aqa-px-ctO" secondAttribute="bottom" id="WWD-g5-5kP"/>
+                            <constraint firstItem="6GG-2k-6Rv" firstAttribute="centerX" secondItem="LWl-Nz-Y6e" secondAttribute="centerX" id="YYA-dG-Znx"/>
                             <constraint firstAttribute="leadingMargin" secondItem="w31-hg-DyM" secondAttribute="leading" id="jfr-ax-kj2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dvh-Md-CbF" secondAttribute="trailing" id="l5j-ky-IHb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nSt-0b-NpF" secondAttribute="trailing" constant="-20" id="mHZ-1G-C2i"/>
@@ -97,6 +105,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="QGv-Qa-Wxl"/>
                     <connections>
+                        <outlet property="adBannerView" destination="6GG-2k-6Rv" id="GVT-bZ-ajo"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="PlayToLandSelector" id="V7F-j3-HO9"/>
                         <segue destination="lMl-2i-Gys" kind="show" identifier="HelpButtonPressed" id="OW1-1z-00b"/>
                         <segue destination="4bZ-Hj-WRe" kind="show" identifier="AboutViewControllerSegue" id="9Ho-2b-7lD"/>
@@ -150,6 +159,13 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5wr-MZ-tdk" customClass="GADBannerView">
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="JYg-bl-j4Z"/>
+                                    <constraint firstAttribute="width" constant="320" id="vuy-7M-6Ge"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -157,11 +173,14 @@
                             <constraint firstItem="eMp-lX-1zh" firstAttribute="leading" secondItem="fVm-BE-Bep" secondAttribute="leadingMargin" constant="15" id="B0O-Ao-r3R"/>
                             <constraint firstItem="eMp-lX-1zh" firstAttribute="top" secondItem="LYy-oq-F9g" secondAttribute="bottom" constant="47" id="BCZ-aR-74E"/>
                             <constraint firstAttribute="trailingMargin" secondItem="eMp-lX-1zh" secondAttribute="trailing" constant="15" id="FXD-o0-39a"/>
-                            <constraint firstItem="WMb-5D-UY1" firstAttribute="top" secondItem="eMp-lX-1zh" secondAttribute="bottom" constant="8" id="aWa-Rf-Leh"/>
+                            <constraint firstItem="WMb-5D-UY1" firstAttribute="top" secondItem="5wr-MZ-tdk" secondAttribute="bottom" id="TWe-5X-fSH"/>
+                            <constraint firstItem="5wr-MZ-tdk" firstAttribute="centerX" secondItem="fVm-BE-Bep" secondAttribute="centerX" id="Tn9-3E-hBe"/>
                             <constraint firstItem="LYy-oq-F9g" firstAttribute="centerX" secondItem="fVm-BE-Bep" secondAttribute="centerX" id="evO-IW-1DJ"/>
+                            <constraint firstItem="5wr-MZ-tdk" firstAttribute="top" secondItem="eMp-lX-1zh" secondAttribute="bottom" constant="8" id="g6j-UU-T9e"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="adBannerView" destination="5wr-MZ-tdk" id="lcP-4Q-UKs"/>
                         <outlet property="helpTextView" destination="eMp-lX-1zh" id="5eo-F3-Ub4"/>
                     </connections>
                 </viewController>
@@ -195,25 +214,35 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" address="YES"/>
                             </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V3C-Ix-K5c" customClass="GADBannerView">
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="8CW-NA-tQx"/>
+                                    <constraint firstAttribute="height" constant="50" id="vF0-1L-KoU"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="4AV-Mk-RJc" firstAttribute="top" secondItem="V3C-Ix-K5c" secondAttribute="bottom" id="6zq-IC-1te"/>
                             <constraint firstItem="pfk-n7-Rg3" firstAttribute="leading" secondItem="p9T-JV-X2d" secondAttribute="leading" constant="10" id="7SR-34-ixu"/>
                             <constraint firstAttribute="trailing" secondItem="GXI-QR-6yD" secondAttribute="trailing" constant="15" id="IY1-du-Txw"/>
+                            <constraint firstItem="V3C-Ix-K5c" firstAttribute="top" secondItem="GXI-QR-6yD" secondAttribute="bottom" constant="8" id="ImD-Rf-vhz"/>
                             <constraint firstItem="GXI-QR-6yD" firstAttribute="leading" secondItem="p9T-JV-X2d" secondAttribute="leading" constant="15" id="OUj-a6-aug"/>
                             <constraint firstItem="GXI-QR-6yD" firstAttribute="top" secondItem="pfk-n7-Rg3" secondAttribute="bottom" constant="20" id="PoD-xg-iG6"/>
+                            <constraint firstItem="V3C-Ix-K5c" firstAttribute="centerX" secondItem="p9T-JV-X2d" secondAttribute="centerX" id="RRS-lX-Qm4"/>
                             <constraint firstAttribute="trailing" secondItem="pfk-n7-Rg3" secondAttribute="trailing" constant="10" id="Sih-sT-3Op"/>
-                            <constraint firstItem="4AV-Mk-RJc" firstAttribute="top" secondItem="GXI-QR-6yD" secondAttribute="bottom" constant="8" id="apD-Gq-sKA"/>
                             <constraint firstItem="pfk-n7-Rg3" firstAttribute="top" secondItem="dHm-P3-lYW" secondAttribute="bottom" constant="43" id="bra-6s-Xcl"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="aboutTextView" destination="GXI-QR-6yD" id="1EG-aB-76Q"/>
+                        <outlet property="adBannerView" destination="V3C-Ix-K5c" id="Lvm-dZ-PfO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="08y-zR-QhF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1352" y="1214"/>
+            <point key="canvasLocation" x="-1352.8" y="1213.9430284857572"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -312,23 +341,33 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="40" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="05Z-yE-yWL">
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6Q-CT-owF" customClass="GADBannerView">
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="69S-Py-Clp"/>
+                                    <constraint firstAttribute="height" constant="50" id="hRU-Ut-aog"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="h6Q-CT-owF" firstAttribute="centerX" secondItem="B8V-6l-Sp9" secondAttribute="centerX" id="04x-Tn-A0H"/>
+                            <constraint firstItem="ETk-Vb-9a3" firstAttribute="top" secondItem="h6Q-CT-owF" secondAttribute="bottom" id="5Fs-m8-ppm"/>
                             <constraint firstItem="05Z-yE-yWL" firstAttribute="top" secondItem="B8V-6l-Sp9" secondAttribute="top" id="6Qg-S2-WXK"/>
                             <constraint firstAttribute="trailing" secondItem="05Z-yE-yWL" secondAttribute="trailing" id="B0U-S2-ih8"/>
                             <constraint firstItem="05Z-yE-yWL" firstAttribute="leading" secondItem="B8V-6l-Sp9" secondAttribute="leading" id="LkS-2A-Y1m"/>
-                            <constraint firstItem="ETk-Vb-9a3" firstAttribute="top" secondItem="05Z-yE-yWL" secondAttribute="bottom" id="nM3-bj-IIL"/>
+                            <constraint firstItem="h6Q-CT-owF" firstAttribute="top" secondItem="05Z-yE-yWL" secondAttribute="bottom" constant="8" id="e30-lX-7H4"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="adBannerView" destination="h6Q-CT-owF" id="Mc3-pd-uFG"/>
                         <outlet property="questionsTableView" destination="05Z-yE-yWL" id="7ov-Bq-exH"/>
                         <segue destination="hVd-jp-3A4" kind="show" identifier="QuestionsToQuestionInterface" id="UuJ-OZ-yDY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tSu-cz-jxk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1385.5999999999999" y="346.32683658170919"/>
+            <point key="canvasLocation" x="1384.8" y="345.87706146926541"/>
         </scene>
         <!--Question Interface View Controller-->
         <scene sceneID="22X-9A-iHa">

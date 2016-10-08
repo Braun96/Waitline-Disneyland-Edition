@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMobileAds
 fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
   switch (lhs, rhs) {
   case let (l?, r?):
@@ -19,9 +20,10 @@ fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 }
 
 
-class QuestionsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class QuestionsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, GADBannerViewDelegate{
 
     @IBOutlet weak var questionsTableView: UITableView!
+    @IBOutlet weak var adBannerView: GADBannerView!
     
 
     var land : Land?
@@ -44,6 +46,14 @@ class QuestionsViewController: UIViewController, UITableViewDataSource, UITableV
         navigationItem.backBarButtonItem = backButton
 
         questions.sort(by: {$0.questionInt?.int32Value < $1.questionInt?.int32Value})
+        
+        let request = GADRequest()
+        request.testDevices = [kGADSimulatorID]
+        adBannerView.delegate = self
+        adBannerView.adSize = kGADAdSizeBanner
+        adBannerView.adUnitID = "ca-app-pub-6204815189288145/4633140519"
+        adBannerView.rootViewController = self
+        adBannerView.load(request)
         
 
    }

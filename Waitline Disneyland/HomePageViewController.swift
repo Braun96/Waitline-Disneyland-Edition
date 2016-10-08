@@ -8,10 +8,12 @@
 
 import UIKit
 import CoreData
+import GoogleMobileAds
 
 
-class HomePageViewController: UIViewController {
+class HomePageViewController: UIViewController, GADBannerViewDelegate {
     
+    @IBOutlet weak var adBannerView: GADBannerView!
 
     let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
     
@@ -107,6 +109,45 @@ class HomePageViewController: UIViewController {
         
         switch version {
             
+        case "3.5" :
+            if versionDefaults.bool(forKey: "version 3.5") {
+                
+                print("Correct Version Number \(version)")
+                
+            } else {
+                versionDefaults.set(true, forKey: "version 3.5")
+                versionDefaults.synchronize()
+                CoreDataReset()
+                print("updated by case \(version)")
+                
+            }
+            
+        case "3.4" :
+            if versionDefaults.bool(forKey: "version 3.4") {
+                
+                print("Correct Version Number \(version)")
+                
+            } else {
+                versionDefaults.set(true, forKey: "version 3.4")
+                versionDefaults.synchronize()
+                CoreDataReset()
+                print("updated by case \(version)")
+                
+            }
+            
+        case "3.3" :
+            if versionDefaults.bool(forKey: "version 3.3") {
+                
+                print("Correct Version Number \(version)")
+                
+            } else {
+                versionDefaults.set(true, forKey: "version 3.3")
+                versionDefaults.synchronize()
+                CoreDataReset()
+                print("updated by case \(version)")
+                
+            }
+            
         case "3.2" :
             if versionDefaults.bool(forKey: "version 3.2") {
                 
@@ -165,60 +206,12 @@ class HomePageViewController: UIViewController {
                 print("updated by case \(version)")
             }
             
-        case "2.8" :
-            if versionDefaults.bool(forKey: "version2.8") {
-                //has updated
-                print("Correct Version Number \(version)")
-            } else {
-                versionDefaults.set(true, forKey: "version2.8")
-                versionDefaults.synchronize()
-                CoreDataReset()
-                print("updated by case \(version)")
-            }
-            
-        case "2.7" :
-            if versionDefaults.bool(forKey: "version2.7") {
-                //has updated
-                print("Correct Version Number \(version)")
-            } else {
-                versionDefaults.set(true, forKey: "version2.7")
-                versionDefaults.synchronize()
-                CoreDataReset()
-                print("updated by case \(version)")
-            }
-        
-        case "2.6" :
-            if versionDefaults.bool(forKey: "version2.6") {
-                //has updated
-                print("Correct Version Number \(version)")
-            } else {
-                versionDefaults.set(true, forKey: "version2.6")
-                versionDefaults.synchronize()
-                CoreDataReset()
-                print("updated by case \(version)")
-            }
-        case "2.5" :
-            if versionDefaults.bool(forKey: "version2.5") {
-                //has updated
-                print("Correct Version Number \(version)")
-            } else {
-                versionDefaults.set(true, forKey: "version2.5")
-                versionDefaults.synchronize()
-                CoreDataReset()
-                print("updated by case \(version)")
-            }
         default :
             print("We hit the default case for some reason")
-            if versionDefaults.bool(forKey: "versiondefault")   {
-                print("Correct Version Number \(version)")
-            } else {
-            versionDefaults.set(true, forKey: "versiondefault")
-            versionDefaults.synchronize()
-            CoreDataReset()
-            print("updated by default \(version)")
-            }
-        }
+            
     }
+    }
+
 
     
     
@@ -231,17 +224,26 @@ class HomePageViewController: UIViewController {
         backButton.setTitleTextAttributes([NSFontAttributeName: UIFont(name: "Mouse Memoirs", size: 24)!], for: UIControlState())
         navigationItem.backBarButtonItem = backButton
         
+        let request = GADRequest()
+        request.testDevices = [kGADSimulatorID]
+        adBannerView.delegate = self
+        adBannerView.adSize = kGADAdSizeBanner
+        adBannerView.adUnitID = "ca-app-pub-6204815189288145/4633140519"
+        adBannerView.rootViewController = self
+        adBannerView.load(request)
+        
+        
         
         
         self.navigationController!.navigationBar.isHidden = true
 
         
-    }
-    
+}
+
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController!.navigationBar.isHidden = true
 
-    }
 }
 
+}
 
