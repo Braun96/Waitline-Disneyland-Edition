@@ -14,6 +14,10 @@ import GoogleMobileAds
 class HomePageViewController: UIViewController, GADBannerViewDelegate {
     
     @IBOutlet weak var adBannerView: GADBannerView!
+    @IBOutlet weak var ScoreLabel: UILabel!
+    
+    var Score = 0
+    
 
     let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
     
@@ -39,6 +43,7 @@ class HomePageViewController: UIViewController, GADBannerViewDelegate {
         let managedContext = appDelegate.managedObjectContext
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Land")
         fetchRequest.returnsObjectsAsFaults = false
+
         do
         {
             let results = try managedContext.fetch(fetchRequest)
@@ -56,6 +61,9 @@ class HomePageViewController: UIViewController, GADBannerViewDelegate {
         let managedContext = appDelegate.managedObjectContext
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Land")
         fetchRequest.returnsObjectsAsFaults = false
+        let ScoreDefault = UserDefaults.standard
+        ScoreDefault.removeObject(forKey: "Score")
+        ScoreDefault.synchronize()
         do
         {
             let results = try managedContext.fetch(fetchRequest)
@@ -64,6 +72,7 @@ class HomePageViewController: UIViewController, GADBannerViewDelegate {
                 let managedObjectData:NSManagedObject = managedObject as! NSManagedObject
                 managedContext.delete(managedObjectData)
             }
+            ScoreLabel.text = "0 Points"
             CompletionAlert()
         } catch {
             print("There Was an error")
@@ -72,7 +81,7 @@ class HomePageViewController: UIViewController, GADBannerViewDelegate {
     }
     
     func FailedCompletionAlert() {
-        let failedCompletionAlert = UIAlertController(title: "Something Went Wrong", message: "Sorry folks! Something when wrong when trying to delete your answers. Please try again later", preferredStyle: .alert)
+        let failedCompletionAlert = UIAlertController(title: "Something Went Wrong", message: "Sorry folks! Something when wrong when trying to delete your answers and score. Please try again later", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) {
             UIAlertAction in failedCompletionAlert.dismiss(animated: true, completion: nil)
         }
@@ -81,7 +90,7 @@ class HomePageViewController: UIViewController, GADBannerViewDelegate {
     }
     
     func CompletionAlert() {
-        let completedAlert = UIAlertController(title: "Sucess!", message: "Your answers were sucessfully deleted!", preferredStyle: .alert)
+        let completedAlert = UIAlertController(title: "Sucess!", message: "Your answers and score were sucessfully deleted!", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.default) {
             UIAlertAction in completedAlert.dismiss(animated: true, completion: nil)
         }
@@ -109,6 +118,18 @@ class HomePageViewController: UIViewController, GADBannerViewDelegate {
         
         switch version {
             
+        case "4.0" :
+            if versionDefaults.bool(forKey: "version 4.0") {
+                
+                print("Correct Version Number \(version)")
+                
+            } else {
+                versionDefaults.set(true, forKey: "version 4.0")
+                versionDefaults.synchronize()
+                CoreDataReset()
+                print("updated by case \(version)")
+                
+            }
         case "3.5" :
             if versionDefaults.bool(forKey: "version 3.5") {
                 
@@ -194,17 +215,6 @@ class HomePageViewController: UIViewController, GADBannerViewDelegate {
                 CoreDataReset()
                 print("updated by case \(version)")
             }
-        
-        case "2.9" :
-            if versionDefaults.bool(forKey: "2.9") {
-                //has updated
-                print("Correct Version Number \(version)")
-            } else {
-                versionDefaults.set(true, forKey: "version2.9")
-                versionDefaults.synchronize()
-                CoreDataReset()
-                print("updated by case \(version)")
-            }
             
         default :
             print("We hit the default case for some reason")
@@ -233,6 +243,10 @@ class HomePageViewController: UIViewController, GADBannerViewDelegate {
         adBannerView.load(request)
         
         
+
+        
+        
+        
         
         
         self.navigationController!.navigationBar.isHidden = true
@@ -242,6 +256,13 @@ class HomePageViewController: UIViewController, GADBannerViewDelegate {
 
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController!.navigationBar.isHidden = true
+        
+        let ScoreDefault = UserDefaults.standard
+        
+        if (ScoreDefault.value(forKey: "Score") != nil) {
+            Score = ScoreDefault.value(forKey: "Score") as! NSInteger
+            ScoreLabel.text = NSString(format: "%i Points", Score) as String?
+        }
 
 }
 

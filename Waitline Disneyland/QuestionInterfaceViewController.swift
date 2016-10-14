@@ -12,7 +12,9 @@ import AVFoundation
 
 class QuestionInterfaceViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var scoreLabel: UILabel!
     var answerSound = AVAudioPlayer()
+    var Score = 0
     var question : Questions?
     
 
@@ -49,6 +51,7 @@ class QuestionInterfaceViewController: UIViewController, UITextFieldDelegate {
             
 // Correct Outcome
         } else if inputTextField.text?.lowercased() == self.correctAnswer.lowercased() {
+            PointFunc()
             inputTextField.backgroundColor = correctColor
             do {
                 self.answerSound = try AVAudioPlayer(contentsOf: correctURL, fileTypeHint: nil)
@@ -89,6 +92,7 @@ class QuestionInterfaceViewController: UIViewController, UITextFieldDelegate {
             
             // Correct Outcome
         } else if inputTextField.text?.lowercased() == self.correctAnswer.lowercased() {
+            PointFunc()
             inputTextField.backgroundColor = correctColor
             do {
                 self.answerSound = try AVAudioPlayer(contentsOf: correctURL, fileTypeHint: nil)
@@ -119,6 +123,23 @@ class QuestionInterfaceViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    func PointFunc() {
+        if question?.answerBool == false {
+            Score+=5
+            scoreLabel.text = NSString(format: "%i Points", Score) as String
+            
+            self.question?.answerBool = true
+            
+            let ScoreDefault = UserDefaults.standard
+            ScoreDefault.set(Score, forKey: "Score")
+            ScoreDefault.synchronize()
+            
+            
+        } else {
+            
+        }
+    }
+    
    
     
     
@@ -137,17 +158,21 @@ class QuestionInterfaceViewController: UIViewController, UITextFieldDelegate {
         //Keyboard Type Checker
         
         if self.question?.keyboardType == true {
-            
             self.inputTextField.keyboardType = UIKeyboardType.default
-            
         } else if self.question?.keyboardType == false {
-            
            self.inputTextField.keyboardType = UIKeyboardType.numberPad
-        
         } else {
-            
             self.inputTextField.keyboardType = UIKeyboardType.default
         }
+        
+        
+        let ScoreDefault = UserDefaults.standard
+        
+        if (ScoreDefault.value(forKey: "Score") != nil) {
+            Score = ScoreDefault.value(forKey: "Score") as! NSInteger
+            scoreLabel.text = NSString(format: "%i Points", Score) as String?
+        }
+        
 
 
         

@@ -135,6 +135,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         msWindows1.correctAnswer = "Marc Davis"
         msWindows1.keyboardType = true
         msWindows1.resultImage = greyMouse
+        msWindows1.answerBool = false
         msWindows1.questionInt = 1
         msWindows1.land = mainStreetUSA
         
@@ -144,6 +145,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         msWindows2.correctAnswer = "to order"
         msWindows2.keyboardType = true
         msWindows2.resultImage = greyMouse
+        msWindows2.answerBool = false
         msWindows2.questionInt = 2
         msWindows2.land = mainStreetUSA
         
@@ -153,6 +155,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         msWindows3.correctAnswer = "The Magic Shop"
         msWindows3.keyboardType = true
         msWindows3.resultImage = greyMouse
+        msWindows3.answerBool = false
         msWindows3.questionInt = 3
         msWindows3.land = mainStreetUSA
         
@@ -162,6 +165,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         msWindows4.correctAnswer = "Mayor"
         msWindows4.keyboardType = true
         msWindows4.resultImage = greyMouse
+        msWindows4.answerBool = false
         msWindows4.questionInt = 4
         msWindows4.land = mainStreetUSA
         
@@ -171,6 +175,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         msWindows5.correctAnswer = "Contractor"
         msWindows5.keyboardType = true
         msWindows5.resultImage = greyMouse
+        msWindows5.answerBool = false
         msWindows5.questionInt = 5
         msWindows5.land = mainStreetUSA
         
@@ -181,6 +186,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         msCars1.correctAnswer = "1"
         msCars1.keyboardType = false
         msCars1.resultImage = greyMouse
+        msCars1.answerBool = false
         msCars1.questionInt = 51
         msCars1.land = mainStreetUSA
         
@@ -190,6 +196,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         msCars2.correctAnswer = "Green"
         msCars2.keyboardType = true
         msCars2.resultImage = greyMouse
+        msCars2.answerBool = false
         msCars2.questionInt = 52
         msCars2.land = mainStreetUSA
         
@@ -199,6 +206,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         msCars3.correctAnswer = "white"
         msCars3.keyboardType = true
         msCars3.resultImage = greyMouse
+        msCars3.answerBool = false
         msCars3.questionInt = 53
         msCars3.land = mainStreetUSA
         
@@ -209,6 +217,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         msFood.correctAnswer = "Plaza Inn"
         msFood.keyboardType = true
         msFood.resultImage = greyMouse
+        msFood.answerBool = false
         msFood.questionInt = 101
         msFood.land = mainStreetUSA
         
@@ -219,6 +228,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         msCinema1.correctAnswer = "6"
         msCinema1.keyboardType = false
         msCinema1.resultImage = greyMouse
+        msCinema1.answerBool = false
         msCinema1.questionInt = 151
         msCinema1.land = mainStreetUSA
         
@@ -228,6 +238,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         msCinema2.correctAnswer = "Tilly"
         msCinema2.keyboardType = true
         msCinema2.resultImage = greyMouse
+        msCinema2.answerBool = false
         msCinema2.questionInt = 152
         msCinema2.land = mainStreetUSA
         
@@ -238,6 +249,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         fireDepartment.correctAnswer = "105"
         fireDepartment.keyboardType = false
         fireDepartment.resultImage = greyMouse
+        fireDepartment.answerBool = false
         fireDepartment.questionInt = 201
         fireDepartment.land = mainStreetUSA
         
@@ -247,6 +259,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         movieTime.correctAnswer = "Steamboat Willie"
         movieTime.keyboardType = true
         movieTime.resultImage = greyMouse
+        movieTime.answerBool = false
         movieTime.questionInt = 202
         movieTime.land = mainStreetUSA
         
@@ -254,8 +267,9 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         president.questionTitle = "President"
         president.theQuestion = "Which President of the United States is audio-animatronically represented in a show on Main Street? (Two Words)"
         president.correctAnswer = "Abraham Lincoln"
-        president.resultImage = greyMouse
         president.keyboardType = true
+        president.resultImage = greyMouse
+        president.answerBool = false
         president.questionInt = 203
         president.land = mainStreetUSA
         
@@ -265,6 +279,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         trains.correctAnswer = "Lilly Belle"
         trains.keyboardType = true
         trains.resultImage = greyMouse
+        trains.answerBool = false
         trains.questionInt = 204
         trains.land = mainStreetUSA
         
@@ -274,6 +289,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         statue.correctAnswer = "Partners"
         statue.keyboardType = true
         statue.resultImage = greyMouse
+        statue.answerBool = false
         statue.questionInt = 205
         statue.land = mainStreetUSA
         
@@ -283,6 +299,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         moreStatues.correctAnswer = "8"
         moreStatues.keyboardType = false
         moreStatues.resultImage = greyMouse
+        moreStatues.answerBool = false
         moreStatues.questionInt = 206
         moreStatues.land = mainStreetUSA
         
@@ -292,6 +309,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         ridingTheRails.correctAnswer = "4"
         ridingTheRails.keyboardType = false
         ridingTheRails.resultImage = greyMouse
+        ridingTheRails.answerBool = false
         ridingTheRails.questionInt = 207
         ridingTheRails.land = mainStreetUSA
         
@@ -301,6 +319,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         moreTrains.correctAnswer = "Wife"
         moreTrains.keyboardType = true
         moreTrains.resultImage = greyMouse
+        moreTrains.answerBool = false
         moreTrains.questionInt = 208
         moreTrains.land = mainStreetUSA
         
@@ -310,6 +329,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         workingHard.correctAnswer = "Cast Members"
         workingHard.keyboardType = true
         workingHard.resultImage = greyMouse
+        workingHard.answerBool = false
         workingHard.questionInt = 209
         workingHard.land = mainStreetUSA
         
@@ -319,6 +339,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         playingHard.correctAnswer = "Attractions"
         playingHard.keyboardType = true
         playingHard.resultImage = greyMouse
+        playingHard.answerBool = false
         playingHard.questionInt = 210
         playingHard.land = mainStreetUSA
         
@@ -328,6 +349,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         redWagon.correctAnswer = "Corn Dogs"
         redWagon.keyboardType = true
         redWagon.resultImage = greyMouse
+        redWagon.answerBool = false
         redWagon.questionInt = 211
         redWagon.land = mainStreetUSA
         
@@ -337,6 +359,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         saying.correctAnswer = "Fantasy"
         saying.keyboardType = true
         saying.resultImage = greyMouse
+        saying.answerBool = false
         saying.questionInt = 212
         saying.land = mainStreetUSA
         
@@ -346,6 +369,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         apartment.correctAnswer = "Firehouse"
         apartment.keyboardType = true
         apartment.resultImage = greyMouse
+        apartment.answerBool = false
         apartment.questionInt = 213
         apartment.land = mainStreetUSA
         
@@ -355,6 +379,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         boom.correctAnswer = "Cannons"
         boom.keyboardType = true
         boom.resultImage = greyMouse
+        boom.answerBool = false
         boom.questionInt = 214
         boom.land = mainStreetUSA
         
@@ -364,6 +389,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         buildings.correctAnswer = "The Opera House"
         buildings.keyboardType = true
         buildings.resultImage = greyMouse
+        buildings.answerBool = false
         buildings.questionInt = 215
         buildings.land = mainStreetUSA
         
@@ -373,6 +399,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         trainRide.correctAnswer = "Grand"
         trainRide.keyboardType = true
         trainRide.resultImage = greyMouse
+        trainRide.answerBool = false
         trainRide.questionInt = 216
         trainRide.land = mainStreetUSA
         
@@ -383,6 +410,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         visitors.correctAnswer = "Guests"
         visitors.keyboardType = true
         visitors.resultImage = greyMouse
+        visitors.answerBool = false
         visitors.questionInt = 217
         visitors.land = mainStreetUSA
         
@@ -392,6 +420,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         stayHappy.correctAnswer = "City Hall"
         stayHappy.keyboardType = true
         stayHappy.resultImage = greyMouse
+        stayHappy.answerBool = false
         stayHappy.questionInt = 218
         stayHappy.land = mainStreetUSA
         
@@ -401,6 +430,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         fortuneTelling.correctAnswer = "Esmeralda"
         fortuneTelling.keyboardType = true
         fortuneTelling.resultImage = greyMouse
+        fortuneTelling.answerBool = false
         fortuneTelling.questionInt = 219
         fortuneTelling.land = mainStreetUSA
         
@@ -410,6 +440,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         lookClosely.correctAnswer = "Windows"
         lookClosely.keyboardType = true
         lookClosely.resultImage = greyMouse
+        lookClosely.answerBool = false
         lookClosely.questionInt = 220
         lookClosely.land = mainStreetUSA
 
@@ -419,6 +450,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         elevation.correctAnswer = "138"
         elevation.keyboardType = false
         elevation.resultImage = greyMouse
+        elevation.answerBool = false
         elevation.questionInt = 221
         elevation.land = mainStreetUSA
         
@@ -428,6 +460,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         bakery.correctAnswer = "Jolly Holiday"
         bakery.keyboardType = true
         bakery.resultImage = greyMouse
+        bakery.answerBool = false
         bakery.questionInt = 222
         bakery.land = mainStreetUSA
         
@@ -437,6 +470,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         caboose.correctAnswer = "106"
         caboose.keyboardType = false
         caboose.resultImage = greyMouse
+        caboose.answerBool = false
         caboose.questionInt = 223
         caboose.land = mainStreetUSA
         
@@ -446,6 +480,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         posters.correctAnswer = "8"
         posters.keyboardType = false
         posters.resultImage = greyMouse
+        posters.answerBool = false
         posters.questionInt = 224
         posters.land = mainStreetUSA
         
@@ -455,6 +490,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         operaHouse.correctAnswer = "2"
         operaHouse.keyboardType = false
         operaHouse.resultImage = greyMouse
+        operaHouse.answerBool = false
         operaHouse.questionInt = 225
         operaHouse.land = mainStreetUSA
         
@@ -464,6 +500,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         emporium.correctAnswer = "101"
         emporium.keyboardType = false
         emporium.resultImage = greyMouse
+        emporium.answerBool = false
         emporium.questionInt = 226
         emporium.land = mainStreetUSA
         
@@ -473,6 +510,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         palmParlor.correctAnswer = "fargo's palm parlor"
         palmParlor.keyboardType = true
         palmParlor.resultImage = greyMouse
+        palmParlor.answerBool = false
         palmParlor.questionInt = 227
         palmParlor.land = mainStreetUSA
         
@@ -482,6 +520,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         plazaInn.correctAnswer = "pink"
         plazaInn.keyboardType = true
         plazaInn.resultImage = greyMouse
+        plazaInn.answerBool = false
         plazaInn.questionInt = 228
         plazaInn.land = mainStreetUSA
         
@@ -523,6 +562,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         tikiRoom1.keyboardType = true
         tikiRoom1.questionInt = 1
         tikiRoom1.resultImage = greyMouse
+        tikiRoom1.answerBool = false
         tikiRoom1.land = adventureland
         
         let tikiRoom2 = Questions(entity: questionDescription!, insertInto: context)
@@ -532,6 +572,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         tikiRoom2.keyboardType = true
         tikiRoom2.questionInt = 2
         tikiRoom2.resultImage = greyMouse
+        tikiRoom2.answerBool = false
         tikiRoom2.land = adventureland
         
         let tikiRoom3 = Questions(entity: questionDescription!, insertInto: context)
@@ -541,6 +582,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         tikiRoom3.keyboardType = true
         tikiRoom3.questionInt = 3
         tikiRoom3.resultImage = greyMouse
+        tikiRoom3.answerBool = false
         tikiRoom3.land = adventureland
         
         let tikiRoom4 = Questions(entity: questionDescription!, insertInto: context)
@@ -550,6 +592,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         tikiRoom4.keyboardType = true
         tikiRoom4.questionInt = 4
         tikiRoom4.resultImage = greyMouse
+        tikiRoom4.answerBool = false
         tikiRoom4.land = adventureland
         
         let tikiRoom5 = Questions(entity: questionDescription!, insertInto: context)
@@ -559,6 +602,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         tikiRoom5.keyboardType = true
         tikiRoom5.questionInt = 5
         tikiRoom5.resultImage = greyMouse
+        tikiRoom5.answerBool = false
         tikiRoom5.land = adventureland
         
         let tikiRoom6 = Questions(entity: questionDescription!, insertInto: context)
@@ -568,6 +612,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         tikiRoom6.keyboardType = true
         tikiRoom6.questionInt = 6
         tikiRoom6.resultImage = greyMouse
+        tikiRoom6.answerBool = false
         tikiRoom6.land = adventureland
         
         let tikiRoom7 = Questions(entity: questionDescription!, insertInto: context)
@@ -577,6 +622,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         tikiRoom7.keyboardType = false
         tikiRoom7.questionInt = 7
         tikiRoom7.resultImage = greyMouse
+        tikiRoom7.answerBool = false
         tikiRoom7.land = adventureland
         
         let tikiRoom8 = Questions(entity: questionDescription!, insertInto: context)
@@ -586,6 +632,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         tikiRoom8.keyboardType = true
         tikiRoom8.questionInt = 8
         tikiRoom8.resultImage = greyMouse
+        tikiRoom8.answerBool = false
         tikiRoom8.land = adventureland
         
         
@@ -599,6 +646,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jungleCruise1.keyboardType = false
         jungleCruise1.questionInt = 51
         jungleCruise1.resultImage = greyMouse
+        jungleCruise1.answerBool = false
         jungleCruise1.land = adventureland
         
         let jungleCruise2 = Questions(entity: questionDescription!, insertInto: context)
@@ -608,6 +656,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jungleCruise2.keyboardType = true
         jungleCruise2.questionInt = 52
         jungleCruise2.resultImage = greyMouse
+        jungleCruise2.answerBool = false
         jungleCruise2.land = adventureland
         
         let jungleCruise3 = Questions(entity: questionDescription!, insertInto: context)
@@ -617,6 +666,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jungleCruise3.keyboardType = false
         jungleCruise3.questionInt = 53
         jungleCruise3.resultImage = greyMouse
+        jungleCruise3.answerBool = false
         jungleCruise3.land = adventureland
         
         let jungleCruise4 = Questions(entity: questionDescription!, insertInto: context)
@@ -626,6 +676,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jungleCruise4.keyboardType = false
         jungleCruise4.questionInt = 54
         jungleCruise4.resultImage = greyMouse
+        jungleCruise4.answerBool = false
         jungleCruise4.land = adventureland
         
         let jungleCruise5 = Questions(entity: questionDescription!, insertInto: context)
@@ -634,6 +685,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jungleCruise5.correctAnswer = "Chess"
         jungleCruise5.keyboardType = true
         jungleCruise5.resultImage = greyMouse
+        jungleCruise5.answerBool = false
         jungleCruise5.questionInt = 55
         jungleCruise5.land = adventureland
     
@@ -643,6 +695,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jungleCruise6.correctAnswer = "Bird"
         jungleCruise6.keyboardType = true
         jungleCruise6.resultImage = greyMouse
+        jungleCruise6.answerBool = false
         jungleCruise6.questionInt = 56
         jungleCruise6.land = adventureland
         
@@ -652,6 +705,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jungleCruise7.correctAnswer = "Gun"
         jungleCruise7.keyboardType = true
         jungleCruise7.resultImage = greyMouse
+        jungleCruise7.answerBool = false
         jungleCruise7.questionInt = 57
         jungleCruise7.land = adventureland
         
@@ -661,6 +715,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jungleCruise8.correctAnswer = "6"
         jungleCruise8.keyboardType = false
         jungleCruise8.resultImage = greyMouse
+        jungleCruise8.answerBool = false
         jungleCruise8.questionInt = 58
         jungleCruise8.land = adventureland
         
@@ -670,6 +725,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jungleCruise9.correctAnswer = "Trader Sam"
         jungleCruise9.keyboardType = true
         jungleCruise9.resultImage = greyMouse
+        jungleCruise9.answerBool = false
         jungleCruise9.questionInt = 59
         jungleCruise9.land = adventureland
         
@@ -679,6 +735,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jungleCruise10.correctAnswer = "Skippers"
         jungleCruise10.keyboardType = true
         jungleCruise10.resultImage = greyMouse
+        jungleCruise10.answerBool = false
         jungleCruise10.questionInt = 60
         jungleCruise10.land = adventureland
         
@@ -690,6 +747,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones1.correctAnswer = "6"
         indianaJones1.keyboardType = false
         indianaJones1.resultImage = greyMouse
+        indianaJones1.answerBool = false
         indianaJones1.questionInt = 101
         indianaJones1.land = adventureland
         
@@ -699,6 +757,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones2.correctAnswer = "Mercedes-Benz"
         indianaJones2.keyboardType = true
         indianaJones2.resultImage = greyMouse
+        indianaJones2.answerBool = false
         indianaJones2.questionInt = 102
         indianaJones2.land = adventureland
         
@@ -708,6 +767,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones3.correctAnswer = "WH-11204"
         indianaJones3.keyboardType = true
         indianaJones3.resultImage = greyMouse
+        indianaJones3.answerBool = false
         indianaJones3.questionInt = 103
         indianaJones3.land = adventureland
         
@@ -717,6 +777,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones4.correctAnswer = "Lost Delta"
         indianaJones4.keyboardType = true
         indianaJones4.resultImage = greyMouse
+        indianaJones4.answerBool = false
         indianaJones4.questionInt = 104
         indianaJones4.land = adventureland
         
@@ -726,6 +787,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones5.correctAnswer = "High Voltage"
         indianaJones5.keyboardType = true
         indianaJones5.resultImage = greyMouse
+        indianaJones5.answerBool = false
         indianaJones5.questionInt = 105
         indianaJones5.land = adventureland
         
@@ -735,6 +797,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones6.correctAnswer = "10"
         indianaJones6.keyboardType = false
         indianaJones6.resultImage = greyMouse
+        indianaJones6.answerBool = false
         indianaJones6.questionInt = 106
         indianaJones6.land = adventureland
         
@@ -744,6 +807,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones7.correctAnswer = "Snake"
         indianaJones7.keyboardType = true
         indianaJones7.resultImage = greyMouse
+        indianaJones7.answerBool = false
         indianaJones7.questionInt = 107
         indianaJones7.land = adventureland
         
@@ -753,6 +817,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones8.correctAnswer = "1"
         indianaJones8.keyboardType = false
         indianaJones8.resultImage = greyMouse
+        indianaJones8.answerBool = false
         indianaJones8.questionInt = 108
         indianaJones8.land = adventureland
         
@@ -762,6 +827,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones9.correctAnswer = "4"
         indianaJones9.keyboardType = false
         indianaJones9.resultImage = greyMouse
+        indianaJones9.answerBool = false
         indianaJones9.questionInt = 109
         indianaJones9.land = adventureland
         
@@ -771,6 +837,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones10.correctAnswer = "Tarzan"
         indianaJones10.keyboardType = true
         indianaJones10.resultImage = greyMouse
+        indianaJones10.answerBool = false
         indianaJones10.questionInt = 110
         indianaJones10.land = adventureland
         
@@ -780,6 +847,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones11.correctAnswer = "The Temple of the Forbidden Eye"
         indianaJones11.keyboardType = true
         indianaJones11.resultImage = greyMouse
+        indianaJones11.answerBool = false
         indianaJones11.questionInt = 111
         indianaJones11.land = adventureland
         
@@ -789,6 +857,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones12.correctAnswer = "Bat"
         indianaJones12.keyboardType = true
         indianaJones12.resultImage = greyMouse
+        indianaJones12.answerBool = false
         indianaJones12.questionInt = 112
         indianaJones12.land = adventureland
         
@@ -798,6 +867,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones13.correctAnswer = "11"
         indianaJones13.keyboardType = false
         indianaJones13.resultImage = greyMouse
+        indianaJones13.answerBool = false
         indianaJones13.questionInt = 113
         indianaJones13.land = adventureland
         
@@ -807,6 +877,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones14.correctAnswer = "Mara"
         indianaJones14.keyboardType = true
         indianaJones14.resultImage = greyMouse
+        indianaJones14.answerBool = false
         indianaJones14.questionInt = 114
         indianaJones14.land = adventureland
         
@@ -816,6 +887,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         indianaJones15.correctAnswer = "1995"
         indianaJones15.keyboardType = false
         indianaJones15.resultImage = greyMouse
+        indianaJones15.answerBool = false
         indianaJones15.questionInt = 115
         indianaJones15.land = adventureland
         
@@ -827,6 +899,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         tarzansTreehouse1.correctAnswer = "Tarzan"
         tarzansTreehouse1.keyboardType = true
         tarzansTreehouse1.resultImage = greyMouse
+        tarzansTreehouse1.answerBool = false
         tarzansTreehouse1.questionInt = 151
         tarzansTreehouse1.land = adventureland
         
@@ -836,6 +909,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         tarzansTreehouse2.correctAnswer = "129"
         tarzansTreehouse2.keyboardType = false
         tarzansTreehouse2.resultImage = greyMouse
+        tarzansTreehouse2.answerBool = false
         tarzansTreehouse2.questionInt = 152
         tarzansTreehouse2.land = adventureland
         
@@ -847,6 +921,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         attractions.correctAnswer = "4"
         attractions.keyboardType = false
         attractions.resultImage = greyMouse
+        attractions.answerBool = false
         attractions.questionInt = 201
         attractions.land = adventureland
         
@@ -856,6 +931,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         anExoticStore.correctAnswer = "Adventureland Bazaar"
         anExoticStore.keyboardType = true
         anExoticStore.resultImage = greyMouse
+        anExoticStore.answerBool = false
         anExoticStore.questionInt = 202
         anExoticStore.land = adventureland
         
@@ -865,6 +941,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         imports.correctAnswer = "Tropical Imports"
         imports.keyboardType = true
         imports.resultImage = greyMouse
+        imports.answerBool = false
         imports.questionInt = 203
         imports.land = adventureland
         
@@ -874,6 +951,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         shishKebabs.correctAnswer = "Bengal Barbecue"
         shishKebabs.keyboardType = true
         shishKebabs.resultImage = greyMouse
+        shishKebabs.answerBool = false
         shishKebabs.questionInt = 204
         shishKebabs.land = adventureland
         
@@ -883,6 +961,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         flagsFlying.correctAnswer = "England"
         flagsFlying.keyboardType = true
         flagsFlying.resultImage = greyMouse
+        flagsFlying.answerBool = false
         flagsFlying.questionInt = 205
         flagsFlying.land = adventureland
 
@@ -934,6 +1013,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion1.correctAnswer = "Boat"
         hauntedMansion1.keyboardType = true
         hauntedMansion1.resultImage = greyMouse
+        hauntedMansion1.answerBool = false
         hauntedMansion1.questionInt = 1
         hauntedMansion1.land = newOrleansSquare
         
@@ -943,6 +1023,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion2.correctAnswer = "Sun dial"
         hauntedMansion2.keyboardType = true
         hauntedMansion2.resultImage = greyMouse
+        hauntedMansion2.answerBool = false
         hauntedMansion2.questionInt = 2
         hauntedMansion2.land = newOrleansSquare
         
@@ -952,6 +1033,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion3.correctAnswer = "36"
         hauntedMansion3.keyboardType = false
         hauntedMansion3.resultImage = greyMouse
+        hauntedMansion3.answerBool = false
         hauntedMansion3.questionInt = 3
         hauntedMansion3.land = newOrleansSquare
         
@@ -961,6 +1043,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion4.correctAnswer = "4"
         hauntedMansion4.keyboardType = false
         hauntedMansion4.resultImage = greyMouse
+        hauntedMansion4.answerBool = false
         hauntedMansion4.questionInt = 4
         hauntedMansion4.land = newOrleansSquare
         
@@ -970,6 +1053,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion5.correctAnswer = "8"
         hauntedMansion5.keyboardType = false
         hauntedMansion5.resultImage = greyMouse
+        hauntedMansion5.answerBool = false
         hauntedMansion5.questionInt = 5
         hauntedMansion5.land = newOrleansSquare
         
@@ -979,6 +1063,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion6.correctAnswer = "2"
         hauntedMansion6.keyboardType = false
         hauntedMansion6.resultImage = greyMouse
+        hauntedMansion6.answerBool = false
         hauntedMansion6.questionInt = 6
         hauntedMansion6.land = newOrleansSquare
         
@@ -988,6 +1073,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion7.correctAnswer = "doors"
         hauntedMansion7.keyboardType = true
         hauntedMansion7.resultImage = greyMouse
+        hauntedMansion7.answerBool = false
         hauntedMansion7.questionInt = 7
         hauntedMansion7.land = newOrleansSquare
         
@@ -997,6 +1083,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion8.correctAnswer = "5"
         hauntedMansion8.keyboardType = false
         hauntedMansion8.resultImage = greyMouse
+        hauntedMansion8.answerBool = false
         hauntedMansion8.questionInt = 8
         hauntedMansion8.land = newOrleansSquare
         
@@ -1006,6 +1093,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion9.correctAnswer = "Medusa"
         hauntedMansion9.keyboardType = true
         hauntedMansion9.resultImage = greyMouse
+        hauntedMansion9.answerBool = false
         hauntedMansion9.questionInt = 9
         hauntedMansion9.land = newOrleansSquare
         
@@ -1015,6 +1103,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion10.correctAnswer = "999"
         hauntedMansion10.keyboardType = false
         hauntedMansion10.resultImage = greyMouse
+        hauntedMansion10.answerBool = false
         hauntedMansion10.questionInt = 10
         hauntedMansion10.land = newOrleansSquare
         
@@ -1024,6 +1113,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion11.correctAnswer = "2"
         hauntedMansion11.keyboardType = false
         hauntedMansion11.resultImage = greyMouse
+        hauntedMansion11.answerBool = false
         hauntedMansion11.questionInt = 11
         hauntedMansion11.land = newOrleansSquare
         
@@ -1033,6 +1123,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion12.correctAnswer = "Bow Tie"
         hauntedMansion12.keyboardType = true
         hauntedMansion12.resultImage = greyMouse
+        hauntedMansion12.answerBool = false
         hauntedMansion12.questionInt = 12
         hauntedMansion12.land = newOrleansSquare
         
@@ -1042,6 +1133,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion13.correctAnswer = "Doombuggies"
         hauntedMansion13.keyboardType = true
         hauntedMansion13.resultImage = greyMouse
+        hauntedMansion13.answerBool = false
         hauntedMansion13.questionInt = 13
         hauntedMansion13.land = newOrleansSquare
         
@@ -1051,6 +1143,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion14.correctAnswer = "The hatbox Ghost"
         hauntedMansion14.keyboardType = true
         hauntedMansion14.resultImage = greyMouse
+        hauntedMansion14.answerBool = false
         hauntedMansion14.questionInt = 14
         hauntedMansion14.land = newOrleansSquare
         
@@ -1060,6 +1153,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion15.correctAnswer = "3"
         hauntedMansion15.keyboardType = false
         hauntedMansion15.resultImage = greyMouse
+        hauntedMansion15.answerBool = false
         hauntedMansion15.questionInt = 15
         hauntedMansion15.land = newOrleansSquare
         
@@ -1069,6 +1163,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hauntedMansion16.correctAnswer = "The Hatbox Ghost"
         hauntedMansion16.keyboardType = true
         hauntedMansion16.resultImage = greyMouse
+        hauntedMansion16.answerBool = false
         hauntedMansion16.questionInt = 16
         hauntedMansion16.land = newOrleansSquare
         
@@ -1080,6 +1175,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc1.correctAnswer = "Dream Suite"
         poc1.keyboardType = true
         poc1.resultImage = greyMouse
+        poc1.answerBool = false
         poc1.questionInt = 51
         poc1.land = newOrleansSquare
         
@@ -1089,6 +1185,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc2.correctAnswer = "Yes"
         poc2.keyboardType = true
         poc2.resultImage = greyMouse
+        poc2.answerBool = false
         poc2.questionInt = 52
         poc2.land = newOrleansSquare
         
@@ -1098,6 +1195,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc3.correctAnswer = "Captain Jack Sparrow"
         poc3.keyboardType = true
         poc3.resultImage = greyMouse
+        poc3.answerBool = false
         poc3.questionInt = 53
         poc3.land = newOrleansSquare
         
@@ -1107,6 +1205,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc4.correctAnswer = "Parrot"
         poc4.keyboardType = true
         poc4.resultImage = greyMouse
+        poc4.answerBool = false
         poc4.questionInt = 54
         poc4.land = newOrleansSquare
         
@@ -1116,6 +1215,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc5.correctAnswer = "yellow"
         poc5.keyboardType = true
         poc5.resultImage = greyMouse
+        poc5.answerBool = false
         poc5.questionInt = 55
         poc5.land = newOrleansSquare
         
@@ -1125,6 +1225,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc6.correctAnswer = "Laffite's Landing"
         poc6.keyboardType = true
         poc6.resultImage = greyMouse
+        poc6.answerBool = false
         poc6.questionInt = 56
         poc6.land = newOrleansSquare
         
@@ -1134,6 +1235,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc7.correctAnswer = "The Blue Bayou"
         poc7.keyboardType = true
         poc7.resultImage = greyMouse
+        poc7.answerBool = false
         poc7.questionInt = 57
         poc7.land = newOrleansSquare
         
@@ -1143,6 +1245,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc8.correctAnswer = "6"
         poc8.keyboardType = false
         poc8.resultImage = greyMouse
+        poc8.answerBool = false
         poc8.questionInt = 58
         poc8.land = newOrleansSquare
         
@@ -1152,6 +1255,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc9.correctAnswer = "No"
         poc9.keyboardType = true
         poc9.resultImage = greyMouse
+        poc9.answerBool = false
         poc9.questionInt = 59
         poc9.land = newOrleansSquare
         
@@ -1161,6 +1265,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc10.correctAnswer = "2"
         poc10.keyboardType = false
         poc10.resultImage = greyMouse
+        poc10.answerBool = false
         poc10.questionInt = 60
         poc10.land = newOrleansSquare
         
@@ -1170,6 +1275,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc11.correctAnswer = "4"
         poc11.keyboardType = false
         poc11.resultImage = greyMouse
+        poc11.answerBool = false
         poc11.questionInt = 61
         poc11.land = newOrleansSquare
         
@@ -1179,6 +1285,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc12.correctAnswer = "Carlos"
         poc12.keyboardType = true
         poc12.resultImage = greyMouse
+        poc12.answerBool = false
         poc12.questionInt = 62
         poc12.land = newOrleansSquare
         
@@ -1188,6 +1295,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc13.correctAnswer = "the red head"
         poc13.keyboardType = true
         poc13.resultImage = greyMouse
+        poc13.answerBool = false
         poc13.questionInt = 63
         poc13.land = newOrleansSquare
         
@@ -1197,6 +1305,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc14.correctAnswer = "6"
         poc14.keyboardType = false
         poc14.resultImage = greyMouse
+        poc14.answerBool = false
         poc14.questionInt = 64
         poc14.land = newOrleansSquare
         
@@ -1206,6 +1315,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc15.correctAnswer = "3"
         poc15.keyboardType = false
         poc15.resultImage = greyMouse
+        poc15.answerBool = false
         poc15.questionInt = 65
         poc15.land = newOrleansSquare
         
@@ -1214,8 +1324,8 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         poc16.theQuestion = "As you exit Pirates of the Caribbean you pass a gift shop on your right. What is the name of that gift shop?"
         poc16.correctAnswer = "Pieces of Eight"
         poc16.keyboardType = true
-        
         poc16.resultImage = greyMouse
+        poc16.answerBool = false
         poc16.questionInt = 66
         poc16.land = newOrleansSquare
         
@@ -1227,6 +1337,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         nosTrainStation1.correctAnswer = "2"
         nosTrainStation1.keyboardType = false
         nosTrainStation1.resultImage = greyMouse
+        nosTrainStation1.answerBool = false
         nosTrainStation1.questionInt = 101
         nosTrainStation1.land = newOrleansSquare
         
@@ -1236,6 +1347,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         nosTrainStation2.correctAnswer = "Frontierland"
         nosTrainStation2.keyboardType = true
         nosTrainStation2.resultImage = greyMouse
+        nosTrainStation2.answerBool = false
         nosTrainStation2.questionInt = 102
         nosTrainStation2.land = newOrleansSquare
         
@@ -1245,6 +1357,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         nosTrainStation3.correctAnswer = "Telegraph"
         nosTrainStation3.keyboardType = true
         nosTrainStation3.resultImage = greyMouse
+        nosTrainStation3.answerBool = false
         nosTrainStation3.questionInt = 103
         nosTrainStation3.land = newOrleansSquare
         
@@ -1254,6 +1367,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         nosTrainStation4.correctAnswer = "144"
         nosTrainStation4.keyboardType = false
         nosTrainStation4.resultImage = greyMouse
+        nosTrainStation4.answerBool = false
         nosTrainStation4.questionInt = 104
         nosTrainStation4.land = newOrleansSquare
         
@@ -1264,6 +1378,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         noss1.correctAnswer = "35"
         noss1.keyboardType = false
         noss1.resultImage = greyMouse
+        noss1.answerBool = false
         noss1.questionInt = 151
         noss1.land = newOrleansSquare
         
@@ -1274,6 +1389,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jazzBand.correctAnswer = "French Market"
         jazzBand.keyboardType = true
         jazzBand.resultImage = greyMouse
+        jazzBand.answerBool = false
         jazzBand.questionInt = 201
         jazzBand.land = newOrleansSquare
         
@@ -1283,6 +1399,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         privateClub.correctAnswer = "Club 33"
         privateClub.keyboardType = true
         privateClub.resultImage = greyMouse
+        privateClub.answerBool = false
         privateClub.questionInt = 202
         privateClub.land = newOrleansSquare
         
@@ -1292,6 +1409,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         attractionsNOS.correctAnswer = "4"
         attractionsNOS.keyboardType = false
         attractionsNOS.resultImage = greyMouse
+        attractionsNOS.answerBool = false
         attractionsNOS.questionInt = 203
         attractionsNOS.land = newOrleansSquare
         //Check Answer
@@ -1303,6 +1421,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         nosFood1.correctAnswer = "lime"
         nosFood1.keyboardType = true
         nosFood1.resultImage = greyMouse
+        nosFood1.answerBool = false
         nosFood1.questionInt = 251
         nosFood1.land = newOrleansSquare
         
@@ -1312,6 +1431,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         nosFood2.correctAnswer = "Mickey"
         nosFood2.keyboardType = true
         nosFood2.resultImage = greyMouse
+        nosFood2.answerBool = false
         nosFood2.questionInt = 252
         nosFood2.land = newOrleansSquare
         
@@ -1367,6 +1487,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         madTeaParty1.correctAnswer = "18"
         madTeaParty1.keyboardType = false
         madTeaParty1.resultImage = greyMouse
+        madTeaParty1.answerBool = false
         madTeaParty1.questionInt = 1
         madTeaParty1.land = fantasyland
         
@@ -1376,6 +1497,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         madTeaParty2.correctAnswer = "7"
         madTeaParty2.keyboardType = false
         madTeaParty2.resultImage = greyMouse
+        madTeaParty2.answerBool = false
         madTeaParty2.questionInt = 2
         madTeaParty2.land = fantasyland
         
@@ -1385,6 +1507,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         madTeaParty3.correctAnswer = "clockwise"
         madTeaParty3.keyboardType = true
         madTeaParty3.resultImage = greyMouse
+        madTeaParty3.answerBool = false
         madTeaParty3.questionInt = 3
         madTeaParty3.land = fantasyland
         
@@ -1395,6 +1518,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         alice1.correctAnswer = "Alice"
         alice1.keyboardType = true
         alice1.resultImage = greyMouse
+        alice1.answerBool = false
         alice1.questionInt = 51
         alice1.land = fantasyland
         
@@ -1404,6 +1528,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         alice2.correctAnswer = "Caterpillar"
         alice2.keyboardType = true
         alice2.resultImage = greyMouse
+        alice2.answerBool = false
         alice2.questionInt = 52
         alice2.land = fantasyland
         
@@ -1413,6 +1538,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         alice3.correctAnswer = "Rabbit Hole"
         alice3.keyboardType = true
         alice3.resultImage = greyMouse
+        alice3.answerBool = false
         alice3.questionInt = 53
         alice3.land = fantasyland
         
@@ -1422,6 +1548,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         alice4.correctAnswer = "3"
         alice4.keyboardType = false
         alice4.resultImage = greyMouse
+        alice4.answerBool = false
         alice4.questionInt = 54
         alice4.land = fantasyland
         
@@ -1433,6 +1560,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         snowWhite1.correctAnswer = "Window"
         snowWhite1.keyboardType = true
         snowWhite1.resultImage = greyMouse
+        snowWhite1.answerBool = false
         snowWhite1.questionInt = 101
         snowWhite1.land = fantasyland
         
@@ -1442,6 +1570,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         snowWhite2.correctAnswer = "Apple"
         snowWhite2.keyboardType = true
         snowWhite2.resultImage = greyMouse
+        snowWhite2.answerBool = false
         snowWhite2.questionInt = 102
         snowWhite2.land = fantasyland
         
@@ -1451,6 +1580,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         snowWhite3.correctAnswer = "4"
         snowWhite3.keyboardType = false
         snowWhite3.resultImage = greyMouse
+        snowWhite3.answerBool = false
         snowWhite3.questionInt = 103
         snowWhite3.land = fantasyland
         
@@ -1460,6 +1590,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         snowWhite4.correctAnswer = "7"
         snowWhite4.keyboardType = false
         snowWhite4.resultImage = greyMouse
+        snowWhite4.answerBool = false
         snowWhite4.questionInt = 104
         snowWhite4.land = fantasyland
         
@@ -1469,6 +1600,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         snowWhite5.correctAnswer = "No"
         snowWhite5.keyboardType = true
         snowWhite5.resultImage = greyMouse
+        snowWhite5.answerBool = false
         snowWhite5.questionInt = 105
         snowWhite5.land = fantasyland
         
@@ -1479,6 +1611,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         dumbo1.correctAnswer = "Dumbo the Flying Elephant"
         dumbo1.keyboardType = true
         dumbo1.resultImage = greyMouse
+        dumbo1.answerBool = false
         dumbo1.questionInt = 151
         dumbo1.land = fantasyland
         
@@ -1490,6 +1623,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smallWorld1.correctAnswer = "14"
         smallWorld1.keyboardType = false
         smallWorld1.resultImage = greyMouse
+        smallWorld1.answerBool = false
         smallWorld1.questionInt = 201
         smallWorld1.land = fantasyland
         
@@ -1499,6 +1633,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smallWorld2.correctAnswer = "Siemens"
         smallWorld2.keyboardType = true
         smallWorld2.resultImage = greyMouse
+        smallWorld2.answerBool = false
         smallWorld2.questionInt = 202
         smallWorld2.land = fantasyland
         
@@ -1508,6 +1643,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smallWorld3.correctAnswer = "2"
         smallWorld3.keyboardType = false
         smallWorld3.resultImage = greyMouse
+        smallWorld3.answerBool = false
         smallWorld3.questionInt = 203
         smallWorld3.land = fantasyland
         
@@ -1517,6 +1653,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smallWorld4.correctAnswer = "Pink"
         smallWorld4.keyboardType = true
         smallWorld4.resultImage = greyMouse
+        smallWorld4.answerBool = false
         smallWorld4.questionInt = 204
         smallWorld4.land = fantasyland
         
@@ -1526,6 +1663,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smallWorld5.correctAnswer = "White"
         smallWorld5.keyboardType = true
         smallWorld5.resultImage = greyMouse
+        smallWorld5.answerBool = false
         smallWorld5.questionInt = 205
         smallWorld5.land = fantasyland
         
@@ -1535,6 +1673,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smallWorld6.correctAnswer = "1"
         smallWorld6.keyboardType = false
         smallWorld6.resultImage = greyMouse
+        smallWorld6.answerBool = false
         smallWorld6.questionInt = 206
         smallWorld6.land = fantasyland
         
@@ -1545,6 +1684,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         pinocchio1.correctAnswer = "Cow"
         pinocchio1.keyboardType = true
         pinocchio1.resultImage = greyMouse
+        pinocchio1.answerBool = false
         pinocchio1.questionInt = 251
         pinocchio1.land = fantasyland
         
@@ -1554,6 +1694,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         pinocchio2.correctAnswer = "red"
         pinocchio2.keyboardType = true
         pinocchio2.resultImage = greyMouse
+        pinocchio2.answerBool = false
         pinocchio2.questionInt = 252
         pinocchio2.land = fantasyland
         
@@ -1563,6 +1704,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         pinocchio3.correctAnswer = "apple"
         pinocchio3.keyboardType = true
         pinocchio3.resultImage = greyMouse
+        pinocchio3.answerBool = false
         pinocchio3.questionInt = 253
         pinocchio3.land = fantasyland
         
@@ -1572,6 +1714,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         pinocchio4.correctAnswer = "3"
         pinocchio4.keyboardType = false
         pinocchio4.resultImage = greyMouse
+        pinocchio4.answerBool = false
         pinocchio4.questionInt = 254
         pinocchio4.land = fantasyland
         
@@ -1581,6 +1724,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         pinocchio5.correctAnswer = "3"
         pinocchio5.keyboardType = false
         pinocchio5.resultImage = greyMouse
+        pinocchio5.answerBool = false
         pinocchio5.questionInt = 255
         pinocchio5.land = fantasyland
         
@@ -1590,6 +1734,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         pinocchio6.correctAnswer = "Candy"
         pinocchio6.keyboardType = true
         pinocchio6.resultImage = greyMouse
+        pinocchio6.answerBool = false
         pinocchio6.questionInt = 256
         pinocchio6.land = fantasyland
         
@@ -1599,6 +1744,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         pinocchio7.correctAnswer = "Tobacco"
         pinocchio7.keyboardType = true
         pinocchio7.resultImage = greyMouse
+        pinocchio7.answerBool = false
         pinocchio7.questionInt = 257
         pinocchio7.land = fantasyland
         
@@ -1609,6 +1755,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         peterPansFlight1.correctAnswer = "7"
         peterPansFlight1.keyboardType = false
         peterPansFlight1.resultImage = greyMouse
+        peterPansFlight1.answerBool = false
         peterPansFlight1.questionInt = 301
         peterPansFlight1.land = fantasyland
         
@@ -1618,6 +1765,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         peterPansFlight2.correctAnswer = "Pirate"
         peterPansFlight2.keyboardType = true
         peterPansFlight2.resultImage = greyMouse
+        peterPansFlight2.answerBool = false
         peterPansFlight2.questionInt = 302
         peterPansFlight2.land = fantasyland
         
@@ -1627,6 +1775,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         peterPansFlight3.correctAnswer = "4"
         peterPansFlight3.keyboardType = false
         peterPansFlight3.resultImage = greyMouse
+        peterPansFlight3.answerBool = false
         peterPansFlight3.questionInt = 303
         peterPansFlight3.land = fantasyland
         
@@ -1636,6 +1785,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         peterPansFlight4.correctAnswer = "Yes"
         peterPansFlight4.keyboardType = true
         peterPansFlight4.resultImage = greyMouse
+        peterPansFlight4.answerBool = false
         peterPansFlight4.questionInt = 304
         peterPansFlight4.land = fantasyland
         
@@ -1645,6 +1795,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         peterPansFlight5.correctAnswer = "2"
         peterPansFlight5.keyboardType = false
         peterPansFlight5.resultImage = greyMouse
+        peterPansFlight5.answerBool = false
         peterPansFlight5.questionInt = 305
         peterPansFlight5.land = fantasyland
         
@@ -1654,6 +1805,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         peterPansFlight6.correctAnswer = "3"
         peterPansFlight6.keyboardType = false
         peterPansFlight6.resultImage = greyMouse
+        peterPansFlight6.answerBool = false
         peterPansFlight6.questionInt = 306
         peterPansFlight6.land = fantasyland
         
@@ -1663,6 +1815,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         peterPansFlight7.correctAnswer = "8"
         peterPansFlight7.keyboardType = false
         peterPansFlight7.resultImage = greyMouse
+        peterPansFlight7.answerBool = false
         peterPansFlight7.questionInt = 307
         peterPansFlight7.land = fantasyland
         
@@ -1672,6 +1825,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         peterPansFlight8.correctAnswer = "black"
         peterPansFlight8.keyboardType = true
         peterPansFlight8.resultImage = greyMouse
+        peterPansFlight8.answerBool = false
         peterPansFlight8.questionInt = 308
         peterPansFlight8.land = fantasyland
         
@@ -1681,6 +1835,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         peterPansFlight9.correctAnswer = "6"
         peterPansFlight9.keyboardType = false
         peterPansFlight9.resultImage = greyMouse
+        peterPansFlight9.answerBool = false
         peterPansFlight9.questionInt = 309
         peterPansFlight9.land = fantasyland
         
@@ -1690,6 +1845,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         peterPansFlight10.correctAnswer = "4"
         peterPansFlight10.keyboardType = false
         peterPansFlight10.resultImage = greyMouse
+        peterPansFlight10.answerBool = false
         peterPansFlight10.questionInt = 310
         peterPansFlight10.land = fantasyland
         
@@ -1699,6 +1855,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         peterPansFlight11.correctAnswer = "Jane"
         peterPansFlight11.keyboardType = true
         peterPansFlight11.resultImage = greyMouse
+        peterPansFlight11.answerBool = false
         peterPansFlight11.questionInt = 311
         peterPansFlight11.land = fantasyland
         
@@ -1709,6 +1866,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mrToad1.correctAnswer = "yes"
         mrToad1.keyboardType = true
         mrToad1.resultImage = greyMouse
+        mrToad1.answerBool = false
         mrToad1.questionInt = 351
         mrToad1.land = fantasyland
         
@@ -1718,6 +1876,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mrToad2.correctAnswer = "4"
         mrToad2.keyboardType = false
         mrToad2.resultImage = greyMouse
+        mrToad2.answerBool = false
         mrToad2.questionInt = 352
         mrToad2.land = fantasyland
         
@@ -1727,6 +1886,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mrToad3.correctAnswer = "absurda"
         mrToad3.keyboardType = true
         mrToad3.resultImage = greyMouse
+        mrToad3.answerBool = false
         mrToad3.questionInt = 353
         mrToad3.land = fantasyland
         
@@ -1736,6 +1896,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mrToad4.correctAnswer = "London"
         mrToad4.keyboardType = true
         mrToad4.resultImage = greyMouse
+        mrToad4.answerBool = false
         mrToad4.questionInt = 354
         mrToad4.land = fantasyland
         
@@ -1745,6 +1906,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mrToad5.correctAnswer = "6"
         mrToad5.keyboardType = false
         mrToad5.resultImage = greyMouse
+        mrToad5.answerBool = false
         mrToad5.questionInt = 355
         mrToad5.land = fantasyland
         
@@ -1754,6 +1916,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mrToad6.correctAnswer = "16"
         mrToad6.keyboardType = false
         mrToad6.resultImage = greyMouse
+        mrToad6.answerBool = false
         mrToad6.questionInt = 356
         mrToad6.land = fantasyland
         
@@ -1763,6 +1926,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mrToad7.correctAnswer = "1"
         mrToad7.keyboardType = false
         mrToad7.resultImage = greyMouse
+        mrToad7.answerBool = false
         mrToad7.questionInt = 357
         mrToad7.land = fantasyland
         
@@ -1772,6 +1936,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mrToad8.correctAnswer = "Hell"
         mrToad8.keyboardType = true
         mrToad8.resultImage = greyMouse
+        mrToad8.answerBool = false
         mrToad8.questionInt = 358
         mrToad8.land = fantasyland
         
@@ -1781,6 +1946,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mrToad9.correctAnswer = "red"
         mrToad9.keyboardType = true
         mrToad9.resultImage = greyMouse
+        mrToad9.answerBool = false
         mrToad9.questionInt = 359
         mrToad9.land = fantasyland
         
@@ -1791,6 +1957,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         kaCarrousel1.correctAnswer = "White"
         kaCarrousel1.keyboardType = true
         kaCarrousel1.resultImage = greyMouse
+        kaCarrousel1.answerBool = false
         kaCarrousel1.questionInt = 401
         kaCarrousel1.land = fantasyland
         
@@ -1800,6 +1967,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         kaCarrousel2.correctAnswer = "68"
         kaCarrousel2.keyboardType = false
         kaCarrousel2.resultImage = greyMouse
+        kaCarrousel2.answerBool = false
         kaCarrousel2.questionInt = 402
         kaCarrousel2.land = fantasyland
         
@@ -1810,6 +1978,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         matterhorn1.correctAnswer = "3"
         matterhorn1.keyboardType = false
         matterhorn1.resultImage = greyMouse
+        matterhorn1.answerBool = false
         matterhorn1.questionInt = 451
         matterhorn1.land = fantasyland
         
@@ -1819,6 +1988,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         matterhorn2.correctAnswer = "yes"
         matterhorn2.keyboardType = true
         matterhorn2.resultImage = greyMouse
+        matterhorn2.answerBool = false
         matterhorn2.questionInt = 452
         matterhorn2.land = fantasyland
         
@@ -1828,6 +1998,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         matterhorn3.correctAnswer = "yellow"
         matterhorn3.keyboardType = true
         matterhorn3.resultImage = greyMouse
+        matterhorn3.answerBool = false
         matterhorn3.questionInt = 453
         matterhorn3.land = fantasyland
         
@@ -1837,6 +2008,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         matterhorn4.correctAnswer = "Switzerland"
         matterhorn4.keyboardType = true
         matterhorn4.resultImage = greyMouse
+        matterhorn4.answerBool = false
         matterhorn4.questionInt = 454
         matterhorn4.land = fantasyland
         
@@ -1846,6 +2018,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         matterhorn5.correctAnswer = "The Mad Tea Party"
         matterhorn5.keyboardType = true
         matterhorn5.resultImage = greyMouse
+        matterhorn5.answerBool = false
         matterhorn5.questionInt = 455
         matterhorn5.land = fantasyland
         
@@ -1855,6 +2028,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         matterhorn6.correctAnswer = "No"
         matterhorn6.keyboardType = true
         matterhorn6.resultImage = greyMouse
+        matterhorn6.answerBool = false
         matterhorn6.questionInt = 456
         matterhorn6.land = fantasyland
         
@@ -1864,6 +2038,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         matterhorn7.correctAnswer = "3"
         matterhorn7.keyboardType = false
         matterhorn7.resultImage = greyMouse
+        matterhorn7.answerBool = false
         matterhorn7.questionInt = 457
         matterhorn7.land = fantasyland
         
@@ -1873,6 +2048,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         matterhorn8.correctAnswer = "1"
         matterhorn8.keyboardType = false
         matterhorn8.resultImage = greyMouse
+        matterhorn8.answerBool = false
         matterhorn8.questionInt = 458
         matterhorn8.land = fantasyland
         
@@ -1882,6 +2058,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         matterhorn9.correctAnswer = "3"
         matterhorn9.keyboardType = false
         matterhorn9.resultImage = greyMouse
+        matterhorn9.answerBool = false
         matterhorn9.questionInt = 459
         matterhorn9.land = fantasyland
         
@@ -1891,6 +2068,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         matterhorn10.correctAnswer = "seated please"
         matterhorn10.keyboardType = true
         matterhorn10.resultImage = greyMouse
+        matterhorn10.answerBool = false
         matterhorn10.questionInt = 460
         matterhorn10.land = fantasyland
         
@@ -1901,6 +2079,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sleepingBeautyCastle1.correctAnswer = "Sleeping Beauty"
         sleepingBeautyCastle1.keyboardType = true
         sleepingBeautyCastle1.resultImage = greyMouse
+        sleepingBeautyCastle1.answerBool = false
         sleepingBeautyCastle1.questionInt = 501
         sleepingBeautyCastle1.land = fantasyland
         
@@ -1910,6 +2089,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sleepingBeautyCastle2.correctAnswer = "Aurora"
         sleepingBeautyCastle2.keyboardType = true
         sleepingBeautyCastle2.resultImage = greyMouse
+        sleepingBeautyCastle2.answerBool = false
         sleepingBeautyCastle2.questionInt = 502
         sleepingBeautyCastle2.land = fantasyland
         
@@ -1919,6 +2099,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sleepingBeautyCastle3.correctAnswer = "spinning wheels"
         sleepingBeautyCastle3.keyboardType = true
         sleepingBeautyCastle3.resultImage = greyMouse
+        sleepingBeautyCastle3.answerBool = false
         sleepingBeautyCastle3.questionInt = 503
         sleepingBeautyCastle3.land = fantasyland
         
@@ -1928,6 +2109,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sleepingBeautyCastle4.correctAnswer = "3"
         sleepingBeautyCastle4.keyboardType = false
         sleepingBeautyCastle4.resultImage = greyMouse
+        sleepingBeautyCastle4.answerBool = false
         sleepingBeautyCastle4.questionInt = 504
         sleepingBeautyCastle4.land = fantasyland
         
@@ -1937,6 +2119,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sleepingBeautyCastle5.correctAnswer = "Prince Phillip"
         sleepingBeautyCastle5.keyboardType = true
         sleepingBeautyCastle5.resultImage = greyMouse
+        sleepingBeautyCastle5.answerBool = false
         sleepingBeautyCastle5.questionInt = 505
         sleepingBeautyCastle5.land = fantasyland
         
@@ -1946,6 +2129,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sleepingBeautyCastle6.correctAnswer = "62"
         sleepingBeautyCastle6.keyboardType = false
         sleepingBeautyCastle6.resultImage = greyMouse
+        sleepingBeautyCastle6.answerBool = false
         sleepingBeautyCastle6.questionInt = 506
         sleepingBeautyCastle6.land = fantasyland
         
@@ -1955,6 +2139,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sleepingBeautyCastle7.correctAnswer = "6"
         sleepingBeautyCastle7.keyboardType = false
         sleepingBeautyCastle7.resultImage = greyMouse
+        sleepingBeautyCastle7.answerBool = false
         sleepingBeautyCastle7.questionInt = 507
         sleepingBeautyCastle7.land = fantasyland
         
@@ -1965,6 +2150,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hats.correctAnswer = "The Mad Hatter"
         hats.keyboardType = true
         hats.resultImage = greyMouse
+        hats.answerBool = false
         hats.questionInt = 551
         hats.land = fantasyland
         
@@ -1974,6 +2160,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         flRestaurant.correctAnswer = "Village Haus"
         flRestaurant.keyboardType = true
         flRestaurant.resultImage = greyMouse
+        flRestaurant.answerBool = false
         flRestaurant.questionInt = 552
         flRestaurant.land = fantasyland
         
@@ -1983,6 +2170,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         restrooms.correctAnswer = "Kings"
         restrooms.keyboardType = true
         restrooms.resultImage = greyMouse
+        restrooms.answerBool = false
         restrooms.questionInt = 553
         restrooms.land = fantasyland
         
@@ -1992,6 +2180,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         door.correctAnswer = "W. Rabbit"
         door.keyboardType = true
         door.resultImage = greyMouse
+        door.answerBool = false
         door.questionInt = 554
         door.land = fantasyland
         
@@ -2001,6 +2190,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         clock.correctAnswer = "Roman"
         clock.keyboardType = true
         clock.resultImage = greyMouse
+        clock.answerBool = false
         clock.questionInt = 555
         clock.land = fantasyland
         
@@ -2010,6 +2200,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         trash.correctAnswer = "brown"
         trash.keyboardType = true
         trash.resultImage = greyMouse
+        trash.answerBool = false
         trash.questionInt = 556
         trash.land = fantasyland
         
@@ -2019,6 +2210,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wishingWell1.correctAnswer = "Snow White"
         wishingWell1.keyboardType = true
         wishingWell1.resultImage = greyMouse
+        wishingWell1.answerBool = false
         wishingWell1.questionInt = 557
         wishingWell1.land = fantasyland
         
@@ -2028,6 +2220,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wishingWell2.correctAnswer = "deer"
         wishingWell2.keyboardType = true
         wishingWell2.resultImage = greyMouse
+        wishingWell2.answerBool = false
         wishingWell2.questionInt = 558
         wishingWell2.land = fantasyland
         
@@ -2037,6 +2230,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wishingWell3.correctAnswer = "17"
         wishingWell3.keyboardType = false
         wishingWell3.resultImage = greyMouse
+        wishingWell3.answerBool = false
         wishingWell3.questionInt = 559
         wishingWell3.land = fantasyland
         
@@ -2046,6 +2240,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wishingWell4.correctAnswer = "20"
         wishingWell4.keyboardType = false
         wishingWell4.resultImage = greyMouse
+        wishingWell4.answerBool = false
         wishingWell4.questionInt = 560
         wishingWell4.land = fantasyland
         
@@ -2094,7 +2289,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         
         critterCountry.landName = "Critter Country"
         critterCountry.artWorkForLand = "SplashMountain.jpg"
-
+        
         //Splash Mountain (1-50)
         let sm1 = Questions(entity: questionDescription!, insertInto: context)
         sm1.questionTitle = "Splash Mountain 1"
@@ -2102,6 +2297,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sm1.correctAnswer = "50 feet"
         sm1.keyboardType = true
         sm1.resultImage = greyMouse
+        sm1.answerBool = false
         sm1.questionInt = 1
         sm1.land = critterCountry
         
@@ -2111,6 +2307,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sm2.correctAnswer = "5"
         sm2.keyboardType = false
         sm2.resultImage = greyMouse
+        sm2.answerBool = false
         sm2.questionInt = 2
         sm2.land = critterCountry
         
@@ -2120,6 +2317,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sm3.correctAnswer = "Brer Rabbit"
         sm3.keyboardType = true
         sm3.resultImage = greyMouse
+        sm3.answerBool = false
         sm3.questionInt = 3
         sm3.land = critterCountry
         
@@ -2129,6 +2327,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sm4.correctAnswer = "Log"
         sm4.keyboardType = true
         sm4.resultImage = greyMouse
+        sm4.answerBool = false
         sm4.questionInt = 4
         sm4.land = critterCountry
         
@@ -2138,6 +2337,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sm5.correctAnswer = "Vultures"
         sm5.keyboardType = true
         sm5.resultImage = greyMouse
+        sm5.answerBool = false
         sm5.questionInt = 5
         sm5.land = critterCountry
         
@@ -2147,6 +2347,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sm6.correctAnswer = "Beehive"
         sm6.keyboardType = true
         sm6.resultImage = greyMouse
+        sm6.answerBool = false
         sm6.questionInt = 6
         sm6.land = critterCountry
         
@@ -2156,6 +2357,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sm7.correctAnswer = "2"
         sm7.keyboardType = false
         sm7.resultImage = greyMouse
+        sm7.answerBool = false
         sm7.questionInt = 7
         sm7.land = critterCountry
         
@@ -2165,6 +2367,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sm8.correctAnswer = "Ropes"
         sm8.keyboardType = true
         sm8.resultImage = greyMouse
+        sm8.answerBool = false
         sm8.questionInt = 8
         sm8.land = critterCountry
         
@@ -2174,6 +2377,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sm9.correctAnswer = "Fox"
         sm9.keyboardType = true
         sm9.resultImage = greyMouse
+        sm9.answerBool = false
         sm9.questionInt = 9
         sm9.land = critterCountry
         
@@ -2183,6 +2387,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sm10.correctAnswer = "Catfish Bend"
         sm10.keyboardType = true
         sm10.resultImage = greyMouse
+        sm10.answerBool = false
         sm10.questionInt = 10
         sm10.land = critterCountry
         
@@ -2192,6 +2397,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sm11.correctAnswer = "harmonica"
         sm11.keyboardType = true
         sm11.resultImage = greyMouse
+        sm11.answerBool = false
         sm11.questionInt = 11
         sm11.land = critterCountry
         
@@ -2202,6 +2408,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp1.correctAnswer = "Tigger"
         wtp1.keyboardType = true
         wtp1.resultImage = greyMouse
+        wtp1.answerBool = false
         wtp1.questionInt = 51
         wtp1.land = critterCountry
         
@@ -2211,6 +2418,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp2.correctAnswer = "The Disneyland Rail Road"
         wtp2.keyboardType = true
         wtp2.resultImage = greyMouse
+        wtp2.answerBool = false
         wtp2.questionInt = 52
         wtp2.land = critterCountry
         
@@ -2220,6 +2428,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp3.correctAnswer = "The Hungry Bear Restaurant"
         wtp3.keyboardType = true
         wtp3.resultImage = greyMouse
+        wtp3.answerBool = false
         wtp3.questionInt = 53
         wtp3.land = critterCountry
         
@@ -2229,6 +2438,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp4.correctAnswer = "Beehive"
         wtp4.keyboardType = true
         wtp4.resultImage = greyMouse
+        wtp4.answerBool = false
         wtp4.questionInt = 54
         wtp4.land = critterCountry
         
@@ -2238,6 +2448,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp5.correctAnswer = "3"
         wtp5.keyboardType = false
         wtp5.resultImage = greyMouse
+        wtp5.answerBool = false
         wtp5.questionInt = 55
         wtp5.land = critterCountry
         
@@ -2247,6 +2458,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp6.correctAnswer = "Honey"
         wtp6.keyboardType = true
         wtp6.resultImage = greyMouse
+        wtp6.answerBool = false
         wtp6.questionInt = 56
         wtp6.land = critterCountry
         
@@ -2256,6 +2468,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp7.correctAnswer = "red"
         wtp7.keyboardType = true
         wtp7.resultImage = greyMouse
+        wtp7.answerBool = false
         wtp7.questionInt = 57
         wtp7.land = critterCountry
         
@@ -2265,6 +2478,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp8.correctAnswer = "carrots"
         wtp8.keyboardType = true
         wtp8.resultImage = greyMouse
+        wtp8.answerBool = false
         wtp8.questionInt = 58
         wtp8.land = critterCountry
         
@@ -2274,6 +2488,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp9.correctAnswer = "broom"
         wtp9.keyboardType = true
         wtp9.resultImage = greyMouse
+        wtp9.answerBool = false
         wtp9.questionInt = 59
         wtp9.land = critterCountry
         
@@ -2283,6 +2498,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp10.correctAnswer = "Owl"
         wtp10.keyboardType = true
         wtp10.resultImage = greyMouse
+        wtp10.answerBool = false
         wtp10.questionInt = 60
         wtp10.land = critterCountry
         
@@ -2292,6 +2508,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp11.correctAnswer = "Bees"
         wtp11.keyboardType = true
         wtp11.resultImage = greyMouse
+        wtp11.answerBool = false
         wtp11.questionInt = 61
         wtp11.land = critterCountry
         
@@ -2301,6 +2518,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp12.correctAnswer = "5"
         wtp12.keyboardType = false
         wtp12.resultImage = greyMouse
+        wtp12.answerBool = false
         wtp12.questionInt = 62
         wtp12.land = critterCountry
         
@@ -2310,6 +2528,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp13.correctAnswer = "hooray"
         wtp13.keyboardType = true
         wtp13.resultImage = greyMouse
+        wtp13.answerBool = false
         wtp13.questionInt = 63
         wtp13.land = critterCountry
         
@@ -2319,6 +2538,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wtp14.correctAnswer = "The Country Bear Jamboree"
         wtp14.keyboardType = true
         wtp14.resultImage = greyMouse
+        wtp14.answerBool = false
         wtp14.questionInt = 64
         wtp14.land = critterCountry
         
@@ -2329,6 +2549,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         canoes1.correctAnswer = "Davy Crockett's Explorer Canoes"
         canoes1.keyboardType = true
         canoes1.resultImage = greyMouse
+        canoes1.answerBool = false
         canoes1.questionInt = 101
         canoes1.land = critterCountry
         
@@ -2338,6 +2559,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         canoes2.correctAnswer = "Rivers of America"
         canoes2.keyboardType = true
         canoes2.resultImage = greyMouse
+        canoes2.answerBool = false
         canoes2.questionInt = 102
         canoes2.land = critterCountry
         
@@ -2348,6 +2570,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         ccAttractions.correctAnswer = "3"
         ccAttractions.keyboardType = false
         ccAttractions.resultImage = greyMouse
+        ccAttractions.answerBool = false
         ccAttractions.questionInt = 151
         ccAttractions.land = critterCountry
         
@@ -2357,6 +2580,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         hungry.correctAnswer = "Hungry Bear"
         hungry.keyboardType = true
         hungry.resultImage = greyMouse
+        hungry.answerBool = false
         hungry.questionInt = 152
         hungry.land = critterCountry
         
@@ -2366,6 +2590,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         theCandyShop.correctAnswer = "Pooh Corner"
         theCandyShop.keyboardType = true
         theCandyShop.resultImage = greyMouse
+        theCandyShop.answerBool = false
         theCandyShop.questionInt = 153
         theCandyShop.land = critterCountry
         
@@ -2375,6 +2600,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         ccEntrance.correctAnswer = "6"
         ccEntrance.keyboardType = false
         ccEntrance.resultImage = greyMouse
+        ccEntrance.answerBool = false
         ccEntrance.questionInt = 154
         ccEntrance.land = critterCountry
         
@@ -2384,6 +2610,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         whatIsHeHolding.correctAnswer = "hamburger"
         whatIsHeHolding.keyboardType = true
         whatIsHeHolding.resultImage = greyMouse
+        whatIsHeHolding.answerBool = false
         whatIsHeHolding.questionInt = 155
         whatIsHeHolding.land = critterCountry
         
@@ -2393,6 +2620,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         theBriarPatch.correctAnswer = "sleeping"
         theBriarPatch.keyboardType = true
         theBriarPatch.resultImage = greyMouse
+        theBriarPatch.answerBool = false
         theBriarPatch.questionInt = 156
         theBriarPatch.land = critterCountry
         
@@ -2407,7 +2635,27 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         
         
         
-//Tomorrowland!!!!!!
+        
+        
+        
+        
+        
+        
+        
+//Tomorrowland
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -2422,7 +2670,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         
         tomorrowland.landName = "Tomorrowland"
         tomorrowland.artWorkForLand = "SpaceMountain.jpg"
-
+        
         //Astro Orbitor (1-50)
         let astroOrbitor1 = Questions(entity: questionDescription!, insertInto: context)
         astroOrbitor1.questionTitle = "Astro Orbitor 1"
@@ -2430,6 +2678,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         astroOrbitor1.correctAnswer = "clockwise"
         astroOrbitor1.keyboardType = true
         astroOrbitor1.resultImage = greyMouse
+        astroOrbitor1.answerBool = false
         astroOrbitor1.questionInt = 1
         astroOrbitor1.land = tomorrowland
         
@@ -2439,15 +2688,17 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         astroOrbitor2.correctAnswer = "12"
         astroOrbitor2.keyboardType = false
         astroOrbitor2.resultImage = greyMouse
+        astroOrbitor2.answerBool = false
         astroOrbitor2.questionInt = 2
         astroOrbitor2.land = tomorrowland
-        
+
         let astroOrbitor3 = Questions(entity: questionDescription!, insertInto: context)
         astroOrbitor3.questionTitle = "Astro Orbitor 3"
         astroOrbitor3.theQuestion = "How many Tomorrowland attractions can you see from the queue?"
         astroOrbitor3.correctAnswer = "2"
         astroOrbitor3.keyboardType = false
         astroOrbitor3.resultImage = greyMouse
+        astroOrbitor3.answerBool = false
         astroOrbitor3.questionInt = 3
         astroOrbitor3.land = tomorrowland
         
@@ -2458,6 +2709,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo1.correctAnswer = "Yellow"
         findingNemo1.keyboardType = true
         findingNemo1.resultImage = greyMouse
+        findingNemo1.answerBool = false
         findingNemo1.questionInt = 51
         findingNemo1.land = tomorrowland
         
@@ -2467,6 +2719,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo2.correctAnswer = "red"
         findingNemo2.keyboardType = true
         findingNemo2.resultImage = greyMouse
+        findingNemo2.answerBool = false
         findingNemo2.questionInt = 52
         findingNemo2.land = tomorrowland
         
@@ -2476,6 +2729,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo3.correctAnswer = "Seagulls"
         findingNemo3.keyboardType = true
         findingNemo3.resultImage = greyMouse
+        findingNemo3.answerBool = false
         findingNemo3.questionInt = 53
         findingNemo3.land = tomorrowland
         
@@ -2485,6 +2739,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo4.correctAnswer = "707"
         findingNemo4.keyboardType = false
         findingNemo4.resultImage = greyMouse
+        findingNemo4.answerBool = false
         findingNemo4.questionInt = 54
         findingNemo4.land = tomorrowland
         
@@ -2494,6 +2749,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo5.correctAnswer = "607"
         findingNemo5.keyboardType = false
         findingNemo5.resultImage = greyMouse
+        findingNemo5.answerBool = false
         findingNemo5.questionInt = 55
         findingNemo5.land = tomorrowland
         
@@ -2503,6 +2759,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo6.correctAnswer = "807"
         findingNemo6.keyboardType = false
         findingNemo6.resultImage = greyMouse
+        findingNemo6.answerBool = false
         findingNemo6.questionInt = 56
         findingNemo6.land = tomorrowland
         
@@ -2512,6 +2769,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo7.correctAnswer = "207"
         findingNemo7.keyboardType = false
         findingNemo7.resultImage = greyMouse
+        findingNemo7.answerBool = false
         findingNemo7.questionInt = 57
         findingNemo7.land = tomorrowland
         
@@ -2521,6 +2779,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo8.correctAnswer = "307"
         findingNemo8.keyboardType = false
         findingNemo8.resultImage = greyMouse
+        findingNemo8.answerBool = false
         findingNemo8.questionInt = 58
         findingNemo8.land = tomorrowland
         
@@ -2530,6 +2789,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo9.correctAnswer = "507"
         findingNemo9.keyboardType = false
         findingNemo9.resultImage = greyMouse
+        findingNemo9.answerBool = false
         findingNemo9.questionInt = 59
         findingNemo9.land = tomorrowland
         
@@ -2539,6 +2799,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo10.correctAnswer = "3"
         findingNemo10.keyboardType = false
         findingNemo10.resultImage = greyMouse
+        findingNemo10.answerBool = false
         findingNemo10.questionInt = 60
         findingNemo10.land = tomorrowland
         
@@ -2548,6 +2809,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo11.correctAnswer = "2"
         findingNemo11.keyboardType = false
         findingNemo11.resultImage = greyMouse
+        findingNemo11.answerBool = false
         findingNemo11.questionInt = 61
         findingNemo11.land = tomorrowland
 
@@ -2557,6 +2819,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         findingNemo12.correctAnswer = "Dive"
         findingNemo12.keyboardType = true
         findingNemo12.resultImage = greyMouse
+        findingNemo12.answerBool = false
         findingNemo12.questionInt = 62
         findingNemo12.land = tomorrowland
         
@@ -2567,6 +2830,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         buzzLightyear1.correctAnswer = "circles"
         buzzLightyear1.keyboardType = true
         buzzLightyear1.resultImage = greyMouse
+        buzzLightyear1.answerBool = false
         buzzLightyear1.questionInt = 101
         buzzLightyear1.land = tomorrowland
         
@@ -2575,6 +2839,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         buzzLightyear2.theQuestion = "In the Buzz Lightyear Astro Blaster queue there is a sign that says \"Welcome Future ______________\" (2 words)"
         buzzLightyear2.correctAnswer = "Space Rangers"
         buzzLightyear2.resultImage = greyMouse
+        buzzLightyear2.answerBool = false
         buzzLightyear2.keyboardType = true
         buzzLightyear2.questionInt = 102
         buzzLightyear2.land = tomorrowland
@@ -2585,6 +2850,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         buzzLightyear3.correctAnswer = "Flight Deck"
         buzzLightyear3.keyboardType = true
         buzzLightyear3.resultImage = greyMouse
+        buzzLightyear3.answerBool = false
         buzzLightyear3.questionInt = 103
         buzzLightyear3.land = tomorrowland
         
@@ -2594,6 +2860,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         buzzLightyear4.correctAnswer = "Pizza Planet"
         buzzLightyear4.keyboardType = true
         buzzLightyear4.resultImage = greyMouse
+        buzzLightyear4.answerBool = false
         buzzLightyear4.questionInt = 104
         buzzLightyear4.land = tomorrowland
         
@@ -2603,6 +2870,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         buzzLightyear5.correctAnswer = "lit"
         buzzLightyear5.keyboardType = true
         buzzLightyear5.resultImage = greyMouse
+        buzzLightyear5.answerBool = false
         buzzLightyear5.questionInt = 105
         buzzLightyear5.land = tomorrowland
         
@@ -2612,6 +2880,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         buzzLightyear6.correctAnswer = "Zurg"
         buzzLightyear6.keyboardType = true
         buzzLightyear6.resultImage = greyMouse
+        buzzLightyear6.answerBool = false
         buzzLightyear6.questionInt = 106
         buzzLightyear6.land = tomorrowland
         
@@ -2621,6 +2890,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         buzzLightyear7.correctAnswer = "Star Cadet"
         buzzLightyear7.keyboardType = true
         buzzLightyear7.resultImage = greyMouse
+        buzzLightyear7.answerBool = false
         buzzLightyear7.questionInt = 107
         buzzLightyear7.land = tomorrowland
         
@@ -2630,6 +2900,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         buzzLightyear8.correctAnswer = "Little Green Men Store Command"
         buzzLightyear8.keyboardType = true
         buzzLightyear8.resultImage = greyMouse
+        buzzLightyear8.answerBool = false
         buzzLightyear8.questionInt = 108
         buzzLightyear8.land = tomorrowland
         
@@ -2641,6 +2912,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia1.correctAnswer = "Honda"
         autopia1.keyboardType = true
         autopia1.resultImage = greyMouse
+        autopia1.answerBool = false
         autopia1.questionInt = 151
         autopia1.land = tomorrowland
         
@@ -2650,6 +2922,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia2.correctAnswer = "Tomorrowland"
         autopia2.keyboardType = true
         autopia2.resultImage = greyMouse
+        autopia2.answerBool = false
         autopia2.questionInt = 152
         autopia2.land = tomorrowland
         
@@ -2659,6 +2932,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia3.correctAnswer = "4"
         autopia3.keyboardType = false
         autopia3.resultImage = greyMouse
+        autopia3.answerBool = false
         autopia3.questionInt = 153
         autopia3.land = tomorrowland
 
@@ -2668,6 +2942,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia4.correctAnswer = "8"
         autopia4.keyboardType = false
         autopia4.resultImage = greyMouse
+        autopia4.answerBool = false
         autopia4.questionInt = 154
         autopia4.land = tomorrowland
         
@@ -2677,6 +2952,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia5.correctAnswer = "blue"
         autopia5.keyboardType = true
         autopia5.resultImage = greyMouse
+        autopia5.answerBool = false
         autopia5.questionInt = 155
         autopia5.land = tomorrowland
         
@@ -2686,6 +2962,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia6.correctAnswer = "1"
         autopia6.keyboardType = false
         autopia6.resultImage = greyMouse
+        autopia6.answerBool = false
         autopia6.questionInt = 156
         autopia6.land = tomorrowland
         
@@ -2695,6 +2972,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia7.correctAnswer = "54"
         autopia7.keyboardType = false
         autopia7.resultImage = greyMouse
+        autopia7.answerBool = false
         autopia7.questionInt = 157
         autopia7.land = tomorrowland
         
@@ -2704,6 +2982,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia8.correctAnswer = "Tankful"
         autopia8.keyboardType = true
         autopia8.resultImage = greyMouse
+        autopia8.answerBool = false
         autopia8.questionInt = 158
         autopia8.land = tomorrowland
         
@@ -2713,6 +2992,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia9.correctAnswer = "55"
         autopia9.keyboardType = false
         autopia9.resultImage = greyMouse
+        autopia9.answerBool = false
         autopia9.questionInt = 159
         autopia9.land = tomorrowland
         
@@ -2722,6 +3002,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia10.correctAnswer = "6.5"
         autopia10.keyboardType = false
         autopia10.resultImage = greyMouse
+        autopia10.answerBool = false
         autopia10.questionInt = 160
         autopia10.land = tomorrowland
         
@@ -2731,6 +3012,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia11.correctAnswer = "carwash"
         autopia11.keyboardType = true
         autopia11.resultImage = greyMouse
+        autopia11.answerBool = false
         autopia11.questionInt = 161
         autopia11.land = tomorrowland
         
@@ -2740,6 +3022,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia12.correctAnswer = "Mr. Toad"
         autopia12.keyboardType = true
         autopia12.resultImage = greyMouse
+        autopia12.answerBool = false
         autopia12.questionInt = 162
         autopia12.land = tomorrowland
 
@@ -2749,6 +3032,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia13.correctAnswer = "Matterhorn Mountain"
         autopia13.keyboardType = true
         autopia13.resultImage = greyMouse
+        autopia13.answerBool = false
         autopia13.questionInt = 163
         autopia13.land = tomorrowland
         
@@ -2758,6 +3042,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         autopia14.correctAnswer = "Finding Nemo Submarine Voyage"
         autopia14.keyboardType = true
         autopia14.resultImage = greyMouse
+        autopia14.answerBool = false
         autopia14.questionInt = 164
         autopia14.land = tomorrowland
         
@@ -2768,6 +3053,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smTL1.correctAnswer = "clock"
         smTL1.keyboardType = true
         smTL1.resultImage = greyMouse
+        smTL1.answerBool = false
         smTL1.questionInt = 201
         smTL1.land = tomorrowland
         
@@ -2777,6 +3063,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smTL2.correctAnswer = "stops"
         smTL2.keyboardType = true
         smTL2.resultImage = greyMouse
+        smTL2.answerBool = false
         smTL2.questionInt = 202
         smTL2.land = tomorrowland
         
@@ -2786,6 +3073,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smTL3.correctAnswer = "6"
         smTL3.keyboardType = false
         smTL3.resultImage = greyMouse
+        smTL3.answerBool = false
         smTL3.questionInt = 203
         smTL3.land = tomorrowland
         
@@ -2795,6 +3083,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smTL4.correctAnswer = "77"
         smTL4.keyboardType = false
         smTL4.resultImage = greyMouse
+        smTL4.answerBool = false
         smTL4.questionInt = 204
         smTL4.land = tomorrowland
         
@@ -2804,6 +3093,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smTL5.correctAnswer = "4"
         smTL5.keyboardType = false
         smTL5.resultImage = greyMouse
+        smTL5.answerBool = false
         smTL5.questionInt = 205
         smTL5.land = tomorrowland
 
@@ -2813,6 +3103,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smTL6.correctAnswer = "6"
         smTL6.keyboardType = false
         smTL6.resultImage = greyMouse
+        smTL6.answerBool = false
         smTL6.questionInt = 206
         smTL6.land = tomorrowland
         
@@ -2822,6 +3113,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smTL7.correctAnswer = "12"
         smTL7.keyboardType = false
         smTL7.resultImage = greyMouse
+        smTL7.answerBool = false
         smTL7.questionInt = 207
         smTL7.land = tomorrowland
         
@@ -2831,6 +3123,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         smTL8.correctAnswer = "Launch"
         smTL8.keyboardType = true
         smTL8.resultImage = greyMouse
+        smTL8.answerBool = false
         smTL8.questionInt = 208
         smTL8.land = tomorrowland
         
@@ -2841,6 +3134,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         starTours1.correctAnswer = "Adventures Continue"
         starTours1.keyboardType = true
         starTours1.resultImage = greyMouse
+        starTours1.answerBool = false
         starTours1.questionInt = 251
         starTours1.land = tomorrowland
         
@@ -2850,6 +3144,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         starTours2.correctAnswer = "1000"
         starTours2.keyboardType = false
         starTours2.resultImage = greyMouse
+        starTours2.answerBool = false
         starTours2.questionInt = 252
         starTours2.land = tomorrowland
         
@@ -2859,6 +3154,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         starTours3.correctAnswer = "1401"
         starTours3.keyboardType = false
         starTours3.resultImage = greyMouse
+        starTours3.answerBool = false
         starTours3.questionInt = 253
         starTours3.land = tomorrowland
 
@@ -2868,6 +3164,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         starTours4.correctAnswer = "Flight Glasses"
         starTours4.keyboardType = true
         starTours4.resultImage = greyMouse
+        starTours4.answerBool = false
         starTours4.questionInt = 254
         starTours4.land = tomorrowland
         
@@ -2877,6 +3174,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         starTours5.correctAnswer = "G2-4T"
         starTours5.keyboardType = true
         starTours5.resultImage = greyMouse
+        starTours5.answerBool = false
         starTours5.questionInt = 255
         starTours5.land = tomorrowland
         
@@ -2886,6 +3184,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         starTours6.correctAnswer = "4"
         starTours6.keyboardType = false
         starTours6.resultImage = greyMouse
+        starTours6.answerBool = false
         starTours6.questionInt = 256
         starTours6.land = tomorrowland
         
@@ -2895,6 +3194,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         starTours7.correctAnswer = "Rebel Spy"
         starTours7.keyboardType = true
         starTours7.resultImage = greyMouse
+        starTours7.answerBool = false
         starTours7.questionInt = 257
         starTours7.land = tomorrowland
         
@@ -2905,6 +3205,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         monorail1.correctAnswer = "2"
         monorail1.keyboardType = false
         monorail1.resultImage = greyMouse
+        monorail1.answerBool = false
         monorail1.questionInt = 301
         monorail1.land = tomorrowland
         
@@ -2914,6 +3215,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         monorail2.correctAnswer = "2"
         monorail2.keyboardType = false
         monorail2.resultImage = greyMouse
+        monorail2.answerBool = false
         monorail2.questionInt = 302
         monorail2.land = tomorrowland
         
@@ -2923,6 +3225,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         monorail3.correctAnswer = "1959"
         monorail3.keyboardType = false
         monorail3.resultImage = greyMouse
+        monorail3.answerBool = false
         monorail3.questionInt = 303
         monorail3.land = tomorrowland
         
@@ -2932,6 +3235,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         monorail4.correctAnswer = "Scenic"
         monorail4.keyboardType = true
         monorail4.resultImage = greyMouse
+        monorail4.answerBool = false
         monorail4.questionInt = 304
         monorail4.land = tomorrowland
         
@@ -2943,6 +3247,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         food1.correctAnswer = "Redd Rockett's Pizza Port"
         food1.keyboardType = true
         food1.resultImage = greyMouse
+        food1.answerBool = false
         food1.questionInt = 352
         food1.land = tomorrowland
         
@@ -2952,6 +3257,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         food2.correctAnswer = "Pasta"
         food2.keyboardType = true
         food2.resultImage = greyMouse
+        food2.answerBool = false
         food2.questionInt = 353
         food2.land = tomorrowland
         
@@ -2963,6 +3269,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         moonLiner1.correctAnswer = "Spirit of Refreshment"
         moonLiner1.keyboardType  = true
         moonLiner1.resultImage = greyMouse
+        moonLiner1.answerBool = false
         moonLiner1.questionInt = 401
         moonLiner1.land = tomorrowland
         
@@ -2972,6 +3279,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         moonLiner2.correctAnswer = "Rocket to the Moon"
         moonLiner2.keyboardType = true
         moonLiner2.resultImage = greyMouse
+        moonLiner2.answerBool = false
         moonLiner2.questionInt = 402
         moonLiner2.land = tomorrowland
         
@@ -2983,6 +3291,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         forgottenTrack.correctAnswer = "People Mover"
         forgottenTrack.keyboardType = true
         forgottenTrack.resultImage = greyMouse
+        forgottenTrack.answerBool = false
         forgottenTrack.questionInt = 451
         forgottenTrack.land = tomorrowland
 
@@ -2994,6 +3303,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         starTrader.correctAnswer = "9"
         starTrader.keyboardType = false
         starTrader.resultImage = greyMouse
+        starTrader.answerBool = false
         starTrader.questionInt = 501
         starTrader.land = tomorrowland
         
@@ -3005,6 +3315,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         games.correctAnswer = "Starcade"
         games.keyboardType = true
         games.resultImage = greyMouse
+        games.answerBool = false
         games.questionInt = 551
         games.land = tomorrowland
         
@@ -3014,6 +3325,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         stage.correctAnswer = "Tomorrowland Terrace"
         stage.keyboardType = true
         stage.resultImage = greyMouse
+        stage.answerBool = false
         stage.questionInt = 552
         stage.land = tomorrowland
         
@@ -3023,6 +3335,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rocket.correctAnswer = "Moonliner"
         rocket.keyboardType = true
         rocket.resultImage = greyMouse
+        rocket.answerBool = false
         rocket.questionInt = 553
         rocket.land = tomorrowland
         
@@ -3083,6 +3396,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         shootingExposition1.correctAnswer = "truly devoted"
         shootingExposition1.keyboardType = true
         shootingExposition1.resultImage = greyMouse
+        shootingExposition1.answerBool = false
         shootingExposition1.questionInt = 1
         shootingExposition1.land = frontierLand
         
@@ -3092,6 +3406,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         shootingExposition2.correctAnswer = "21"
         shootingExposition2.keyboardType = false
         shootingExposition2.resultImage = greyMouse
+        shootingExposition2.answerBool = false
         shootingExposition2.questionInt = 2
         shootingExposition2.land = frontierLand
         
@@ -3101,6 +3416,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         shootingExposition3.correctAnswer = "3"
         shootingExposition3.keyboardType = false
         shootingExposition3.resultImage = greyMouse
+        shootingExposition3.answerBool = false
         shootingExposition3.questionInt = 3
         shootingExposition3.land = frontierLand
         
@@ -3110,6 +3426,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         shootingExposition4.correctAnswer = "3"
         shootingExposition4.keyboardType = false
         shootingExposition4.resultImage = greyMouse
+        shootingExposition4.answerBool = false
         shootingExposition4.questionInt = 4
         shootingExposition4.land = frontierLand
         
@@ -3119,6 +3436,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         shootingExposition5.correctAnswer = "3"
         shootingExposition5.keyboardType = false
         shootingExposition5.resultImage = greyMouse
+        shootingExposition5.answerBool = false
         shootingExposition5.questionInt = 5
         shootingExposition5.land = frontierLand
         
@@ -3128,6 +3446,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         shootingExposition6.correctAnswer = "50"
         shootingExposition6.keyboardType = false
         shootingExposition6.resultImage = greyMouse
+        shootingExposition6.answerBool = false
         shootingExposition6.questionInt = 6
         shootingExposition6.land = frontierLand
         
@@ -3137,6 +3456,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         shootingExposition7.correctAnswer = "18"
         shootingExposition7.keyboardType = false
         shootingExposition7.resultImage = greyMouse
+        shootingExposition7.answerBool = false
         shootingExposition7.questionInt = 7
         shootingExposition7.land = frontierLand
         
@@ -3147,6 +3467,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goldenHorseshoe1.correctAnswer = "Animals"
         goldenHorseshoe1.keyboardType = true
         goldenHorseshoe1.resultImage = greyMouse
+        goldenHorseshoe1.answerBool = false
         goldenHorseshoe1.questionInt = 51
         goldenHorseshoe1.land = frontierLand
         
@@ -3156,6 +3477,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goldenHorseshoe2.correctAnswer = "1871"
         goldenHorseshoe2.keyboardType = false
         goldenHorseshoe2.resultImage = greyMouse
+        goldenHorseshoe2.answerBool = false
         goldenHorseshoe2.questionInt = 52
         goldenHorseshoe2.land = frontierLand
 
@@ -3165,6 +3487,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goldenHorseshoe3.correctAnswer = "red"
         goldenHorseshoe3.keyboardType = true
         goldenHorseshoe3.resultImage = greyMouse
+        goldenHorseshoe3.answerBool = false
         goldenHorseshoe3.questionInt = 53
         goldenHorseshoe3.land = frontierLand
         
@@ -3174,6 +3497,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goldenHorseshoe4.correctAnswer = "13"
         goldenHorseshoe4.keyboardType = false
         goldenHorseshoe4.resultImage = greyMouse
+        goldenHorseshoe4.answerBool = false
         goldenHorseshoe4.questionInt = 54
         goldenHorseshoe4.land = frontierLand
         
@@ -3183,6 +3507,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goldenHorseshoe5.correctAnswer = "14"
         goldenHorseshoe5.keyboardType = false
         goldenHorseshoe5.resultImage = greyMouse
+        goldenHorseshoe5.answerBool = false
         goldenHorseshoe5.questionInt = 55
         goldenHorseshoe5.land = frontierLand
         
@@ -3192,6 +3517,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goldenHorseshoe6.correctAnswer = "10"
         goldenHorseshoe6.keyboardType = false
         goldenHorseshoe6.resultImage = greyMouse
+        goldenHorseshoe6.answerBool = false
         goldenHorseshoe6.questionInt = 56
         goldenHorseshoe6.land = frontierLand
         
@@ -3201,6 +3527,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goldenHorseshoe7.correctAnswer = "6"
         goldenHorseshoe7.keyboardType = false
         goldenHorseshoe7.resultImage = greyMouse
+        goldenHorseshoe7.answerBool = false
         goldenHorseshoe7.questionInt = 57
         goldenHorseshoe7.land = frontierLand
         
@@ -3211,6 +3538,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         markTwain1.correctAnswer = "star"
         markTwain1.keyboardType = true
         markTwain1.resultImage = greyMouse
+        markTwain1.answerBool = false
         markTwain1.questionInt = 101
         markTwain1.land = frontierLand
 
@@ -3220,6 +3548,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         markTwain2.correctAnswer = "Mark Twain"
         markTwain2.keyboardType = true
         markTwain2.resultImage = greyMouse
+        markTwain2.answerBool = false
         markTwain2.questionInt = 102
         markTwain2.land = frontierLand
         
@@ -3229,6 +3558,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         markTwain3.correctAnswer = "3"
         markTwain3.keyboardType = false
         markTwain3.resultImage = greyMouse
+        markTwain3.answerBool = false
         markTwain3.questionInt = 103
         markTwain3.land = frontierLand
         
@@ -3238,6 +3568,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         markTwain4.correctAnswer = "1883"
         markTwain4.keyboardType = false
         markTwain4.resultImage = greyMouse
+        markTwain4.answerBool = false
         markTwain4.questionInt = 104
         markTwain4.land = frontierLand
         
@@ -3247,6 +3578,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         markTwain5.correctAnswer = "2"
         markTwain5.keyboardType = false
         markTwain5.resultImage = greyMouse
+        markTwain5.answerBool = false
         markTwain5.questionInt = 105
         markTwain5.land = frontierLand
         
@@ -3256,6 +3588,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         markTwain6.correctAnswer = "gold"
         markTwain6.keyboardType = true
         markTwain6.resultImage = greyMouse
+        markTwain6.answerBool = false
         markTwain6.questionInt = 106
         markTwain6.land = frontierLand
         
@@ -3265,6 +3598,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         markTwain7.correctAnswer = "6"
         markTwain7.keyboardType = false
         markTwain7.resultImage = greyMouse
+        markTwain7.answerBool = false
         markTwain7.questionInt = 107
         markTwain7.land = frontierLand
         
@@ -3275,6 +3609,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sailingShip1.correctAnswer = "13"
         sailingShip1.keyboardType = false
         sailingShip1.resultImage = greyMouse
+        sailingShip1.answerBool = false
         sailingShip1.questionInt = 151
         sailingShip1.land = frontierLand
 
@@ -3284,6 +3619,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sailingShip2.correctAnswer = "1787"
         sailingShip2.keyboardType = false
         sailingShip2.resultImage = greyMouse
+        sailingShip2.answerBool = false
         sailingShip2.questionInt = 152
         sailingShip2.land = frontierLand
         
@@ -3293,6 +3629,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sailingShip3.correctAnswer = "10"
         sailingShip3.keyboardType = false
         sailingShip3.resultImage = greyMouse
+        sailingShip3.answerBool = false
         sailingShip3.questionInt = 153
         sailingShip3.land = frontierLand
         
@@ -3302,6 +3639,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sailingShip4.correctAnswer = "83"
         sailingShip4.keyboardType = false
         sailingShip4.resultImage = greyMouse
+        sailingShip4.answerBool = false
         sailingShip4.questionInt = 154
         sailingShip4.land = frontierLand
         
@@ -3312,6 +3650,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         frontierlandPort1.correctAnswer = "2"
         frontierlandPort1.keyboardType = false
         frontierlandPort1.resultImage = greyMouse
+        frontierlandPort1.answerBool = false
         frontierlandPort1.questionInt = 201
         frontierlandPort1.land = frontierLand
         
@@ -3321,6 +3660,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         frontierlandPort2.correctAnswer = "2"
         frontierlandPort2.keyboardType = false
         frontierlandPort2.resultImage = greyMouse
+        frontierlandPort2.answerBool = false
         frontierlandPort2.questionInt = 202
         frontierlandPort2.land = frontierLand
         
@@ -3331,6 +3671,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain1.correctAnswer = "Hearty"
         thunderMountain1.keyboardType = true
         thunderMountain1.resultImage = greyMouse
+        thunderMountain1.answerBool = false
         thunderMountain1.questionInt = 251
         thunderMountain1.land = frontierLand
 
@@ -3340,6 +3681,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain2.correctAnswer = "Rainbow Ridge"
         thunderMountain2.keyboardType = true
         thunderMountain2.resultImage = greyMouse
+        thunderMountain2.answerBool = false
         thunderMountain2.questionInt = 252
         thunderMountain2.land = frontierLand
         
@@ -3349,6 +3691,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain3.correctAnswer = "2"
         thunderMountain3.keyboardType = false
         thunderMountain3.resultImage = greyMouse
+        thunderMountain3.answerBool = false
         thunderMountain3.questionInt = 253
         thunderMountain3.land = frontierLand
         
@@ -3358,6 +3701,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain4.correctAnswer = "11"
         thunderMountain4.keyboardType = false
         thunderMountain4.resultImage = greyMouse
+        thunderMountain4.answerBool = false
         thunderMountain4.questionInt = 254
         thunderMountain4.land = frontierLand
         
@@ -3367,6 +3711,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain5.correctAnswer = "175"
         thunderMountain5.keyboardType = false
         thunderMountain5.resultImage = greyMouse
+        thunderMountain5.answerBool = false
         thunderMountain5.questionInt = 255
         thunderMountain5.land = frontierLand
         
@@ -3376,6 +3721,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain6.correctAnswer = "Gold Nugget"
         thunderMountain6.keyboardType = true
         thunderMountain6.resultImage = greyMouse
+        thunderMountain6.answerBool = false
         thunderMountain6.questionInt = 256
         thunderMountain6.land = frontierLand
         
@@ -3385,6 +3731,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain7.correctAnswer = "Dry Goods"
         thunderMountain7.keyboardType = true
         thunderMountain7.resultImage = greyMouse
+        thunderMountain7.answerBool = false
         thunderMountain7.questionInt = 257
         thunderMountain7.land = frontierLand
         
@@ -3394,6 +3741,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain8.correctAnswer = "1809"
         thunderMountain8.keyboardType = false
         thunderMountain8.resultImage = greyMouse
+        thunderMountain8.answerBool = false
         thunderMountain8.questionInt = 258
         thunderMountain8.land = frontierLand
         
@@ -3403,6 +3751,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain9.correctAnswer = "Big Thunder Epitaph"
         thunderMountain9.keyboardType = true
         thunderMountain9.resultImage = greyMouse
+        thunderMountain9.answerBool = false
         thunderMountain9.questionInt = 259
         thunderMountain9.land = frontierLand
         
@@ -3412,6 +3761,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain10.correctAnswer = "50"
         thunderMountain10.keyboardType = false
         thunderMountain10.resultImage = greyMouse
+        thunderMountain10.answerBool = false
         thunderMountain10.questionInt = 260
         thunderMountain10.land = frontierLand
         
@@ -3421,6 +3771,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain11.correctAnswer = "13"
         thunderMountain11.keyboardType = false
         thunderMountain11.resultImage = greyMouse
+        thunderMountain11.answerBool = false
         thunderMountain11.questionInt = 261
         thunderMountain11.land = frontierLand
         
@@ -3430,6 +3781,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain12.correctAnswer = "79"
         thunderMountain12.keyboardType = false
         thunderMountain12.resultImage = greyMouse
+        thunderMountain12.answerBool = false
         thunderMountain12.questionInt = 262
         thunderMountain12.land = frontierLand
         
@@ -3439,6 +3791,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain13.correctAnswer = "7"
         thunderMountain13.keyboardType = false
         thunderMountain13.resultImage = greyMouse
+        thunderMountain13.answerBool = false
         thunderMountain13.questionInt = 263
         thunderMountain13.land = frontierLand
         
@@ -3448,6 +3801,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain14.correctAnswer = "3"
         thunderMountain14.keyboardType = false
         thunderMountain14.resultImage = greyMouse
+        thunderMountain14.answerBool = false
         thunderMountain14.questionInt = 264
         thunderMountain14.land = frontierLand
         
@@ -3457,6 +3811,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain15.correctAnswer = "5"
         thunderMountain15.keyboardType = false
         thunderMountain15.resultImage = greyMouse
+        thunderMountain15.answerBool = false
         thunderMountain15.questionInt = 265
         thunderMountain15.land = frontierLand
 
@@ -3466,6 +3821,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain16.correctAnswer = "3"
         thunderMountain16.keyboardType = false
         thunderMountain16.resultImage = greyMouse
+        thunderMountain16.answerBool = false
         thunderMountain16.questionInt = 266
         thunderMountain16.land = frontierLand
         
@@ -3475,6 +3831,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain17.correctAnswer = "Blasting Zone"
         thunderMountain17.keyboardType = true
         thunderMountain17.resultImage = greyMouse
+        thunderMountain17.answerBool = false
         thunderMountain17.questionInt = 267
         thunderMountain17.land = frontierLand
         
@@ -3484,6 +3841,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain18.correctAnswer = "I. B. Hearty"
         thunderMountain18.keyboardType = true
         thunderMountain18.resultImage = greyMouse
+        thunderMountain18.answerBool = false
         thunderMountain18.questionInt = 268
         thunderMountain18.land = frontierLand
         
@@ -3493,6 +3851,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain19.correctAnswer = "Big Thunder Saloon"
         thunderMountain19.keyboardType = true
         thunderMountain19.resultImage = greyMouse
+        thunderMountain19.answerBool = false
         thunderMountain19.questionInt = 269
         thunderMountain19.land = frontierLand
         
@@ -3502,6 +3861,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain20.correctAnswer = "Wildest"
         thunderMountain20.keyboardType = true
         thunderMountain20.resultImage = greyMouse
+        thunderMountain20.answerBool = false
         thunderMountain20.questionInt = 270
         thunderMountain20.land = frontierLand
         
@@ -3511,6 +3871,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         thunderMountain21.correctAnswer = "bats"
         thunderMountain21.keyboardType = true
         thunderMountain21.resultImage = greyMouse
+        thunderMountain21.answerBool = false
         thunderMountain21.questionInt = 271
         thunderMountain21.land = frontierLand
         
@@ -3522,6 +3883,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         flStores1.correctAnswer = "Westward Ho Trading Co."
         flStores1.keyboardType = true
         flStores1.resultImage = greyMouse
+        flStores1.answerBool = false
         flStores1.questionInt = 301
         flStores1.land = frontierLand
         
@@ -3531,6 +3893,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         flStores2.correctAnswer = "1807"
         flStores2.keyboardType = false
         flStores2.resultImage = greyMouse
+        flStores2.answerBool = false
         flStores2.questionInt = 302
         flStores2.land = frontierLand
         
@@ -3540,6 +3903,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         flStores3.correctAnswer = "Coonskin Cap Supply Co."
         flStores3.keyboardType = true
         flStores3.resultImage = greyMouse
+        flStores3.answerBool = false
         flStores3.questionInt = 303
         flStores3.land = frontierLand
         
@@ -3549,6 +3913,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         flStores4.correctAnswer = "right"
         flStores4.keyboardType = true
         flStores4.resultImage = greyMouse
+        flStores4.answerBool = false
         flStores4.questionInt = 304
         flStores4.land = frontierLand
 
@@ -3558,6 +3923,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         flStores5.correctAnswer = "Woolens"
         flStores5.keyboardType = true
         flStores5.resultImage = greyMouse
+        flStores5.answerBool = false
         flStores5.questionInt = 305
         flStores5.land = frontierLand
 
@@ -3569,6 +3935,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         petrifiedTree1.correctAnswer = "5"
         petrifiedTree1.keyboardType = false
         petrifiedTree1.resultImage = greyMouse
+        petrifiedTree1.answerBool = false
         petrifiedTree1.questionInt = 351
         petrifiedTree1.land = frontierLand
         
@@ -3578,6 +3945,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         petrifiedTree2.correctAnswer = "Pike Petrified Forest"
         petrifiedTree2.keyboardType = true
         petrifiedTree2.resultImage = greyMouse
+        petrifiedTree2.answerBool = false
         petrifiedTree2.questionInt = 352
         petrifiedTree2.land = frontierLand
         
@@ -3589,6 +3957,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         saloon.correctAnswer = "The Golden Horseshoe"
         saloon.keyboardType = true
         saloon.resultImage = greyMouse
+        saloon.answerBool = false
         saloon.questionInt = 401
         saloon.land = frontierLand
         
@@ -3598,6 +3967,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         theDonatedFlag.correctAnswer = "The American Human Association"
         theDonatedFlag.keyboardType = true
         theDonatedFlag.resultImage = greyMouse
+        theDonatedFlag.answerBool = false
         theDonatedFlag.questionInt = 402
         theDonatedFlag.land = frontierLand
         
@@ -3607,6 +3977,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         frontierlandFood.correctAnswer = "Rancho Del Zocalo"
         frontierlandFood.keyboardType = true
         frontierlandFood.resultImage = greyMouse
+        frontierlandFood.answerBool = false
         frontierlandFood.questionInt = 403
         frontierlandFood.land = frontierLand
         
@@ -3616,6 +3987,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         wildestTrash.correctAnswer = "Wood"
         wildestTrash.keyboardType = true
         wildestTrash.resultImage = greyMouse
+        wildestTrash.answerBool = false
         wildestTrash.questionInt = 404
         wildestTrash.land = frontierLand
         
@@ -3625,6 +3997,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         frontierlandStreets.correctAnswer = "1845"
         frontierlandStreets.keyboardType = false
         frontierlandStreets.resultImage = greyMouse
+        frontierlandStreets.answerBool = false
         frontierlandStreets.questionInt = 405
         frontierlandStreets.land = frontierLand
         
@@ -3679,6 +4052,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit1.correctAnswer = "Red"
         rogerRabbit1.keyboardType = true
         rogerRabbit1.resultImage = greyMouse
+        rogerRabbit1.answerBool = false
         rogerRabbit1.questionInt = 1
         rogerRabbit1.land = toonTown
         
@@ -3688,6 +4062,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit2.correctAnswer = "tnt disguised as cigars"
         rogerRabbit2.keyboardType = true
         rogerRabbit2.resultImage = greyMouse
+        rogerRabbit2.answerBool = false
         rogerRabbit2.questionInt = 2
         rogerRabbit2.land = toonTown
         
@@ -3697,6 +4072,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit3.correctAnswer = "2"
         rogerRabbit3.keyboardType = false
         rogerRabbit3.resultImage = greyMouse
+        rogerRabbit3.answerBool = false
         rogerRabbit3.questionInt = 3
         rogerRabbit3.land = toonTown
         
@@ -3706,6 +4082,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit4.correctAnswer = "4"
         rogerRabbit4.keyboardType = false
         rogerRabbit4.resultImage = greyMouse
+        rogerRabbit4.answerBool = false
         rogerRabbit4.questionInt = 4
         rogerRabbit4.land = toonTown
         
@@ -3715,6 +4092,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit5.correctAnswer = "L"
         rogerRabbit5.keyboardType = true
         rogerRabbit5.resultImage = greyMouse
+        rogerRabbit5.answerBool = false
         rogerRabbit5.questionInt = 5
         rogerRabbit5.land = toonTown
         
@@ -3724,6 +4102,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit6.correctAnswer = "Jessica Rabbit"
         rogerRabbit6.keyboardType = true
         rogerRabbit6.resultImage = greyMouse
+        rogerRabbit6.answerBool = false
         rogerRabbit6.questionInt = 6
         rogerRabbit6.land = toonTown
         
@@ -3733,6 +4112,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit7.correctAnswer = "Lenny"
         rogerRabbit7.keyboardType = true
         rogerRabbit7.resultImage = greyMouse
+        rogerRabbit7.answerBool = false
         rogerRabbit7.questionInt = 7
         rogerRabbit7.land = toonTown
         
@@ -3742,6 +4122,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit8.correctAnswer = "40"
         rogerRabbit8.keyboardType = false
         rogerRabbit8.resultImage = greyMouse
+        rogerRabbit8.answerBool = false
         rogerRabbit8.questionInt = 8
         rogerRabbit8.land = toonTown
         
@@ -3751,6 +4132,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit9.correctAnswer = "the dip"
         rogerRabbit9.keyboardType = true
         rogerRabbit9.resultImage = greyMouse
+        rogerRabbit9.answerBool = false
         rogerRabbit9.questionInt = 9
         rogerRabbit9.land = toonTown
         
@@ -3760,6 +4142,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit10.correctAnswer = "With Extreme Caution"
         rogerRabbit10.keyboardType = true
         rogerRabbit10.resultImage = greyMouse
+        rogerRabbit10.answerBool = false
         rogerRabbit10.questionInt = 10
         rogerRabbit10.land = toonTown
         
@@ -3769,6 +4152,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit11.correctAnswer = "Toonzoil"
         rogerRabbit11.keyboardType = true
         rogerRabbit11.resultImage = greyMouse
+        rogerRabbit11.answerBool = false
         rogerRabbit11.questionInt = 11
         rogerRabbit11.land = toonTown
         
@@ -3778,6 +4162,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit12.correctAnswer = "2"
         rogerRabbit12.keyboardType = false
         rogerRabbit12.resultImage = greyMouse
+        rogerRabbit12.answerBool = false
         rogerRabbit12.questionInt = 12
         rogerRabbit12.land = toonTown
         
@@ -3787,6 +4172,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit13.correctAnswer = "wishing apples"
         rogerRabbit13.keyboardType = true
         rogerRabbit13.resultImage = greyMouse
+        rogerRabbit13.answerBool = false
         rogerRabbit13.questionInt = 13
         rogerRabbit13.land = toonTown
         
@@ -3796,6 +4182,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         rogerRabbit14.correctAnswer = "Bullina"
         rogerRabbit14.keyboardType = true
         rogerRabbit14.resultImage = greyMouse
+        rogerRabbit14.answerBool = false
         rogerRabbit14.questionInt = 14
         rogerRabbit14.land = toonTown
         
@@ -3807,6 +4194,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse1.correctAnswer = "The President"
         mickeysHouse1.keyboardType = true
         mickeysHouse1.resultImage = greyMouse
+        mickeysHouse1.answerBool = false
         mickeysHouse1.questionInt = 51
         mickeysHouse1.land = toonTown
         
@@ -3816,6 +4204,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse2.correctAnswer = "Ace Doggi Door"
         mickeysHouse2.keyboardType = true
         mickeysHouse2.resultImage = greyMouse
+        mickeysHouse2.answerBool = false
         mickeysHouse2.questionInt = 52
         mickeysHouse2.land = toonTown
         
@@ -3825,6 +4214,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse3.correctAnswer = "Japan"
         mickeysHouse3.keyboardType = true
         mickeysHouse3.resultImage = greyMouse
+        mickeysHouse3.answerBool = false
         mickeysHouse3.questionInt = 53
         mickeysHouse3.land = toonTown
         
@@ -3834,6 +4224,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse4.correctAnswer = "Coach Mickey"
         mickeysHouse4.keyboardType = true
         mickeysHouse4.resultImage = greyMouse
+        mickeysHouse4.answerBool = false
         mickeysHouse4.questionInt = 54
         mickeysHouse4.land = toonTown
         
@@ -3843,6 +4234,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse5.correctAnswer = "Mouse of Cards"
         mickeysHouse5.keyboardType = true
         mickeysHouse5.resultImage = greyMouse
+        mickeysHouse5.answerBool = false
         mickeysHouse5.questionInt = 55
         mickeysHouse5.land = toonTown
         
@@ -3852,6 +4244,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse6.correctAnswer = "Steamboat Willie"
         mickeysHouse6.keyboardType = true
         mickeysHouse6.resultImage = greyMouse
+        mickeysHouse6.answerBool = false
         mickeysHouse6.questionInt = 56
         mickeysHouse6.land = toonTown
         
@@ -3861,6 +4254,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse7.correctAnswer = "The Wonder Ears"
         mickeysHouse7.keyboardType = true
         mickeysHouse7.resultImage = greyMouse
+        mickeysHouse7.answerBool = false
         mickeysHouse7.questionInt = 57
         mickeysHouse7.land = toonTown
         
@@ -3870,6 +4264,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse8.correctAnswer = "000001"
         mickeysHouse8.keyboardType = false
         mickeysHouse8.resultImage = greyMouse
+        mickeysHouse8.answerBool = false
         mickeysHouse8.questionInt = 58
         mickeysHouse8.land = toonTown
         
@@ -3879,6 +4274,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse9.correctAnswer = "Sunday"
         mickeysHouse9.keyboardType = true
         mickeysHouse9.resultImage = greyMouse
+        mickeysHouse9.answerBool = false
         mickeysHouse9.questionInt = 59
         mickeysHouse9.land = toonTown
         
@@ -3888,6 +4284,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse10.correctAnswer = "7883"
         mickeysHouse10.keyboardType = false
         mickeysHouse10.resultImage = greyMouse
+        mickeysHouse10.answerBool = false
         mickeysHouse10.questionInt = 60
         mickeysHouse10.land = toonTown
         
@@ -3897,6 +4294,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse11.correctAnswer = "Donald"
         mickeysHouse11.keyboardType = true
         mickeysHouse11.resultImage = greyMouse
+        mickeysHouse11.answerBool = false
         mickeysHouse11.questionInt = 61
         mickeysHouse11.land = toonTown
         
@@ -3906,6 +4304,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse12.correctAnswer = "033110756"
         mickeysHouse12.keyboardType = false
         mickeysHouse12.resultImage = greyMouse
+        mickeysHouse12.answerBool = false
         mickeysHouse12.questionInt = 62
         mickeysHouse12.land = toonTown
         
@@ -3915,6 +4314,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse13.correctAnswer = "24"
         mickeysHouse13.keyboardType = false
         mickeysHouse13.resultImage = greyMouse
+        mickeysHouse13.answerBool = false
         mickeysHouse13.questionInt = 63
         mickeysHouse13.land = toonTown
         
@@ -3924,6 +4324,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse14.correctAnswer = "5677"
         mickeysHouse14.keyboardType = false
         mickeysHouse14.resultImage = greyMouse
+        mickeysHouse14.answerBool = false
         mickeysHouse14.questionInt = 64
         mickeysHouse14.land = toonTown
         
@@ -3933,6 +4334,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse15.correctAnswer = "Mouse Way"
         mickeysHouse15.keyboardType = true
         mickeysHouse15.resultImage = greyMouse
+        mickeysHouse15.answerBool = false
         mickeysHouse15.questionInt = 65
         mickeysHouse15.land = toonTown
         
@@ -3942,6 +4344,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse16.correctAnswer = "Mickey"
         mickeysHouse16.keyboardType = true
         mickeysHouse16.resultImage = greyMouse
+        mickeysHouse16.answerBool = false
         mickeysHouse16.questionInt = 66
         mickeysHouse16.land = toonTown
         
@@ -3951,6 +4354,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse17.correctAnswer = "0"
         mickeysHouse17.keyboardType = false
         mickeysHouse17.resultImage = greyMouse
+        mickeysHouse17.answerBool = false
         mickeysHouse17.questionInt = 67
         mickeysHouse17.land = toonTown
         
@@ -3960,6 +4364,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse18.correctAnswer = "8"
         mickeysHouse18.keyboardType = false
         mickeysHouse18.resultImage = greyMouse
+        mickeysHouse18.answerBool = false
         mickeysHouse18.questionInt = 68
         mickeysHouse18.land = toonTown
         
@@ -3969,6 +4374,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse19.correctAnswer = "Mousekosh"
         mickeysHouse19.keyboardType = true
         mickeysHouse19.resultImage = greyMouse
+        mickeysHouse19.answerBool = false
         mickeysHouse19.questionInt = 69
         mickeysHouse19.land = toonTown
         
@@ -3978,6 +4384,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse20.correctAnswer = "3"
         mickeysHouse20.keyboardType = false
         mickeysHouse20.resultImage = greyMouse
+        mickeysHouse20.answerBool = false
         mickeysHouse20.questionInt = 70
         mickeysHouse20.land = toonTown
         
@@ -3987,6 +4394,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse21.correctAnswer = "11"
         mickeysHouse21.keyboardType = false
         mickeysHouse21.resultImage = greyMouse
+        mickeysHouse21.answerBool = false
         mickeysHouse21.questionInt = 71
         mickeysHouse21.land = toonTown
         
@@ -3996,6 +4404,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse22.correctAnswer = "5"
         mickeysHouse22.keyboardType = false
         mickeysHouse22.resultImage = greyMouse
+        mickeysHouse22.answerBool = false
         mickeysHouse22.questionInt = 72
         mickeysHouse22.land = toonTown
         
@@ -4005,6 +4414,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse23.correctAnswer = "red"
         mickeysHouse23.keyboardType = true
         mickeysHouse23.resultImage = greyMouse
+        mickeysHouse23.answerBool = false
         mickeysHouse23.questionInt = 73
         mickeysHouse23.land = toonTown
         
@@ -4014,6 +4424,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         mickeysHouse24.correctAnswer = "Mickey 1"
         mickeysHouse24.keyboardType = true
         mickeysHouse24.resultImage = greyMouse
+        mickeysHouse24.answerBool = false
         mickeysHouse24.questionInt = 74
         mickeysHouse24.land = toonTown
         
@@ -4024,6 +4435,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofysHouse1.correctAnswer = "blue"
         goofysHouse1.keyboardType = true
         goofysHouse1.resultImage = greyMouse
+        goofysHouse1.answerBool = false
         goofysHouse1.questionInt = 101
         goofysHouse1.land = toonTown
         
@@ -4033,6 +4445,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofysHouse2.correctAnswer = "G"
         goofysHouse2.keyboardType = true
         goofysHouse2.resultImage = greyMouse
+        goofysHouse2.answerBool = false
         goofysHouse2.questionInt = 102
         goofysHouse2.land = toonTown
         
@@ -4042,6 +4455,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofysHouse3.correctAnswer = "3"
         goofysHouse3.keyboardType = false
         goofysHouse3.resultImage = greyMouse
+        goofysHouse3.answerBool = false
         goofysHouse3.questionInt = 103
         goofysHouse3.land = toonTown
         
@@ -4051,6 +4465,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofysHouse4.correctAnswer = "green"
         goofysHouse4.keyboardType = true
         goofysHouse4.resultImage = greyMouse
+        goofysHouse4.answerBool = false
         goofysHouse4.questionInt = 104
         goofysHouse4.land = toonTown
         
@@ -4060,6 +4475,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofysHouse5.correctAnswer = "black"
         goofysHouse5.keyboardType = true
         goofysHouse5.resultImage = greyMouse
+        goofysHouse5.answerBool = false
         goofysHouse5.questionInt = 105
         goofysHouse5.land = toonTown
         
@@ -4069,6 +4485,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofysHouse6.correctAnswer = "9"
         goofysHouse6.keyboardType = false
         goofysHouse6.resultImage = greyMouse
+        goofysHouse6.answerBool = false
         goofysHouse6.questionInt = 106
         goofysHouse6.land = toonTown
         
@@ -4078,6 +4495,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofysHouse7.correctAnswer = "cork"
         goofysHouse7.keyboardType = true
         goofysHouse7.resultImage = greyMouse
+        goofysHouse7.answerBool = false
         goofysHouse7.questionInt = 107
         goofysHouse7.land = toonTown
         
@@ -4087,6 +4505,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofysHouse8.correctAnswer = "orange"
         goofysHouse8.keyboardType = true
         goofysHouse8.resultImage = greyMouse
+        goofysHouse8.answerBool = false
         goofysHouse8.questionInt = 108
         goofysHouse8.land = toonTown
         
@@ -4096,6 +4515,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofysHouse9.correctAnswer = "blue"
         goofysHouse9.keyboardType = true
         goofysHouse9.resultImage = greyMouse
+        goofysHouse9.answerBool = false
         goofysHouse9.questionInt = 109
         goofysHouse9.land = toonTown
         
@@ -4105,6 +4525,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofysHouse10.correctAnswer = "polka dot"
         goofysHouse10.keyboardType = true
         goofysHouse10.resultImage = greyMouse
+        goofysHouse10.answerBool = false
         goofysHouse10.questionInt = 110
         goofysHouse10.land = toonTown
         
@@ -4114,6 +4535,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofysHouse11.correctAnswer = "3"
         goofysHouse11.keyboardType = false
         goofysHouse11.resultImage = greyMouse
+        goofysHouse11.answerBool = false
         goofysHouse11.questionInt = 111
         goofysHouse11.land = toonTown
         
@@ -4124,6 +4546,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         minniesHouse1.correctAnswer = "Secret"
         minniesHouse1.keyboardType = true
         minniesHouse1.resultImage = greyMouse
+        minniesHouse1.answerBool = false
         minniesHouse1.questionInt = 151
         minniesHouse1.land = toonTown
         
@@ -4133,6 +4556,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         minniesHouse2.correctAnswer = "10"
         minniesHouse2.keyboardType = false
         minniesHouse2.resultImage = greyMouse
+        minniesHouse2.answerBool = false
         minniesHouse2.questionInt = 152
         minniesHouse2.land = toonTown
         
@@ -4142,6 +4566,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         minniesHouse3.correctAnswer = "purple"
         minniesHouse3.keyboardType = true
         minniesHouse3.resultImage = greyMouse
+        minniesHouse3.answerBool = false
         minniesHouse3.questionInt = 153
         minniesHouse3.land = toonTown
         
@@ -4151,6 +4576,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         minniesHouse4.correctAnswer = "7"
         minniesHouse4.keyboardType = false
         minniesHouse4.resultImage = greyMouse
+        minniesHouse4.answerBool = false
         minniesHouse4.questionInt = 154
         minniesHouse4.land = toonTown
 
@@ -4160,6 +4586,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         minniesHouse5.correctAnswer = "Cheese and Remembrance"
         minniesHouse5.keyboardType = true
         minniesHouse5.resultImage = greyMouse
+        minniesHouse5.answerBool = false
         minniesHouse5.questionInt = 155
         minniesHouse5.land = toonTown
         
@@ -4169,6 +4596,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         minniesHouse6.correctAnswer = "2"
         minniesHouse6.keyboardType = false
         minniesHouse6.resultImage = greyMouse
+        minniesHouse6.answerBool = false
         minniesHouse6.questionInt = 156
         minniesHouse6.land = toonTown
         
@@ -4179,6 +4607,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         minniesHouse7.keyboardType = false
         minniesHouse7.resultImage = greyMouse
         minniesHouse7.questionInt = 157
+        minniesHouse7.answerBool = false
         minniesHouse7.land = toonTown
         
         let minniesHouse8 = Questions(entity: questionDescription!, insertInto: context)
@@ -4187,6 +4616,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         minniesHouse8.correctAnswer = "Cheesemore"
         minniesHouse8.keyboardType = true
         minniesHouse8.resultImage = greyMouse
+        minniesHouse8.answerBool = false
         minniesHouse8.questionInt = 158
         minniesHouse8.land = toonTown
         
@@ -4196,6 +4626,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         minniesHouse9.correctAnswer = "23"
         minniesHouse9.keyboardType = false
         minniesHouse9.resultImage = greyMouse
+        minniesHouse9.answerBool = false
         minniesHouse9.questionInt = 159
         minniesHouse9.land = toonTown
         
@@ -4205,6 +4636,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         minniesHouse10.correctAnswer = "Mickey"
         minniesHouse10.keyboardType = true
         minniesHouse10.resultImage = greyMouse
+        minniesHouse10.answerBool = false
         minniesHouse10.questionInt = 160
         minniesHouse10.land = toonTown
         
@@ -4214,6 +4646,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         minniesHouse11.correctAnswer = "heart"
         minniesHouse11.keyboardType = true
         minniesHouse11.resultImage = greyMouse
+        minniesHouse11.answerBool = false
         minniesHouse11.questionInt = 161
         minniesHouse11.land = toonTown
         
@@ -4224,6 +4657,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         donaldsBoat1.correctAnswer = "Miss Daisy"
         donaldsBoat1.keyboardType = true
         donaldsBoat1.resultImage = greyMouse
+        donaldsBoat1.answerBool = false
         donaldsBoat1.questionInt = 201
         donaldsBoat1.land = toonTown
         
@@ -4233,6 +4667,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         donaldsBoat2.correctAnswer = "Daisy"
         donaldsBoat2.keyboardType = true
         donaldsBoat2.resultImage = greyMouse
+        donaldsBoat2.answerBool = false
         donaldsBoat2.questionInt = 202
         donaldsBoat2.land = toonTown
         
@@ -4242,6 +4677,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         donaldsBoat3.correctAnswer = "yellow"
         donaldsBoat3.keyboardType = true
         donaldsBoat3.resultImage = greyMouse
+        donaldsBoat3.answerBool = false
         donaldsBoat3.questionInt = 203
         donaldsBoat3.land = toonTown
         
@@ -4251,6 +4687,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         donaldsBoat4.correctAnswer = "5"
         donaldsBoat4.keyboardType = false
         donaldsBoat4.resultImage = greyMouse
+        donaldsBoat4.answerBool = false
         donaldsBoat4.questionInt = 204
         donaldsBoat4.land = toonTown
         
@@ -4260,6 +4697,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         donaldsBoat5.correctAnswer = "yellow"
         donaldsBoat5.keyboardType = true
         donaldsBoat5.resultImage = greyMouse
+        donaldsBoat5.answerBool = false
         donaldsBoat5.questionInt = 205
         donaldsBoat5.land = toonTown
         
@@ -4269,6 +4707,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         donaldsBoat6.correctAnswer = "Toon Lake"
         donaldsBoat6.keyboardType = true
         donaldsBoat6.resultImage = greyMouse
+        donaldsBoat6.answerBool = false
         donaldsBoat6.questionInt = 206
         donaldsBoat6.land = toonTown
         
@@ -4278,6 +4717,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         donaldsBoat7.correctAnswer = "blue"
         donaldsBoat7.keyboardType = true
         donaldsBoat7.resultImage = greyMouse
+        donaldsBoat7.answerBool = false
         donaldsBoat7.questionInt = 207
         donaldsBoat7.land = toonTown
         
@@ -4287,6 +4727,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         donaldsBoat8.correctAnswer = "1"
         donaldsBoat8.keyboardType = false
         donaldsBoat8.resultImage = greyMouse
+        donaldsBoat8.answerBool = false
         donaldsBoat8.questionInt = 208
         donaldsBoat8.land = toonTown
         
@@ -4298,6 +4739,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         chipAndDalesTreehouse1.correctAnswer = "slide"
         chipAndDalesTreehouse1.keyboardType = true
         chipAndDalesTreehouse1.resultImage = greyMouse
+        chipAndDalesTreehouse1.answerBool = false
         chipAndDalesTreehouse1.questionInt = 251
         chipAndDalesTreehouse1.land = toonTown
         
@@ -4309,6 +4751,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         gadgetsGoCoaster1.correctAnswer = "35"
         gadgetsGoCoaster1.keyboardType = false
         gadgetsGoCoaster1.resultImage = greyMouse
+        gadgetsGoCoaster1.answerBool = false
         gadgetsGoCoaster1.questionInt = 301
         gadgetsGoCoaster1.land = toonTown
         
@@ -4318,6 +4761,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         gadgetsGoCoaster2.correctAnswer = "red"
         gadgetsGoCoaster2.keyboardType = true
         gadgetsGoCoaster2.resultImage = greyMouse
+        gadgetsGoCoaster2.answerBool = false
         gadgetsGoCoaster2.questionInt = 302
         gadgetsGoCoaster2.land = toonTown
         
@@ -4327,6 +4771,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         gadgetsGoCoaster3.correctAnswer = "blue"
         gadgetsGoCoaster3.keyboardType = true
         gadgetsGoCoaster3.resultImage = greyMouse
+        gadgetsGoCoaster3.answerBool = false
         gadgetsGoCoaster3.questionInt = 303
         gadgetsGoCoaster3.land = toonTown
         
@@ -4336,6 +4781,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         gadgetsGoCoaster4.correctAnswer = "Frogs"
         gadgetsGoCoaster4.keyboardType = true
         gadgetsGoCoaster4.resultImage = greyMouse
+        gadgetsGoCoaster4.answerBool = false
         gadgetsGoCoaster4.questionInt = 304
         gadgetsGoCoaster4.land = toonTown
         
@@ -4345,6 +4791,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         gadgetsGoCoaster5.correctAnswer = "Acorns"
         gadgetsGoCoaster5.keyboardType = true
         gadgetsGoCoaster5.resultImage = greyMouse
+        gadgetsGoCoaster5.answerBool = false
         gadgetsGoCoaster5.questionInt = 305
         gadgetsGoCoaster5.land = toonTown
         
@@ -4354,6 +4801,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         gadgetsGoCoaster6.correctAnswer = "Dominos"
         gadgetsGoCoaster6.keyboardType = true
         gadgetsGoCoaster6.resultImage = greyMouse
+        gadgetsGoCoaster6.answerBool = false
         gadgetsGoCoaster6.questionInt = 306
         gadgetsGoCoaster6.land = toonTown
         
@@ -4364,6 +4812,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         toonTownFood1.correctAnswer = "Pluto's Dog House"
         toonTownFood1.keyboardType = true
         toonTownFood1.resultImage = greyMouse
+        toonTownFood1.answerBool = false
         toonTownFood1.questionInt = 351
         toonTownFood1.land = toonTown
         
@@ -4373,6 +4822,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         toonTownFood2.correctAnswer = "Daisy's Diner"
         toonTownFood2.keyboardType = true
         toonTownFood2.resultImage = greyMouse
+        toonTownFood2.answerBool = false
         toonTownFood2.questionInt = 352
         toonTownFood2.land = toonTown
         
@@ -4383,6 +4833,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         fiveAndDime.correctAnswer = "yellow"
         fiveAndDime.keyboardType = true
         fiveAndDime.resultImage = greyMouse
+        fiveAndDime.answerBool = false
         fiveAndDime.questionInt = 401
         fiveAndDime.land = toonTown
         
@@ -4393,6 +4844,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         postOffice1.correctAnswer = "Goofy"
         postOffice1.keyboardType = true
         postOffice1.resultImage = greyMouse
+        postOffice1.answerBool = false
         postOffice1.questionInt = 451
         postOffice1.land = toonTown
         
@@ -4403,6 +4855,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jollyTrolley1.correctAnswer = "red"
         jollyTrolley1.keyboardType = true
         jollyTrolley1.resultImage = greyMouse
+        jollyTrolley1.answerBool = false
         jollyTrolley1.questionInt = 501
         jollyTrolley1.land = toonTown
         
@@ -4412,6 +4865,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jollyTrolley2.correctAnswer = "blue"
         jollyTrolley2.keyboardType = true
         jollyTrolley2.resultImage = greyMouse
+        jollyTrolley2.answerBool = false
         jollyTrolley2.questionInt = 502
         jollyTrolley2.land = toonTown
         
@@ -4421,6 +4875,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         jollyTrolley3.correctAnswer = "1"
         jollyTrolley3.keyboardType = false
         jollyTrolley3.resultImage = greyMouse
+        jollyTrolley3.answerBool = false
         jollyTrolley3.questionInt = 503
         jollyTrolley3.land = toonTown
         
@@ -4432,6 +4887,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         gagFactory1.correctAnswer = "Matic"
         gagFactory1.keyboardType = true
         gagFactory1.resultImage = greyMouse
+        gagFactory1.answerBool = false
         gagFactory1.questionInt = 601
         gagFactory1.land = toonTown
         
@@ -4441,6 +4897,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         gagFactory2.correctAnswer = "around the corner"
         gagFactory2.keyboardType = true
         gagFactory2.resultImage = greyMouse
+        gagFactory2.answerBool = false
         gagFactory2.questionInt = 602
         gagFactory2.land = toonTown
         
@@ -4450,6 +4907,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         gagFactory3.correctAnswer = "Carpe Gagum"
         gagFactory3.keyboardType = true
         gagFactory3.resultImage = greyMouse
+        gagFactory3.answerBool = false
         gagFactory3.questionInt = 603
         gagFactory3.land = toonTown
         
@@ -4459,6 +4917,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         gagFactory4.correctAnswer = "Stitch-O-Matic"
         gagFactory4.keyboardType = true
         gagFactory4.resultImage = greyMouse
+        gagFactory4.answerBool = false
         gagFactory4.questionInt = 604
         gagFactory4.land = toonTown
         
@@ -4468,6 +4927,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         gagFactory5.correctAnswer = "Riddles"
         gagFactory5.keyboardType = true
         gagFactory5.resultImage = greyMouse
+        gagFactory5.answerBool = false
         gagFactory5.questionInt = 605
         gagFactory5.land = toonTown
         
@@ -4479,6 +4939,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         laughOGramFilms1.correctAnswer = "A Reel of Fun"
         laughOGramFilms1.keyboardType = true
         laughOGramFilms1.resultImage = greyMouse
+        laughOGramFilms1.answerBool = false
         laughOGramFilms1.questionInt = 651
         laughOGramFilms1.land = toonTown
         
@@ -4488,6 +4949,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         laughOGramFilms2.correctAnswer = "W. E. Disney"
         laughOGramFilms2.keyboardType = true
         laughOGramFilms2.resultImage = greyMouse
+        laughOGramFilms2.answerBool = false
         laughOGramFilms2.questionInt = 652
         laughOGramFilms2.land = toonTown
         
@@ -4499,6 +4961,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         toonTownBank1.correctAnswer = "3rd little piggy"
         toonTownBank1.keyboardType = true
         toonTownBank1.resultImage = greyMouse
+        toonTownBank1.answerBool = false
         toonTownBank1.questionInt = 701
         toonTownBank1.land = toonTown
 
@@ -4508,6 +4971,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         toonTownBank2.correctAnswer = "break the pig"
         toonTownBank2.keyboardType = true
         toonTownBank2.resultImage = greyMouse
+        toonTownBank2.answerBool = false
         toonTownBank2.questionInt = 702
         toonTownBank2.land = toonTown
         
@@ -4519,6 +4983,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         toonTownGasStation1.correctAnswer = "Goofy"
         toonTownGasStation1.keyboardType = true
         toonTownGasStation1.resultImage = greyMouse
+        toonTownGasStation1.answerBool = false
         toonTownGasStation1.questionInt = 751
         toonTownGasStation1.land = toonTown
         
@@ -4528,6 +4993,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         toonTownGasStation2.correctAnswer = "Air"
         toonTownGasStation2.keyboardType = true
         toonTownGasStation2.resultImage = greyMouse
+        toonTownGasStation2.answerBool = false
         toonTownGasStation2.questionInt = 752
         toonTownGasStation2.land = toonTown
         
@@ -4537,6 +5003,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         toonTownGasStation3.correctAnswer = "Honk"
         toonTownGasStation3.keyboardType = true
         toonTownGasStation3.resultImage = greyMouse
+        toonTownGasStation3.answerBool = false
         toonTownGasStation3.questionInt = 753
         toonTownGasStation3.land = toonTown
         
@@ -4546,6 +5013,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         toonTownGasStation4.correctAnswer = "wrong turn"
         toonTownGasStation4.keyboardType = true
         toonTownGasStation4.resultImage = greyMouse
+        toonTownGasStation4.answerBool = false
         toonTownGasStation4.questionInt = 754
         toonTownGasStation4.land = toonTown
         
@@ -4557,6 +5025,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         toonTownGym.correctAnswer = "Horace Horsecollar"
         toonTownGym.keyboardType = true
         toonTownGym.resultImage = greyMouse
+        toonTownGym.answerBool = false
         toonTownGym.questionInt = 801
         toonTownGym.land = toonTown
         
@@ -4566,6 +5035,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         toonTownDepartment.correctAnswer = "Ink"
         toonTownDepartment.keyboardType = true
         toonTownDepartment.resultImage = greyMouse
+        toonTownDepartment.answerBool = false
         toonTownDepartment.questionInt = 802
         toonTownDepartment.land = toonTown
         
@@ -4575,6 +5045,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         toonTownFireDepartment.correctAnswer = "101"
         toonTownFireDepartment.keyboardType = false
         toonTownFireDepartment.resultImage = greyMouse
+        toonTownFireDepartment.answerBool = false
         toonTownFireDepartment.questionInt = 803
         toonTownFireDepartment.land = toonTown
         
@@ -4584,6 +5055,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         huffinandPuffin.correctAnswer = "1939"
         huffinandPuffin.keyboardType = false
         huffinandPuffin.resultImage = greyMouse
+        huffinandPuffin.answerBool = false
         huffinandPuffin.questionInt = 804
         huffinandPuffin.land = toonTown
         
@@ -4593,6 +5065,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         drWho.correctAnswer = "Dr. Drillum"
         drWho.keyboardType = true
         drWho.resultImage = greyMouse
+        drWho.answerBool = false
         drWho.questionInt = 805
         drWho.land = toonTown
         
@@ -4602,6 +5075,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         goofyWater.correctAnswer = "11"
         goofyWater.keyboardType = false
         goofyWater.resultImage = greyMouse
+        goofyWater.answerBool = false
         goofyWater.questionInt = 806
         goofyWater.land = toonTown
         
@@ -4611,6 +5085,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         clockTower.correctAnswer = "2"
         clockTower.keyboardType = false
         clockTower.resultImage = greyMouse
+        clockTower.answerBool = false
         clockTower.questionInt = 807
         clockTower.land = toonTown
         
@@ -4620,6 +5095,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         dar.correctAnswer = "daughters of the animated reel"
         dar.keyboardType = true
         dar.resultImage = greyMouse
+        dar.answerBool = false
         dar.questionInt = 808
         dar.land = toonTown
         
@@ -4629,6 +5105,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         sealOfTT.correctAnswer = "1928"
         sealOfTT.keyboardType = false
         sealOfTT.resultImage = greyMouse
+        sealOfTT.answerBool = false
         sealOfTT.questionInt = 809
         sealOfTT.land = toonTown
         
@@ -4638,6 +5115,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         postIt.correctAnswer = "6"
         postIt.keyboardType = false
         postIt.resultImage = greyMouse
+        postIt.answerBool = false
         postIt.questionInt = 810
         postIt.land = toonTown
         
@@ -4647,6 +5125,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         orderoftheMouse.correctAnswer = "protective"
         orderoftheMouse.keyboardType = true
         orderoftheMouse.resultImage = greyMouse
+        orderoftheMouse.answerBool = false
         orderoftheMouse.questionInt = 811
         orderoftheMouse.land = toonTown
         
@@ -4656,6 +5135,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         manHole.correctAnswer = "toon hole"
         manHole.keyboardType = true
         manHole.resultImage = greyMouse
+        manHole.answerBool = false
         manHole.questionInt = 812
         manHole.land = toonTown
         
@@ -4665,6 +5145,7 @@ class MainViewController: UIViewController, UICollectionViewDataSource, UICollec
         symphonyFountain.correctAnswer = "4"
         symphonyFountain.keyboardType = false
         symphonyFountain.resultImage = greyMouse
+        symphonyFountain.answerBool = false
         symphonyFountain.questionInt = 813
         symphonyFountain.land = toonTown
         

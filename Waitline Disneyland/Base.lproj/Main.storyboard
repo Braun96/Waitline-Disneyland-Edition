@@ -70,13 +70,18 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3s-32-6b3" customClass="CustomHPButton" customModule="Waitline_Disneyland" customModuleProvider="target">
                                 <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="22"/>
-                                <state key="normal" title="Reset Answers">
+                                <state key="normal" title="Reset Answers and Score">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="resetButton:" destination="EZ2-Yy-jOa" eventType="touchUpInside" id="Zzx-3w-rzR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BB-U0-IH1">
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <constraints>
                             <constraint firstItem="Hjx-Iv-6kd" firstAttribute="centerX" secondItem="LWl-Nz-Y6e" secondAttribute="centerX" id="4AU-MX-V4i"/>
@@ -84,6 +89,7 @@
                             <constraint firstItem="dvh-Md-CbF" firstAttribute="leading" secondItem="w31-hg-DyM" secondAttribute="trailing" constant="8" id="DSd-5y-H1v"/>
                             <constraint firstAttribute="leadingMargin" secondItem="V3s-32-6b3" secondAttribute="leading" id="Dx4-QQ-5Gr"/>
                             <constraint firstItem="Cd3-zE-5Fm" firstAttribute="top" secondItem="6GG-2k-6Rv" secondAttribute="bottom" id="GDA-ht-evQ"/>
+                            <constraint firstItem="4BB-U0-IH1" firstAttribute="height" secondItem="V3s-32-6b3" secondAttribute="height" id="NJt-al-nPA"/>
                             <constraint firstItem="Hjx-Iv-6kd" firstAttribute="centerY" secondItem="LWl-Nz-Y6e" secondAttribute="centerY" id="Nqo-q7-vvt"/>
                             <constraint firstItem="nPs-eZ-6mc" firstAttribute="leading" secondItem="LWl-Nz-Y6e" secondAttribute="leadingMargin" id="NsJ-Cj-XnF"/>
                             <constraint firstItem="Cd3-zE-5Fm" firstAttribute="top" secondItem="nSt-0b-NpF" secondAttribute="bottom" id="QaO-RN-sTR"/>
@@ -94,17 +100,20 @@
                             <constraint firstItem="nPs-eZ-6mc" firstAttribute="trailing" secondItem="LWl-Nz-Y6e" secondAttribute="trailingMargin" id="Vdh-Qi-Hka"/>
                             <constraint firstItem="6GG-2k-6Rv" firstAttribute="top" secondItem="V3s-32-6b3" secondAttribute="bottom" constant="8" id="W60-Nq-48S"/>
                             <constraint firstItem="nSt-0b-NpF" firstAttribute="top" secondItem="aqa-px-ctO" secondAttribute="bottom" id="WWD-g5-5kP"/>
+                            <constraint firstItem="4BB-U0-IH1" firstAttribute="leading" secondItem="nSt-0b-NpF" secondAttribute="trailing" constant="-83" id="WlU-1s-L9k"/>
                             <constraint firstItem="6GG-2k-6Rv" firstAttribute="centerX" secondItem="LWl-Nz-Y6e" secondAttribute="centerX" id="YYA-dG-Znx"/>
                             <constraint firstAttribute="leadingMargin" secondItem="w31-hg-DyM" secondAttribute="leading" id="jfr-ax-kj2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dvh-Md-CbF" secondAttribute="trailing" id="l5j-ky-IHb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nSt-0b-NpF" secondAttribute="trailing" constant="-20" id="mHZ-1G-C2i"/>
                             <constraint firstItem="nPs-eZ-6mc" firstAttribute="top" secondItem="aqa-px-ctO" secondAttribute="bottom" constant="8" id="rXg-L8-Q3h"/>
                             <constraint firstItem="dvh-Md-CbF" firstAttribute="width" secondItem="w31-hg-DyM" secondAttribute="width" id="uJg-gG-hPF"/>
+                            <constraint firstItem="6GG-2k-6Rv" firstAttribute="top" secondItem="4BB-U0-IH1" secondAttribute="bottom" constant="8" id="vFL-Vl-ccm"/>
                             <constraint firstItem="dvh-Md-CbF" firstAttribute="top" secondItem="v6o-6c-h9u" secondAttribute="bottom" constant="15" id="xZd-pj-F7P"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QGv-Qa-Wxl"/>
                     <connections>
+                        <outlet property="ScoreLabel" destination="4BB-U0-IH1" id="0tm-Nv-zhe"/>
                         <outlet property="adBannerView" destination="6GG-2k-6Rv" id="GVT-bZ-ajo"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="PlayToLandSelector" id="V7F-j3-HO9"/>
                         <segue destination="lMl-2i-Gys" kind="show" identifier="HelpButtonPressed" id="OW1-1z-00b"/>
@@ -154,7 +163,7 @@
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMp-lX-1zh">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">• Waitline is not case sensitive but answers must be spelled correctly to be correct.  •  All numerical answers for Waitline must be typed as a digit and not spelled out.  • Is the answer supposed to be the name of something? If so, try adding "the" to the beginning of your answer.  • Does the answer say "plural" at the end? If it does, make sure that you make your answer plural.  • Check if the answer has a clue of how many words the answer is at the end of the question. Make sure your answer contains that many words.  • Does your answer contain a posessive pronoun? If so, make sure that you add the "s" to your answer.  • If there is a extra space at the end of your answer it will be marked wrong.  • Is the answer still wrong? Could it be on our end? If so, please email at waitline.developer@yahoo.com or DM us on Twitter @RealWaitline!  • Disneyland is always changing and maintenance is constantly being preformed on the attractions and their features. For this reason some or all of the features in some of the questions may not be present during your trip.</string>
+                                <string key="text">• Waitline is not case sensitive but answers must be spelled correctly to be correct.  • All Questions are worth 5 Points.  •  All numerical answers for Waitline must be typed as a digit and not spelled out.  • Is the answer supposed to be the name of something? If so, try adding "the" to the beginning of your answer.  • Does the answer say "plural" at the end? If it does, make sure that you make your answer plural.  • Check if the answer has a clue of how many words the answer is at the end of the question. Make sure your answer contains that many words.  • Does your answer contain a posessive pronoun? If so, make sure that you add the "s" to your answer.  • If there is a extra space at the end of your answer it will be marked wrong.  • Is the answer still wrong? Could it be on our end? If so, please email at waitline.developer@yahoo.com or DM us on Twitter @RealWaitline!  • Disneyland is always changing and maintenance is constantly being preformed on the attractions and their features. For this reason some or all of the features in some of the questions may not be present during your trip.</string>
                                 <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
@@ -207,7 +216,7 @@
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXI-QR-6yD">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">• For more trivia and challenges check out https://www.facebook.com/RealWaitline and follow @RealWaitline on Twitter!  • Waitline: Disneyland Edition is a trivia type app designed specifically for Disneyland Resort California. Waitline has "eye-spy" and trivia type questions. You are able to see and answer the questions while you wait in line and experience the attractions at Disneyland Resort. We hope you enjoy your Waitline Experience!  • Waitline is developed by Braun Butterfield. Any suggestions or corrections that need made may be submitted to waitline.developer@yahoo.com .
+                                <string key="text">• For more trivia and challenges check out https://www.facebook.com/RealWaitline and follow @RealWaitline on Twitter!  • All Questions are worth 5 Points.  • Waitline: Disneyland Edition is a trivia type app designed specifically for Disneyland Resort California. Waitline has "eye-spy" and trivia type questions. You are able to see and answer the questions while you wait in line and experience the attractions at Disneyland Resort. We hope you enjoy your Waitline Experience!  • Waitline is developed by Braun Butterfield. Any suggestions or corrections that need made may be submitted to waitline.developer@yahoo.com .
  • Waitline is a third party app with no ties or affiliations to the Walt Disney Company or any off its affiliates.
  • Created by Braun Butterfield. Copyright © 2016 Braun Butterfield. All rights reserved. </string>
                                 <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="20"/>
@@ -422,28 +431,36 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Points" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Uy-Se-W0Q">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MouseMemoirs-Regular" family="Mouse Memoirs" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="8Uy-Se-W0Q" firstAttribute="centerX" secondItem="o8W-4W-Zbp" secondAttribute="centerX" id="4xr-xB-EnP"/>
                             <constraint firstAttribute="trailing" secondItem="Kp7-6b-oLL" secondAttribute="trailing" id="8lQ-cs-m77"/>
                             <constraint firstAttribute="leadingMargin" secondItem="zMV-dn-bfT" secondAttribute="leading" id="An6-MR-TBT"/>
                             <constraint firstItem="giq-ia-6ki" firstAttribute="leading" secondItem="o8W-4W-Zbp" secondAttribute="leadingMargin" constant="30" id="Hu5-58-zsa"/>
                             <constraint firstItem="gAw-35-6py" firstAttribute="top" secondItem="Kp7-6b-oLL" secondAttribute="bottom" id="J8H-J3-TWJ"/>
                             <constraint firstItem="X7M-R3-DIk" firstAttribute="leading" secondItem="o8W-4W-Zbp" secondAttribute="leadingMargin" id="JmZ-5m-SrY"/>
-                            <constraint firstItem="giq-ia-6ki" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="15" id="KKD-Fk-jKu"/>
                             <constraint firstItem="Kp7-6b-oLL" firstAttribute="leading" secondItem="o8W-4W-Zbp" secondAttribute="leading" id="KRc-eS-6sb"/>
-                            <constraint firstItem="X7M-R3-DIk" firstAttribute="top" secondItem="LKG-rY-wI9" secondAttribute="bottom" constant="8" id="OOo-dB-XYA"/>
+                            <constraint firstItem="8Uy-Se-W0Q" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="8" id="Mfw-tM-SSA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="X7M-R3-DIk" secondAttribute="trailing" id="T79-b6-06a"/>
                             <constraint firstItem="Kp7-6b-oLL" firstAttribute="top" secondItem="o8W-4W-Zbp" secondAttribute="top" id="V5h-Tm-p1c"/>
-                            <constraint firstItem="zMV-dn-bfT" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="17" id="Zfg-ff-sGq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="giq-ia-6ki" secondAttribute="trailing" constant="30" id="aWu-EE-Ih3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fHT-Ms-RoC" secondAttribute="trailing" id="aop-uh-OCl"/>
                             <constraint firstItem="giq-ia-6ki" firstAttribute="leading" secondItem="zMV-dn-bfT" secondAttribute="trailing" constant="8" id="bQa-oF-w15"/>
+                            <constraint firstItem="fHT-Ms-RoC" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="37" id="bRX-Lu-PWI"/>
                             <constraint firstItem="giq-ia-6ki" firstAttribute="centerX" secondItem="o8W-4W-Zbp" secondAttribute="centerX" id="dGs-uB-qfa"/>
+                            <constraint firstItem="giq-ia-6ki" firstAttribute="top" secondItem="8Uy-Se-W0Q" secondAttribute="bottom" constant="8" id="g1x-gq-BMb"/>
                             <constraint firstItem="zMV-dn-bfT" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="20" id="ggL-I2-nbz"/>
+                            <constraint firstItem="Kp7-6b-oLL" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="-222" id="j19-Mq-0ra"/>
                             <constraint firstItem="zMV-dn-bfT" firstAttribute="leading" secondItem="giq-ia-6ki" secondAttribute="trailing" constant="6" id="oic-uu-XYd"/>
                             <constraint firstItem="fHT-Ms-RoC" firstAttribute="leading" secondItem="giq-ia-6ki" secondAttribute="trailing" constant="8" id="wUJ-ef-aAU"/>
-                            <constraint firstItem="fHT-Ms-RoC" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="15" id="xem-FD-dLj"/>
+                            <constraint firstItem="zMV-dn-bfT" firstAttribute="top" secondItem="X7M-R3-DIk" secondAttribute="bottom" constant="39" id="yJh-O7-XNE"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -457,6 +474,7 @@
                     <connections>
                         <outlet property="inputTextField" destination="giq-ia-6ki" id="AoK-22-Zbn"/>
                         <outlet property="questionViewLabel" destination="X7M-R3-DIk" id="a0H-Qh-BkY"/>
+                        <outlet property="scoreLabel" destination="8Uy-Se-W0Q" id="njf-jh-5MA"/>
                         <segue destination="lMl-2i-Gys" kind="show" identifier="QuestionInterfaceToHelp" id="YY0-vT-ICC"/>
                     </connections>
                 </viewController>
