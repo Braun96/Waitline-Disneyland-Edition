@@ -125,6 +125,7 @@
 		F9BF43011D388C7000663905 /* UnansweredMickey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UnansweredMickey.jpg; sourceTree = "<group>"; };
 		F9BF43021D388C7000663905 /* CorrectMickeyHead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CorrectMickeyHead.jpg; sourceTree = "<group>"; };
 		F9BF43031D388C7000663905 /* IncorrectMickey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IncorrectMickey.jpg; sourceTree = "<group>"; };
+		F9CA05571DB45CCF004CC40E /* Waitline_Disneyland 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Waitline_Disneyland 2.xcdatamodel"; sourceTree = "<group>"; };
 		F9D3CF161C5D70DE00A4B18F /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		F9D3CF181C5D758000A4B18F /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		F9D9BC7A1C9B8EB100D1AEA5 /* CustomHPButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHPButton.swift; sourceTree = "<group>"; };
@@ -848,9 +849,10 @@
 		F949C7851C4B2187002B9CA2 /* Waitline_Disneyland.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				F9CA05571DB45CCF004CC40E /* Waitline_Disneyland 2.xcdatamodel */,
 				F949C7861C4B2187002B9CA2 /* Waitline_Disneyland.xcdatamodel */,
 			);
-			currentVersion = F949C7861C4B2187002B9CA2 /* Waitline_Disneyland.xcdatamodel */;
+			currentVersion = F9CA05571DB45CCF004CC40E /* Waitline_Disneyland 2.xcdatamodel */;
 			path = Waitline_Disneyland.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

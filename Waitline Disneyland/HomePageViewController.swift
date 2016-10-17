@@ -118,6 +118,19 @@ class HomePageViewController: UIViewController, GADBannerViewDelegate {
         
         switch version {
             
+        case "4.1" :
+            if versionDefaults.bool(forKey: "version 4.1") {
+                
+                print("Correct Version Number \(version)")
+                
+            } else {
+                versionDefaults.set(true, forKey: "version 4.1")
+                versionDefaults.synchronize()
+                CoreDataReset()
+                print("updated by case \(version)")
+                
+            }
+            
         case "4.0" :
             if versionDefaults.bool(forKey: "version 4.0") {
                 
